@@ -9,5 +9,5 @@ import Image from "next/image";
 import { dictionaries } from "../lib/getDictionary";
 
 type Projects ={
-    dict: typeof dictionaries.en.project
+    dict: typeof dictionaries.en.projects;
 };

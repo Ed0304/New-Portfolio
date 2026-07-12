@@ -13,25 +13,43 @@ import zhHero from "../messages/zh/hero.json";
 //import idFooter from "../messages/id/footer.json";
 //import zhFooter from "../messages/zh/footer.json";
 
+import enEducation from "../messages/en/education.json"
+import jaEducation from "../messages/ja/education.json"
+import idEducation from "../messages/id/education.json"
+import zhEducation from "../messages/zh/education.json"
+
+import enProject from "../messages/en/project.json";
+import jaProject from "../messages/ja/project.json";
+import idProject from "../messages/id/project.json";
+import zhProject from "../messages/zh/project.json";
+
 export const dictionaries = {
     en: {
         header: enHeader,
         hero: enHero,
+        education: enEducation,
+        projects: enProject,
         //footer: enFooter,
     },
     ja: {
         header: jaHeader,
         hero: jaHero,
+        education: jaEducation,
+        projects: jaProject,
         //footer: jaFooter,
     },
     id: {
         header: idHeader,
         hero: idHero,
+        education: jaEducation,
+        projects: idProject,
         //footer: idFooter,
     },
     zh: {
         header: zhHeader,
         hero: zhHero,
+        education: zhEducation,
+        projects: idProject,
         //footer: zhFooter,
     },
 };

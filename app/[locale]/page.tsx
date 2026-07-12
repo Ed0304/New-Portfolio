@@ -3,7 +3,9 @@ import Header from "../components/header";
 import { redirect } from "next/navigation";
 import Footer from "../components/footer";
 import Hero from "../components/hero";
+import Education from "../components/education";
 import { getDictionary,dictionaries } from "../lib/getDictionary";
+
 export default async function Home({
     params,
 }: {
@@ -33,6 +35,7 @@ export default async function Home({
 
             <main className="flex-1">
                 <Hero dict={dict.hero} />
+                <Education dict={dict.education}/>
             </main>
 
             <Footer/>

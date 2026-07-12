@@ -14,7 +14,7 @@ export default function Hero({ dict }: HeroProps) {
     const MotionImage = motion(Image);
     
     return (
-        <section className="min-h-[90vh] flex items-center">
+        <section className="min-h-[90vh] flex items-center" id="home">
 
             <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-20 px-8">
 

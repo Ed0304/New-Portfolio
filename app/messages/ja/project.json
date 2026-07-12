@@ -1,0 +1,69 @@
+{
+  "projects": [
+    {
+      "id": "portfolio",
+      "name": "Portfolio Website",
+      "description": "A fresh, new portfolio site built on TypeScript and Tailwind after the former was shut down when AWS Free Tier expired.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "Microsoft Azure",
+        "Next.js"
+      ]
+    },
+    {
+      "id": "treevisual",
+      "name": "TreeVisual",
+      "description": "An internet-independent, lightweight binary tree visualizer\nfor everyone learning DSA.",
+      "stack": [
+        "Python",
+        "PySide6"
+      ],
+      "download": "https://sites.google.com/view/treevisual/home"
+    },
+    {
+      "id": "phish-or-miss",
+      "name": "Phish or Miss",
+      "description": "Built for the NTUxBase3 Hackathon (Sogni Track), \n this game educates users about phishing emails and messages in a safe environment.",
+      "stack": [
+        "AWS EC2",
+        "HTML",
+        "CSS",
+        "React"
+      ]
+    },
+    {
+      "id": "former-portfolio",
+      "name": "Former Portfolio Website",
+      "description": "First portfolio website built with React and deployed on AWS.",
+      "stack": [
+        "React",
+        "Flask",
+        "MongoDB",
+        "AWS (EC2, S3, CloudFront)",
+        "Sogni SDK"
+      ]
+    },
+    {
+      "id": "ai-nteractive",
+      "name": "AI-NTeractive (Final Year Project)",
+      "description": "Led a team of five to develop an innovative LMS leveraging face animation technology to make learning more interactive and engaging using neural networks.",
+      "stack": [
+        "Google Cloud",
+        "Flask",
+        "Python",
+        "MongoDB",
+        "HTML",
+        "CSS",
+        "SadTalker"
+      ]
+    },
+    {
+      "id": "car-loan-system",
+      "name": "Car Loaning System",
+      "description": "Led a team of seven using Scrum to develop a full-featured, web-based platform in PHP for managing the complete lifecycle of used car transactions, with robust role-based access control.",
+      "stack": ["PHP","SQL","HTML"]
+    }
+  ]
+}
