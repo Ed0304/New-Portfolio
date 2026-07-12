@@ -68,9 +68,31 @@ export default function Education({ dict }: EducationProps) {
         </div>
 
         {/* Right */}
-        <p className="text-sm text-zinc-500">
-            {education.period}
-        </p>
+        <div
+            className="
+                flex
+                flex-col
+                items-end
+                gap-4
+            "
+        >
+
+            <p className="text-sm text-zinc-500">
+                {education.period}
+            </p>
+
+            <Image
+                src={education.logo}
+                alt={`${education.name} logo`}
+                width={72}
+                height={72}
+                className="
+                    rounded-lg
+                    object-contain
+                "
+            />
+
+        </div>
 
     </div>
 

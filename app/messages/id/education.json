@@ -7,21 +7,24 @@
       "degree": "Bachelor's Degree in Computer Science",
       "major": "Digital Systems Security and Cyber Security",
       "award": "Graduated with Distinction",
-      "period": "October 2023– September 2025"
+      "period": "October 2023– September 2025",
+      "logo": "/images/uow.png"
     },
     {
       "id": "sim",
       "name": "Singapore Institute of Management",
       "location": "Singapore",
       "degree": "Diploma in Information Technology",
-      "period": "October 2022– September 2023"
+      "period": "October 2022– September 2023",
+      "logo": "/images/sim.png"
     },
     {
       "id": "sutomo-1",
       "name": "Sutomo 1 High School",
       "location": "Medan, Indonesia",
       "degree": "Mathematics and Natural Science Stream",
-      "period": "July 2019– June 2022"
+      "period": "July 2019– June 2022",
+      "logo": "/images/sutomo.jpg"
     }
   ]
 }
