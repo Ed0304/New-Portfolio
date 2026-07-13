@@ -1,4 +1,11 @@
 {
+  "title": "Education",
+
+  "viewDetails": "View Details",
+  "hideDetails": "Hide Details",
+
+  "major": "Major",
+  "award": "Award",
   "education": [
     {
       "id": "uow",
@@ -16,7 +23,7 @@
       "location": "Singapore",
       "degree": "Diploma in Information Technology",
       "period": "October 2022– September 2023",
-      "logo": "/images/sim.png"
+      "logo": "/images/sim.jpg"
     },
     {
       "id": "sutomo-1",

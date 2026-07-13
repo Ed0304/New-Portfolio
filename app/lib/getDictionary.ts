@@ -41,7 +41,7 @@ export const dictionaries = {
     id: {
         header: idHeader,
         hero: idHero,
-        education: jaEducation,
+        education: idEducation,
         projects: idProject,
         //footer: idFooter,
     },
@@ -49,7 +49,7 @@ export const dictionaries = {
         header: zhHeader,
         hero: zhHero,
         education: zhEducation,
-        projects: idProject,
+        projects: zhProject,
         //footer: zhFooter,
     },
 };

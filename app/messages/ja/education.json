@@ -1,29 +1,36 @@
 {
+  "title": "学歴",
+
+  "viewDetails": "詳細を見る",
+  "hideDetails": "詳細を閉じる",
+
+  "major": "専攻",
+  "award": "アワード",
   "education": [
     {
       "id": "uow",
-      "name": "University of Wollongong",
-      "location": "Singapore",
-      "degree": "Bachelor's Degree in Computer Science",
-      "major": "Digital Systems Security and Cyber Security",
-      "award": "Graduated with Distinction",
-      "period": "October 2023– September 2025",
+      "name": "ウーロンゴン大学",
+      "location": "シンガポール",
+      "degree": "学士（コンピュータサイエンス）",
+      "major": "Digital Systems Security and Cyber Security （ダブル専攻）",
+      "award": "Graduated with Distinction (優秀成績)",
+      "period": "2023年10月～2025年9月",
       "logo": "/images/uow.png"
     },
     {
       "id": "sim",
-      "name": "Singapore Institute of Management",
-      "location": "Singapore",
-      "degree": "Diploma in Information Technology",
-      "period": "October 2022– September 2023",
-      "logo": "/images/sim.png"
+      "name": "SIM Global Education(シンガポール経営学院)",
+      "location": "シンガポール",
+      "degree": "情報技術ディプロマ",
+      "period": "2022年10月～2023年9月",
+      "logo": "/images/sim.jpg"
     },
     {
       "id": "sutomo-1",
-      "name": "Sutomo 1 High School",
-      "location": "Medan, Indonesia",
-      "degree": "Mathematics and Natural Science Stream",
-      "period": "July 2019– June 2022",
+      "name": "Sutomo 1 High School (インドネシア語: SMA Sutomo 1)",
+      "location": "メダン、インドネシア",
+      "degree": "理系（数学・理科）コース",
+      "period": "2019年07月～2022年6月",
       "logo": "/images/sutomo.jpg"
     }
   ]

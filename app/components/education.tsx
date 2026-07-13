@@ -35,7 +35,7 @@ export default function Education({ dict }: EducationProps) {
             tracking-tight
         "
     >
-        Education
+        {dict.title}
     </h2>
             {dict.education.map((education) => (
         <div
@@ -62,7 +62,7 @@ export default function Education({ dict }: EducationProps) {
                 {education.name}
             </h3>
 
-            <p className="mt-1 text-zinc-400">
+            <p className="text-sm text-zinc-1000">
                 {education.location}
             </p>
         </div>
@@ -77,7 +77,7 @@ export default function Education({ dict }: EducationProps) {
             "
         >
 
-            <p className="text-sm text-zinc-500">
+            <p className="text-sm text-zinc-1000">
                 {education.period}
             </p>
 
@@ -102,40 +102,37 @@ export default function Education({ dict }: EducationProps) {
             mt-6
             text-lg
             font-medium
-            text-zinc-200
+            text-zinc-1000
         "
     >
         {education.degree}
     </p>
 
     {/* Button */}
-    <button
-        onClick={() =>
-            setExpanded(
-                expanded === education.id
-                    ? null
-                    : education.id
-            )
-        }
-        className="
+    {(education.major || education.award) && (
+        <button
+            onClick={() =>
+                setExpanded(
+                    expanded === education.id
+                        ? null
+                        : education.id
+                )
+            }
+            className="
             mt-6
-
             flex
             items-center
             gap-2
-
-            text-sky-400
-
+            text-sky-600
             transition-colors
-
             hover:text-sky-300
         "
-    >
-        {expanded === education.id
-            ? "▲ Hide Details"
-            : "▼ View Details"}
-    </button>
-
+        >
+            {expanded === education.id
+                ? dict.hideDetails
+                : dict.viewDetails}
+        </button>
+    )}
     {/* Expanded Content */}
     {expanded === education.id && (
 
@@ -153,7 +150,7 @@ export default function Education({ dict }: EducationProps) {
                 <div>
 
                     <p className="text-sm text-zinc-500">
-                        Major
+                        {dict.major}
                     </p>
 
                     <p className="mt-1">
@@ -167,7 +164,7 @@ export default function Education({ dict }: EducationProps) {
                 <div>
 
                     <p className="text-sm text-zinc-500">
-                        Award
+                        {dict.award}
                     </p>
 
                     <p className="mt-1">

@@ -1,29 +1,36 @@
 {
+  "title": "Pendidikan",
+
+  "viewDetails": "Memperjelas",
+  "hideDetails": "Menyembunyikan",
+
+  "major": "Bidang",
+  "award": "Penghargaan",
   "education": [
     {
       "id": "uow",
       "name": "University of Wollongong",
-      "location": "Singapore",
-      "degree": "Bachelor's Degree in Computer Science",
-      "major": "Digital Systems Security and Cyber Security",
-      "award": "Graduated with Distinction",
-      "period": "October 2023– September 2025",
+      "location": "Singapura",
+      "degree": "Bachelor's Degree in Computer Science (Sarjana Komputer)",
+      "major": "Digital Systems Security and Cyber Security (Double Major)",
+      "award": "Lulus dengan Distinction ",
+      "period": "Oktober 2023– September 2025",
       "logo": "/images/uow.png"
     },
     {
       "id": "sim",
       "name": "Singapore Institute of Management",
-      "location": "Singapore",
-      "degree": "Diploma in Information Technology",
-      "period": "October 2022– September 2023",
-      "logo": "/images/sim.png"
+      "location": "Singapura",
+      "degree": "Diploma in Information Technology (Diploma dalam Teknologi Informasi)",
+      "period": "Oktober 2022– September 2023",
+      "logo": "/images/sim.jpg"
     },
     {
       "id": "sutomo-1",
-      "name": "Sutomo 1 High School",
+      "name": "SMA Sutomo 1",
       "location": "Medan, Indonesia",
-      "degree": "Mathematics and Natural Science Stream",
-      "period": "July 2019– June 2022",
+      "degree": "MIPA-Matematika dan Ilmu Pengetahuan Alam",
+      "period": "Juli 2019– Juni 2022",
       "logo": "/images/sutomo.jpg"
     }
   ]
