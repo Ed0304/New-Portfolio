@@ -1,69 +1,277 @@
 {
-  "projects": [
+  "title": "Projects",
+
+  "labels": {
+    "project_name": "Project",
+    "description": "Description",
+    "technologies": "Technologies",
+    "services": "Cloud & Services",
+    "github": "GitHub",
+    "demo": "Live Demo",
+    "download": "Download",
+    "view_details": "View Details",
+
+    "overview": "Overview",
+    "problem": "Problem",
+    "solution": "Solution",
+    "features": "Key Features",
+    "challenges": "Challenges",
+    "lessons": "What I Learned"
+  },
+
+  "list": [
     {
       "id": "portfolio",
+
+      "featured": true,
+      "year": 2026,
+      "category": "Web Development",
+      "role": "Full Stack Developer",
+
       "name": "Portfolio Website",
-      "description": "A fresh, new portfolio site built on TypeScript and Tailwind after the former was shut down when AWS Free Tier expired.",
-      "stack": [
-        "TypeScript",
+
+      "description": "Modern multilingual portfolio built with Next.js and TypeScript.",
+
+      "thumbnail": "/images/projects/portfolio/cover.png",
+
+      "screenshots": [],
+
+      "technologies": [
+        "Next.js",
         "React",
-        "Tailwind CSS",
-        "Microsoft Azure",
-        "Next.js"
-      ]
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+
+      "services": [
+        "Microsoft Azure"
+      ],
+
+      "links": {
+        "github": "",
+        "demo": "",
+        "download": null
+      },
+
+      "details": {
+        "overview": "",
+        "problem": "",
+        "solution": "",
+        "features": [],
+        "challenges": [],
+        "lessons": []
+      }
     },
+
     {
       "id": "treevisual",
+
+      "featured": false,
+      "year": 2025,
+      "category": "Desktop Application",
+      "role": "Solo Developer",
+
       "name": "TreeVisual",
-      "description": "An internet-independent, lightweight binary tree visualizer\nfor everyone learning DSA.",
-      "stack": [
+
+      "description": "Offline binary tree visualizer designed to help students learn Data Structures and Algorithms.",
+
+      "thumbnail": "/images/projects/treevisual/cover.png",
+
+      "screenshots": [],
+
+      "technologies": [
         "Python",
         "PySide6"
       ],
-      "download": "https://sites.google.com/view/treevisual/home"
+
+      "services": [],
+
+      "links": {
+        "github": "",
+        "demo": null,
+        "download": "https://sites.google.com/view/treevisual/home"
+      },
+
+      "details": {
+        "overview": "",
+        "problem": "",
+        "solution": "",
+        "features": [],
+        "challenges": [],
+        "lessons": []
+      }
     },
+
     {
       "id": "phish-or-miss",
+
+      "featured": true,
+      "year": 2025,
+      "category": "Hackathon",
+      "role": "Frontend Developer",
+
       "name": "Phish or Miss",
-      "description": "Built for the NTUxBase3 Hackathon (Sogni Track), \n this game educates users about phishing emails and messages in a safe environment.",
-      "stack": [
-        "AWS EC2",
+
+      "description": "Hackathon project that teaches users to identify phishing emails and messages through interactive gameplay.",
+
+      "thumbnail": "/images/projects/phish-or-miss/cover.png",
+
+      "screenshots": [],
+
+      "technologies": [
+        "React",
         "HTML",
-        "CSS",
-        "React"
-      ]
+        "CSS"
+      ],
+
+      "services": [
+        "AWS EC2"
+      ],
+
+      "links": {
+        "github": "",
+        "demo": "",
+        "download": null
+      },
+
+      "details": {
+        "overview": "",
+        "problem": "",
+        "solution": "",
+        "features": [],
+        "challenges": [],
+        "lessons": []
+      }
     },
+
     {
       "id": "former-portfolio",
-      "name": "Former Portfolio Website",
-      "description": "First portfolio website built with React and deployed on AWS.",
-      "stack": [
+
+      "featured": false,
+      "year": 2024,
+      "category": "Web Development",
+      "role": "Full Stack Developer",
+
+      "name": "Legacy Portfolio Website",
+
+      "description": "First personal portfolio website built with React and deployed on AWS.",
+
+      "thumbnail": "/images/projects/former-portfolio/cover.png",
+
+      "screenshots": [],
+
+      "technologies": [
         "React",
         "Flask",
-        "MongoDB",
-        "AWS (EC2, S3, CloudFront)",
+        "MongoDB"
+      ],
+
+      "services": [
+        "AWS EC2",
+        "AWS S3",
+        "CloudFront",
         "Sogni SDK"
-      ]
+      ],
+
+      "links": {
+        "github": "",
+        "demo": "",
+        "download": null
+      },
+
+      "details": {
+        "overview": "",
+        "problem": "",
+        "solution": "",
+        "features": [],
+        "challenges": [],
+        "lessons": []
+      }
     },
+
     {
       "id": "ai-nteractive",
-      "name": "AI-NTeractive (Final Year Project)",
-      "description": "Led a team of five to develop an innovative LMS leveraging face animation technology to make learning more interactive and engaging using neural networks.",
-      "stack": [
-        "Google Cloud",
-        "Flask",
+
+      "featured": true,
+      "year": 2024,
+      "category": "Machine Learning",
+      "role": "Team Leader",
+
+      "name": "AI-NTeractive",
+
+      "description": "Final Year Project that leverages neural networks and facial animation technology to create a more engaging learning experience.",
+
+      "thumbnail": "/images/projects/ai-nteractive/cover.png",
+
+      "screenshots": [],
+
+      "technologies": [
         "Python",
+        "Flask",
         "MongoDB",
         "HTML",
-        "CSS",
+        "CSS"
+      ],
+
+      "services": [
+        "Google Cloud",
         "SadTalker"
-      ]
+      ],
+
+      "links": {
+        "github": "",
+        "demo": "",
+        "download": null
+      },
+
+      "details": {
+        "overview": "",
+        "problem": "",
+        "solution": "",
+        "features": [],
+        "challenges": [],
+        "lessons": []
+      }
     },
+
     {
       "id": "car-loan-system",
+
+      "featured": false,
+      "year": 2023,
+      "category": "Web Development",
+      "role": "Scrum Team Lead",
+
       "name": "Car Loaning System",
-      "description": "Led a team of seven using Scrum to develop a full-featured, web-based platform in PHP for managing the complete lifecycle of used car transactions, with robust role-based access control.",
-      "stack": ["PHP","SQL","HTML"]
+
+      "description": "Web-based platform for managing the lifecycle of used car transactions with role-based access control.",
+
+      "thumbnail": "/images/projects/car-loan-system/cover.png",
+
+      "screenshots": [],
+
+      "technologies": [
+        "PHP",
+        "SQL",
+        "HTML"
+      ],
+
+      "services": [],
+
+      "links": {
+        "github": "",
+        "demo": "",
+        "download": null
+      },
+
+      "details": {
+        "overview": "",
+        "problem": "",
+        "solution": "",
+        "features": [],
+        "challenges": [],
+        "lessons": []
+      }
     }
   ]
 }

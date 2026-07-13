@@ -8,11 +8,6 @@ import jaHero from "../messages/ja/hero.json";
 import idHero from "../messages/id/hero.json";
 import zhHero from "../messages/zh/hero.json";
 
-//import enFooter from "../messages/en/footer.json";
-//import jaFooter from "../messages/ja/footer.json";
-//import idFooter from "../messages/id/footer.json";
-//import zhFooter from "../messages/zh/footer.json";
-
 import enEducation from "../messages/en/education.json"
 import jaEducation from "../messages/ja/education.json"
 import idEducation from "../messages/id/education.json"
@@ -29,14 +24,12 @@ export const dictionaries = {
         hero: enHero,
         education: enEducation,
         projects: enProject,
-        //footer: enFooter,
     },
     ja: {
         header: jaHeader,
         hero: jaHero,
         education: jaEducation,
         projects: jaProject,
-        //footer: jaFooter,
     },
     id: {
         header: idHeader,
