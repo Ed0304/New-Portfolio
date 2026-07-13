@@ -7,13 +7,18 @@ import { LanguageNames } from "../lib/locales";
 import { motion } from "motion/react";
 import Image from "next/image";
 import { dictionaries } from "../lib/getDictionary";
-import ProjectCard from "../components/projects/ProjectCard";
+import ProjectCard from "./projects/projectcard";
+import ProjectModal from "./projects/ProjectModal";
 
 type ProjectProps ={
     dict: typeof dictionaries.en.projects;
 };
 
+
 export default function Projects({dict}:ProjectProps) {
+    const [selectedProject, setSelectedProject] = useState<
+        typeof dict.list[number] | null
+    >(null);
     return (
         <section
     id="projects"
@@ -36,12 +41,17 @@ export default function Projects({dict}:ProjectProps) {
     </h2>
 
             {dict.list.map((project) => (
-                <ProjectCard
-                    key={project.id}
-                    project={project}
-                />
-            ))}
-        
+            <ProjectCard
+                key={project.id}
+                project={project}
+                onClick={() => setSelectedProject(project)}
+            />
+        ))}
+
+        <ProjectModal
+            project={selectedProject}
+            onClose={() => setSelectedProject(null)}
+        />
 
 
     </section>

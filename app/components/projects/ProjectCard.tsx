@@ -1,7 +1,7 @@
 "use client";
 
 import { dictionaries } from "@/app/lib/getDictionary";
-import ProjectGrid from "./ProjectModal";
+import ProjectModal from "./ProjectModal";
 type ProjectProps = {
     project: typeof dictionaries.en.projects.list[number];
     onClick: () => void;
