@@ -9,7 +9,7 @@ import Image from "next/image";
 import { dictionaries } from "../lib/getDictionary";
 import ProjectCard from "./projects/projectcard";
 import ProjectModal from "./projects/ProjectModal";
-
+import ProjectGrid from "./projects/ProjectGrid";
 type ProjectProps ={
     dict: typeof dictionaries.en.projects;
 };
@@ -40,21 +40,16 @@ export default function Projects({dict}:ProjectProps) {
         {dict.title}
     </h2>
 
-            {dict.list.map((project) => (
-            <ProjectCard
-                key={project.id}
-                project={project}
-                onClick={() => setSelectedProject(project)}
-            />
-        ))}
+    <ProjectGrid
+        projects={dict.list}
+        onProjectClick={setSelectedProject}
+    />
 
-        <ProjectModal
-            project={selectedProject}
-            onClose={() => setSelectedProject(null)}
-        />
-
-
-    </section>
+    <ProjectModal
+        project={selectedProject}
+        onClose={() => setSelectedProject(null)}
+    />
+</section>
     )
         
     

@@ -32,7 +32,7 @@
 
       "description": "Modern multilingual portfolio built with Next.js and TypeScript.",
 
-      "thumbnail": "/images/projects/portfolio/cover.png",
+      "thumbnail": "/images/newportfolio.png",
 
       "screenshots": [],
 
@@ -48,7 +48,7 @@
       ],
 
       "links": {
-        "github": "",
+        "github": "https://github.com/Ed0304/New-Portfolio",
         "demo": "",
         "download": null
       },
@@ -75,9 +75,9 @@
 
       "description": "Offline binary tree visualizer designed to help students learn Data Structures and Algorithms.",
 
-      "thumbnail": "/images/projects/treevisual/cover.png",
+      "thumbnail": "/images/treevisual1.png",
 
-      "screenshots": [],
+      "screenshots": ["/images/treevisual1.png"],
 
       "technologies": [
         "Python",
@@ -87,8 +87,8 @@
       "services": [],
 
       "links": {
-        "github": "",
-        "demo": null,
+        "github": "https://github.com/Ed0304/TreeVisual",
+        "demo": "https://drive.google.com/file/d/1MBb8lcji5NBzpBHvqosPbFXO5XfwV1eB/view",
         "download": "https://sites.google.com/view/treevisual/home"
       },
 
@@ -114,9 +114,9 @@
 
       "description": "Hackathon project that teaches users to identify phishing emails and messages through interactive gameplay.",
 
-      "thumbnail": "/images/projects/phish-or-miss/cover.png",
+      "thumbnail": "/images/phishormiss0.png",
 
-      "screenshots": [],
+      "screenshots": ["/images/phishormiss0.png","/images/phishormiss1.png","/images/phishormiss2.png","/images/phishormiss3.png","/images/phishormiss4.png"],
 
       "technologies": [
         "React",
@@ -129,7 +129,7 @@
       ],
 
       "links": {
-        "github": "",
+        "github": "https://github.com/Ed0304/Phish-Or-Miss",
         "demo": "",
         "download": null
       },
@@ -161,7 +161,7 @@
 
       "description": "First personal portfolio website built with React and deployed on AWS.",
 
-      "thumbnail": "/images/projects/former-portfolio/cover.png",
+      "thumbnail": "/images/portfolio.png",
 
       "screenshots": [],
 
@@ -206,7 +206,7 @@
 
       "description": "Final Year Project that leverages neural networks and facial animation technology to create a more engaging learning experience.",
 
-      "thumbnail": "/images/projects/ai-nteractive/cover.png",
+      "thumbnail": "/images/ai-nteractive.png",
 
       "screenshots": [],
 
@@ -224,7 +224,7 @@
       ],
 
       "links": {
-        "github": "",
+        "github": "https://github.com/zcx73100/fyp-s1-25",
         "demo": "",
         "download": null
       },
@@ -251,7 +251,7 @@
 
       "description": "Web-based platform for managing the lifecycle of used car transactions with role-based access control.",
 
-      "thumbnail": "/images/projects/car-loan-system/cover.png",
+      "thumbnail": "/images/csit314-project.png",
 
       "screenshots": [],
 
@@ -264,7 +264,7 @@
       "services": [],
 
       "links": {
-        "github": "",
+        "github": "https://github.com/Ed0304/CSIT314-Group-Project-Code-Innovators",
         "demo": "",
         "download": null
       },

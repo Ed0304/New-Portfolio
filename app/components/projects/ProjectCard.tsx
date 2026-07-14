@@ -1,7 +1,7 @@
 "use client";
 
 import { dictionaries } from "@/app/lib/getDictionary";
-import ProjectModal from "./ProjectModal";
+import Image from "next/image";
 type ProjectProps = {
     project: typeof dictionaries.en.projects.list[number];
     onClick: () => void;
@@ -14,6 +14,7 @@ export default function ProjectCard({
     onClick,
 }: ProjectProps) {
     return (
+        <>
         <article
             className="
                 h-full
@@ -33,15 +34,14 @@ export default function ProjectCard({
                 dark:bg-gray-900
             "
         >
-            {/* Thumbnail Placeholder */}
-            <div
-                className="
-                    h-52
-                    w-full
-                    bg-gray-300
-                    dark:bg-gray-700
-                "
-            />
+            <div className="relative h-52 w-full overflow-hidden">
+                <Image
+                    src={project.thumbnail}
+                    alt={project.name}
+                    fill
+                    className="object-cover"
+                />
+            </div>
 
             {/* Content */}
             <div
@@ -129,5 +129,6 @@ export default function ProjectCard({
                 </div>
             </div>
         </article>
+        </>
     );
 }
