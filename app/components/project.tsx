@@ -47,6 +47,7 @@ export default function Projects({dict}:ProjectProps) {
 
     <ProjectModal
         project={selectedProject}
+        dict={dict}
         onClose={() => setSelectedProject(null)}
     />
 </section>

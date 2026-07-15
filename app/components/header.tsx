@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
-import { Moon, Sun } from "lucide-react";
+import { Moon, Sun, Menu, X } from "lucide-react";
 import { motion } from "motion/react";
 import { useTheme } from "next-themes";
 import { LanguageNames } from "../lib/locales";
@@ -19,6 +19,7 @@ export default function Header({ dict }: HeaderProps) {
     const params = useParams();
     const locale = params.locale as keyof typeof LanguageNames;
     const [mounted, setMounted] = useState(false);
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     useEffect(() => {
         setMounted(true);
@@ -45,11 +46,14 @@ export default function Header({ dict }: HeaderProps) {
                 className="
                     mx-auto
                     flex
-                    h-20
+                    h-16
+                    lg:h-20
                     max-w-7xl
                     items-center
                     justify-between
-                    px-8
+                    px-4
+                    sm:px-6
+                    lg:px-8
                 "
             >
                 {/* Logo */}
@@ -65,15 +69,38 @@ export default function Header({ dict }: HeaderProps) {
                     ◈ ET
                 </Link>
 
+                <div className="lg:hidden">
+
+                <button
+                    onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                    className="
+                        rounded-lg
+                        p-2
+                        transition
+                        hover:bg-zinc-100
+                        dark:hover:bg-zinc-800
+                    "
+                >
+                    {mobileMenuOpen ? (
+                        <X size={24}/>
+                    ) : (
+                        <Menu size={24}/>
+                    )}
+                </button>
+
+            </div>
+
                 {/* Navigation */}
 
-                <nav
-                    className="
-                        flex
+                <nav    
+                        className="
+                        hidden
+                        lg:flex
                         items-center
                         gap-8
                         text-sm
                         font-medium
+                    
                     "
                 >
                     <a href="#home" className="transition hover:text-blue-600">
@@ -99,7 +126,12 @@ export default function Header({ dict }: HeaderProps) {
 
                 {/* Right Side */}
 
-                <div className="flex items-center gap-4">
+                <div className="
+                        hidden
+                        lg:flex
+                        items-center
+                        gap-4
+                    ">
 
                     {/* Download CV */}
 
@@ -246,8 +278,231 @@ export default function Header({ dict }: HeaderProps) {
                             </motion.div>
                         </button>
                     </div>
-                </div>
+                                </div>
             </div>
+
+            {/* ================= Mobile Menu ================= */}
+
+            {mobileMenuOpen && (
+                <div
+                    className="
+                        lg:hidden
+                        border-t
+                        border-zinc-200
+                        bg-white
+                        px-6
+                        py-5
+                        dark:border-zinc-800
+                        dark:bg-zinc-900
+                    "
+                >
+                    {/* Navigation */}
+
+                    <nav className="flex flex-col gap-4 text-sm font-medium">
+
+                        <a
+                            href="#home"
+                            onClick={() => setMobileMenuOpen(false)}
+                            className="transition hover:text-blue-600"
+                        >
+                            {dict.home}
+                        </a>
+
+                        <a
+                            href="#education"
+                            onClick={() => setMobileMenuOpen(false)}
+                            className="transition hover:text-blue-600"
+                        >
+                            {dict.education}
+                        </a>
+
+                        <a
+                            href="#projects"
+                            onClick={() => setMobileMenuOpen(false)}
+                            className="transition hover:text-blue-600"
+                        >
+                            {dict.projects}
+                        </a>
+
+                        <a
+                            href="#experience"
+                            onClick={() => setMobileMenuOpen(false)}
+                            className="transition hover:text-blue-600"
+                        >
+                            {dict.experience}
+                        </a>
+
+                        <a
+                            href="#contact"
+                            onClick={() => setMobileMenuOpen(false)}
+                            className="transition hover:text-blue-600"
+                        >
+                            {dict.contact}
+                        </a>
+
+                    </nav>
+
+                    <hr className="my-6 border-zinc-200 dark:border-zinc-700" />
+
+                    {/* Download */}
+
+                    <button
+                        className="
+                            w-full
+                            rounded-lg
+                            border
+                            border-zinc-300
+                            px-4
+                            py-3
+                            text-sm
+                            font-medium
+                            transition
+                            hover:bg-zinc-100
+                            dark:border-zinc-700
+                            dark:hover:bg-zinc-800
+                        "
+                    >
+                        {dict.download}
+                    </button>
+
+                    <hr className="my-6 border-zinc-200 dark:border-zinc-700" />
+
+                    <div>
+
+                        <p className="mb-3 text-sm font-semibold">
+                            🌐 Language
+                        </p>
+
+                        <div className="grid grid-cols-2 gap-2">
+
+                            <Link
+                                href="/en"
+                                onClick={() => setMobileMenuOpen(false)}
+                                className="
+                                    rounded-lg
+                                    border
+                                    border-zinc-300
+                                    px-3
+                                    py-2
+                                    text-center
+                                    text-sm
+                                    hover:bg-zinc-100
+                                    dark:border-zinc-700
+                                    dark:hover:bg-zinc-800
+                                "
+                            >
+                                English
+                            </Link>
+
+                            <Link
+                                href="/ja"
+                                onClick={() => setMobileMenuOpen(false)}
+                                className="
+                                    rounded-lg
+                                    border
+                                    border-zinc-300
+                                    px-3
+                                    py-2
+                                    text-center
+                                    text-sm
+                                    hover:bg-zinc-100
+                                    dark:border-zinc-700
+                                    dark:hover:bg-zinc-800
+                                "
+                            >
+                                日本語
+                            </Link>
+
+                            <Link
+                                href="/id"
+                                onClick={() => setMobileMenuOpen(false)}
+                                className="
+                                    rounded-lg
+                                    border
+                                    border-zinc-300
+                                    px-3
+                                    py-2
+                                    text-center
+                                    text-sm
+                                    hover:bg-zinc-100
+                                    dark:border-zinc-700
+                                    dark:hover:bg-zinc-800
+                                "
+                            >
+                                Bahasa
+                            </Link>
+
+                            <Link
+                                href="/zh"
+                                onClick={() => setMobileMenuOpen(false)}
+                                className="
+                                    rounded-lg
+                                    border
+                                    border-zinc-300
+                                    px-3
+                                    py-2
+                                    text-center
+                                    text-sm
+                                    hover:bg-zinc-100
+                                    dark:border-zinc-700
+                                    dark:hover:bg-zinc-800
+                                "
+                            >
+                                中文
+                            </Link>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <hr className="my-6 border-zinc-200 dark:border-zinc-700" />
+
+                    {/* Theme */}
+
+                    <button
+                        onClick={() =>
+                            setTheme(
+                                resolvedTheme === "dark"
+                                    ? "light"
+                                    : "dark"
+                            )
+                        }
+                        className="
+                            flex
+                            w-full
+                            items-center
+                            justify-center
+                            gap-2
+                            rounded-lg
+                            border
+                            border-zinc-300
+                            px-4
+                            py-3
+                            transition
+                            hover:bg-zinc-100
+                            dark:border-zinc-700
+                            dark:hover:bg-zinc-800
+                        "
+                    >
+                        {resolvedTheme === "dark" ? (
+                            <Moon size={18} />
+                        ) : (
+                            <Sun size={18} />
+                        )}
+
+                        <span>
+                            {resolvedTheme === "dark"
+                                ? "Dark Mode"
+                                : "Light Mode"}
+                        </span>
+
+                    </button>
+
+                </div>
+            )}
+
         </header>
     );
 }

@@ -10,11 +10,23 @@ type ScreenshotCarouselProps = {
     screenshots: string[];
 };
 
+
+
 export default function ScreenshotCarousel({
     screenshots,
 }: ScreenshotCarouselProps) {
 
     const [currentIndex, setCurrentIndex] = useState(0);
+    const previousImage = () => {
+        setCurrentIndex((prev) =>
+            prev === 0 ? screenshots.length - 1 : prev - 1
+        );
+    };
+    const nextImage = () => {
+        setCurrentIndex((prev) =>
+            prev === screenshots.length - 1 ? 0 : prev + 1
+        );
+    };
 
     if (screenshots.length === 0) {
         return (
@@ -45,8 +57,8 @@ export default function ScreenshotCarousel({
             <Image
                 fill
                 src={screenshots[currentIndex]}
-                alt="Screenshot"
-                className="rounded-xl object-cover"
+                alt={`Screenshot ${currentIndex + 1}`}
+                className="object-contain"
             />
             {/*left button*/}
             <button
@@ -63,12 +75,14 @@ export default function ScreenshotCarousel({
                     hover:bg-black/70
                     cursor-pointer
                 "
+                onClick={previousImage}
             >
                 <ChevronLeft size={22} />
             </button>
 
             {/*right button*/}
             <button
+                onClick={nextImage}
                 className="
                     absolute
                     right-4

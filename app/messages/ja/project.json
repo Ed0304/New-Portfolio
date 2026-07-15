@@ -30,7 +30,7 @@
 
       "name": "Portfolio Website",
 
-      "description": "Modern multilingual portfolio built with Next.js and TypeScript.",
+      "description": "Modern multilingual portfolio website built with Next.js and TypeScript to showcase my projects, technical skills, and professional journey.",
 
       "thumbnail": "/images/newportfolio.png",
 
@@ -54,12 +54,37 @@
       },
 
       "details": {
-        "overview": "",
-        "problem": "",
-        "solution": "",
-        "features": [],
-        "challenges": [],
-        "lessons": []
+        "overview": "A complete redesign of my original portfolio, developed using Next.js, React, TypeScript, and Tailwind CSS. The website serves as both a professional portfolio and a demonstration of modern frontend engineering practices, featuring reusable components, multilingual support, responsive layouts, dark mode, and interactive project showcases.",
+
+        "problem": "My previous portfolio reached the end of the AWS Free Tier. Rather than simply migrating the existing website, I took the opportunity to evaluate its architecture and user experience. I realized there were several aspects that could be improved, including maintainability, scalability, multilingual support, responsiveness, and the way projects were presented to recruiters.",
+
+        "solution": "I rebuilt the portfolio from scratch using Next.js App Router, React, TypeScript, and Tailwind CSS. The new architecture emphasizes reusable components, JSON-driven localization, responsive design, and interactive project modals with screenshot carousels. The result is a cleaner, more maintainable codebase that can continue evolving alongside my skills and future projects.",
+
+        "features": [
+          "🌍 Multilingual interface supporting English, Indonesian, Japanese, and Chinese.",
+          "🌙 Light and dark mode with system preference detection.",
+          "📱 Responsive design optimized for desktop, tablet, and mobile devices.",
+          "🗂️ Interactive project cards with detailed project modals.",
+          "🖼️ Screenshot carousel for showcasing project interfaces.",
+          "⚡ JSON-based content management for scalable localization.",
+          "🎨 Modern UI built with reusable React components and Tailwind CSS."
+        ],
+
+        "challenges": [
+          "Migrating from JavaScript to a fully TypeScript-based codebase.",
+          "Designing reusable components that remain maintainable as the portfolio grows.",
+          "Building a scalable internationalization system using JSON dictionaries.",
+          "Managing complex component interactions such as project modals and screenshot carousels.",
+          "Balancing aesthetics, performance, accessibility, and responsiveness across different devices."
+        ],
+
+        "lessons": [
+          "Strengthened my understanding of modern React, Next.js, and TypeScript development.",
+          "Learned the value of planning component architecture before implementation.",
+          "Developed practical experience building scalable multilingual applications.",
+          "Improved my frontend UI/UX design process through continuous iteration and refinement.",
+          "Realized that rebuilding a project from scratch can sometimes be more effective than continuously patching an existing codebase."
+        ]
       }
     },
 
@@ -73,11 +98,13 @@
 
       "name": "TreeVisual",
 
-      "description": "Offline binary tree visualizer designed to help students learn Data Structures and Algorithms.",
+      "description": "Offline desktop application that visualizes binary tree operations to help students learn Data Structures and Algorithms.",
 
       "thumbnail": "/images/treevisual1.png",
 
-      "screenshots": ["/images/treevisual1.png"],
+      "screenshots": [
+        "/images/treevisual1.png"
+      ],
 
       "technologies": [
         "Python",
@@ -93,12 +120,33 @@
       },
 
       "details": {
-        "overview": "",
-        "problem": "",
-        "solution": "",
-        "features": [],
-        "challenges": [],
-        "lessons": []
+        "overview": "TreeVisual is a lightweight desktop application designed to help students understand binary trees through interactive visualization. Built with PySide6, it provides an offline learning environment for practicing common binary tree operations without requiring an internet connection.",
+
+        "problem": "Many binary tree visualizers available online require an internet connection or provide limited interactivity. In addition, developing the application required learning PySide6, a GUI framework that I had not previously worked with, while designing an intuitive educational interface.",
+
+        "solution": "Developed a lightweight offline desktop application that enables users to interactively visualize binary tree operations. The application focuses on simplicity, responsiveness, and accessibility, making it suitable for students learning Data Structures and Algorithms.",
+
+        "features": [
+          "🌳 Interactive visualization of binary tree structures.",
+          "➕ Insert new nodes dynamically.",
+          "❌ Delete existing nodes while updating the visualization.",
+          "🔍 Search for nodes within the tree.",
+          "🔄 Visualize tree traversals (Preorder, Inorder, and Postorder).",
+          "💻 Fully offline desktop application with no internet dependency."
+        ],
+
+        "challenges": [
+          "Ensuring insertion, deletion, and traversal algorithms behaved correctly across different tree structures.",
+          "Synchronizing the graphical visualization with the underlying binary tree data structure.",
+          "Learning PySide6 while developing a responsive and intuitive desktop user interface."
+        ],
+
+        "lessons": [
+          "Learned desktop application development using the PySide6 framework.",
+          "Strengthened my understanding of binary tree algorithms and data structures.",
+          "Improved my ability to design educational software with a clear and intuitive user experience.",
+          "Gained experience translating algorithmic concepts into interactive visualizations."
+        ]
       }
     },
 
@@ -108,24 +156,33 @@
       "featured": true,
       "year": 2025,
       "category": "Hackathon",
-      "role": "Frontend Developer",
+      "role": "Solo Developer",
 
       "name": "Phish or Miss",
 
-      "description": "Hackathon project that teaches users to identify phishing emails and messages through interactive gameplay.",
+      "description": "Hackathon project that teaches users to recognize phishing emails and messages through interactive gameplay in a safe learning environment.",
 
       "thumbnail": "/images/phishormiss0.png",
 
-      "screenshots": ["/images/phishormiss0.png","/images/phishormiss1.png","/images/phishormiss2.png","/images/phishormiss3.png","/images/phishormiss4.png"],
+      "screenshots": [
+        "/images/phishormiss0.png",
+        "/images/phishormiss1.png",
+        "/images/phishormiss2.png",
+        "/images/phishormiss3.png",
+        "/images/phishormiss4.png"
+      ],
 
       "technologies": [
         "React",
         "HTML",
-        "CSS"
+        "CSS",
+        "MongoDB"
       ],
 
       "services": [
-        "AWS EC2"
+        "AWS EC2",
+        "Flask",
+        "Sogni SDK"
       ],
 
       "links": {
@@ -135,47 +192,68 @@
       },
 
       "details": {
-        "overview": "",
-        "problem": "",
-        "solution": "",
-        "features": [],
-        "challenges": [],
-        "lessons": []
+        "overview": "Phish or Miss is an educational web application developed during the NTUxBase3 Hackathon. The game challenges players to identify phishing emails and messages through realistic scenarios, helping them develop awareness of common social engineering techniques in an engaging and risk-free environment.",
+
+        "problem": "The hackathon required participants to build a solution using the Sogni SDK that addressed a real-world problem. Working as a solo developer, I had only five days to design, develop, test, and deploy a complete application while ensuring the gameplay remained educational and engaging.",
+
+        "solution": "I developed an interactive web-based game that presents users with realistic email and messaging scenarios, encouraging them to distinguish legitimate communications from phishing attempts. Immediate feedback helps reinforce cybersecurity awareness while keeping the learning experience engaging.",
+
+        "features": [
+          "📧 Interactive phishing email detection game.",
+          "💬 Simulated phishing message scenarios inspired by real-world attacks.",
+          "✅ Immediate feedback with explanations after each decision.",
+          "🎮 Gamified learning experience designed to improve cybersecurity awareness.",
+          "☁️ Cloud-hosted application deployed using AWS EC2."
+        ],
+
+        "challenges": [
+          "Designing phishing scenarios that realistically reflected modern social engineering attacks.",
+          "Completing the entire project independently within the five-day hackathon deadline.",
+          "Integrating the Sogni SDK into a cohesive web application.",
+          "Balancing educational value with engaging gameplay."
+        ],
+
+        "lessons": [
+          "Developed a deeper understanding of how social engineering exploits human psychology rather than technical vulnerabilities.",
+          "Strengthened rapid prototyping and time management skills under hackathon constraints.",
+          "Gained experience integrating third-party SDKs into a full-stack web application.",
+          "Learned the importance of clear user feedback when designing educational cybersecurity tools."
+        ]
       },
 
       "event": {
-        "name": "NTUxBase3 Hackathon",
+        "name": "NTUxBase Web3 Hackathon",
         "track": "Sogni Track"
       }
     },
-
     {
       "id": "former-portfolio",
 
       "featured": false,
-      "year": 2024,
+      "year": 2025,
       "category": "Web Development",
       "role": "Full Stack Developer",
 
       "name": "Legacy Portfolio Website",
 
-      "description": "First personal portfolio website built with React and deployed on AWS.",
+      "description": "My first personal portfolio website built with React and deployed on AWS, marking my transition from Python-based web development to modern frontend development. This project ultimately inspired the complete redesign and redevelopment of my current portfolio using Next.js, TypeScript, and Tailwind CSS.",
 
       "thumbnail": "/images/portfolio.png",
 
-      "screenshots": [],
+      "screenshots": [
+        "/images/portfolio.png",
+        "/images/portfolio2.png",
+        "/images/portfolio3.png",
+        "/images/portfolio4.png"
+      ],
 
       "technologies": [
-        "React",
-        "Flask",
-        "MongoDB"
+        "React"
       ],
 
       "services": [
-        "AWS EC2",
         "AWS S3",
-        "CloudFront",
-        "Sogni SDK"
+        "AWS CloudFront"
       ],
 
       "links": {
@@ -185,12 +263,33 @@
       },
 
       "details": {
-        "overview": "",
-        "problem": "",
-        "solution": "",
-        "features": [],
-        "challenges": [],
-        "lessons": []
+        "overview": "My first portfolio website designed to showcase my projects and technical skills. The project marked my transition from Python-based web development to React while introducing me to cloud deployment using AWS services.",
+
+        "problem": "The original portfolio was hosted on Render using Flask. While functional, Render's free tier required visitors to wait for the application to wake up, resulting in a poor user experience. At the same time, I wanted practical experience with AWS while preparing for the AWS Certified Cloud Practitioner certification.",
+
+        "solution": "Rebuilt the frontend using React and migrated the deployment to AWS using Amazon S3 for static hosting and CloudFront as a global CDN. This significantly improved loading times and provided hands-on experience with modern frontend deployment.",
+
+        "features": [
+          "🌐 Responsive portfolio website.",
+          "📁 Project showcase section.",
+          "👨‍💻 About Me section.",
+          "📞 Contact information.",
+          "☁️ Static website deployment using AWS S3 and CloudFront."
+        ],
+
+        "challenges": [
+          "Learning React after previously developing primarily with Flask.",
+          "Migrating from a server-rendered architecture to a client-side React application.",
+          "Configuring AWS S3 and CloudFront for static website hosting.",
+          "Designing a portfolio that balanced simplicity with professionalism."
+        ],
+
+        "lessons": [
+          "Built a strong foundation in React component-based development.",
+          "Gained practical experience deploying static web applications on AWS.",
+          "Learned how CDN-based deployment improves website performance.",
+          "Established the foundation and design principles that inspired my current portfolio."
+        ]
       }
     },
 
@@ -199,7 +298,7 @@
 
       "featured": true,
       "year": 2025,
-      "category": "Machine Learning",
+      "category": "Neural Networks",
       "role": "Team Leader",
 
       "name": "AI-NTeractive",
@@ -208,7 +307,7 @@
 
       "thumbnail": "/images/ai-nteractive.png",
 
-      "screenshots": [],
+      "screenshots": ["/images/ai-nteractive.png","/images/fyp1.jpg","/images/fyp2.jpg","/images/fyp3.jpg"],
 
       "technologies": [
         "Python",
@@ -230,12 +329,33 @@
       },
 
       "details": {
-        "overview": "",
-        "problem": "",
-        "solution": "",
-        "features": [],
-        "challenges": [],
-        "lessons": []
+        "overview": "AI-NTeractive is an AI-powered Learning Management System (LMS) developed as our Final Year Project. The platform integrates neural networks and facial animation technology to make online learning more engaging through interactive, animated educational content.",
+
+        "problem": "Traditional Learning Management Systems often rely on static text and videos, which can reduce student engagement. Our challenge was to integrate SadTalker facial animation technology into a practical educational platform while ensuring the system remained intuitive, scalable, and useful for both students and educators.",
+
+        "solution": "We designed and developed an AI-enhanced LMS that combines conventional learning management features with AI-generated facial animations. As Team Leader, I coordinated development, delegated tasks, managed project milestones, and ensured successful integration between the web platform, database, and AI services.",
+
+        "features": [
+          "💬 Face-Animated AI Assistant – Provides personalized responses using expressive facial animations.",
+          "🎬 Video Creation Studio – Allows educators to generate AI-assisted educational videos.",
+          "🏫 Interactive Classroom – Centralizes animated learning materials to improve engagement.",
+          "👥 User Authentication – Secure login and role-based access for students and instructors.",
+          "☁️ Cloud Deployment – Hosted using Google Cloud services."
+        ],
+
+        "challenges": [
+          "Integrating SadTalker with the web application while maintaining acceptable response times.",
+          "Coordinating development across a five-member multidisciplinary team.",
+          "Balancing AI processing workloads with overall application performance.",
+          "Ensuring generated animations remained relevant and suitable for educational use."
+        ],
+
+        "lessons": [
+          "Learned how to integrate AI services into a production-oriented web application.",
+          "Strengthened leadership and project management skills by coordinating a five-member team.",
+          "Gained experience deploying and maintaining cloud-based applications.",
+          "Developed a deeper understanding of machine learning integration within full-stack systems."
+        ]
       }
     },
 
@@ -253,7 +373,7 @@
 
       "thumbnail": "/images/csit314-project.png",
 
-      "screenshots": [],
+      "screenshots": ["/images/csit314-project.png","/images/csit314-project-2.png","/images/csit314-project-3.png","/images/csit314-project-4.png","/images/csit314-project-5.png"],
 
       "technologies": [
         "PHP",
@@ -270,13 +390,36 @@
       },
 
       "details": {
-        "overview": "",
-        "problem": "",
-        "solution": "",
-        "features": [],
-        "challenges": [],
-        "lessons": []
-      }
+      "overview": "A web-based platform developed to manage the complete lifecycle of used car transactions. The system supports multiple user roles—including administrators, agents, buyers, and sellers—with role-based access control and dedicated workflows for each user type.",
+
+      "problem": "The project was required to follow the Boundary-Control-Entity (BCE) architectural pattern as part of the course requirements. As Scrum Team Lead, I was also responsible for coordinating a seven-member team with varying technical backgrounds while ensuring consistent code quality and up-to-date project documentation.",
+
+      "solution": "Adopted the Scrum framework with regular sprint planning, stand-up meetings, and task allocation to organize development. Responsibilities were divided according to each member's strengths, while continuous reviews ensured compliance with the BCE architecture and project milestones.",
+
+      "features": [
+        "🛠️ Administrator Dashboard – Manage user accounts and system administration.",
+        "🚗 Agent Dashboard – Create, update, and manage vehicle listings while reviewing buyer feedback.",
+        "👤 Buyer Portal – Browse available vehicles, submit reviews, and manage purchase requests.",
+        "🧾 Seller Portal – Submit vehicle information through agents and monitor customer feedback.",
+        "🔐 Role-Based Access Control – Different interfaces and permissions for each user role."
+      ],
+
+      "challenges": [
+        "Designing the application to comply with the Boundary-Control-Entity (BCE) architecture.",
+        "Coordinating development across a seven-member Scrum team with different skill levels.",
+        "Maintaining consistent documentation alongside rapid feature development.",
+        "Integrating multiple user workflows into a cohesive system."
+      ],
+
+      "lessons": [
+        "Gained practical experience leading a Scrum team through a complete software development lifecycle.",
+        "Learned how software architecture decisions influence maintainability and scalability.",
+        "Improved communication, task delegation, and project planning skills.",
+        "Developed a stronger appreciation for documentation as part of professional software engineering."
+      ]
+
+    }
+
     }
   ]
 }
