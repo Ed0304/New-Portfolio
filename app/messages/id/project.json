@@ -1,22 +1,22 @@
 {
-  "title": "Projects",
+  "title": "Proyek",
 
-  "labels": {
-    "project_name": "Project",
-    "description": "Description",
-    "technologies": "Technologies",
-    "services": "Cloud & Services",
+   "labels": {
+    "project_name": "Nama Proyek",
+    "description": "Deskripsi",
+    "technologies": "Teknologi",
+    "services": "Cloud & Layanan",
     "github": "GitHub",
-    "demo": "Live Demo",
-    "download": "Download",
-    "view_details": "View Details",
+    "demo": "Demo Langsung",
+    "download": "Unduh",
+    "view_details": "Lihat Detail",
 
-    "overview": "Overview",
-    "problem": "Problem",
-    "solution": "Solution",
-    "features": "Key Features",
-    "challenges": "Challenges",
-    "lessons": "What I Learned"
+    "overview": "Ringkasan",
+    "problem": "Permasalahan",
+    "solution": "Solusi",
+    "features": "Fitur Utama",
+    "challenges": "Tantangan",
+    "lessons": "Pelajaran yang Dipetik"
   },
 
   "list": [
@@ -25,12 +25,12 @@
 
       "featured": true,
       "year": 2026,
-      "category": "Web Development",
+      "category": "Web Developer",
       "role": "Full Stack Developer",
 
       "name": "Portfolio Website",
 
-      "description": "Modern multilingual portfolio website built with Next.js and TypeScript to showcase my projects, technical skills, and professional journey.",
+      "description": "Website portfolio modern multibahasa yang dibangun menggunakan Next.js dan TypeScript untuk menampilkan proyek, kemampuan teknis, serta perjalanan profesional saya.",
 
       "thumbnail": "/images/newportfolio.png",
 
@@ -54,36 +54,36 @@
       },
 
       "details": {
-        "overview": "A complete redesign of my original portfolio, developed using Next.js, React, TypeScript, and Tailwind CSS. The website serves as both a professional portfolio and a demonstration of modern frontend engineering practices, featuring reusable components, multilingual support, responsive layouts, dark mode, and interactive project showcases.",
+        "overview": "Perancangan ulang secara menyeluruh dari portfolio saya sebelumnya yang dikembangkan menggunakan Next.js, React, TypeScript, dan Tailwind CSS. Website ini berfungsi sebagai portfolio profesional sekaligus demonstrasi praktik modern frontend engineering, dengan komponen yang dapat digunakan kembali, dukungan multibahasa, tata letak responsif, mode gelap, serta tampilan proyek yang interaktif.",
 
-        "problem": "My previous portfolio reached the end of the AWS Free Tier. Rather than simply migrating the existing website, I took the opportunity to evaluate its architecture and user experience. I realized there were several aspects that could be improved, including maintainability, scalability, multilingual support, responsiveness, and the way projects were presented to recruiters.",
+        "problem": "Portfolio sebelumnya telah mencapai batas AWS Free Tier. Alih-alih hanya memindahkan website yang sudah ada, saya memanfaatkan kesempatan ini untuk mengevaluasi arsitektur dan pengalaman penggunanya. Saya menyadari masih banyak aspek yang dapat ditingkatkan, seperti kemudahan pemeliharaan, skalabilitas, dukungan multibahasa, responsivitas, serta cara proyek ditampilkan kepada recruiter.",
 
-        "solution": "I rebuilt the portfolio from scratch using Next.js App Router, React, TypeScript, and Tailwind CSS. The new architecture emphasizes reusable components, JSON-driven localization, responsive design, and interactive project modals with screenshot carousels. The result is a cleaner, more maintainable codebase that can continue evolving alongside my skills and future projects.",
+        "solution": "Saya membangun ulang portfolio ini dari awal menggunakan Next.js App Router, React, TypeScript, dan Tailwind CSS. Arsitektur baru berfokus pada komponen yang dapat digunakan kembali, sistem lokalisasi berbasis JSON, desain responsif, serta modal proyek interaktif dengan carousel tangkapan layar. Hasilnya adalah basis kode yang lebih bersih, lebih mudah dipelihara, dan dapat terus berkembang seiring peningkatan kemampuan serta proyek-proyek saya di masa depan.",
 
         "features": [
-          "🌍 Multilingual interface supporting English, Indonesian, Japanese, and Chinese.",
-          "🌙 Light and dark mode with system preference detection.",
-          "📱 Responsive design optimized for desktop, tablet, and mobile devices.",
-          "🗂️ Interactive project cards with detailed project modals.",
-          "🖼️ Screenshot carousel for showcasing project interfaces.",
-          "⚡ JSON-based content management for scalable localization.",
-          "🎨 Modern UI built with reusable React components and Tailwind CSS."
+          "🌍 Antarmuka multibahasa yang mendukung Bahasa Inggris, Indonesia, Jepang, dan Mandarin.",
+          "🌙 Mode terang dan gelap dengan deteksi preferensi sistem.",
+          "📱 Desain responsif yang dioptimalkan untuk desktop, tablet, dan perangkat seluler.",
+          "🗂️ Kartu proyek interaktif dengan modal yang menampilkan detail proyek.",
+          "🖼️ Carousel tangkapan layar untuk menampilkan antarmuka setiap proyek.",
+          "⚡ Pengelolaan konten berbasis JSON yang memudahkan skalabilitas lokalisasi.",
+          "🎨 Antarmuka modern yang dibangun menggunakan komponen React yang dapat digunakan kembali serta Tailwind CSS."
         ],
 
         "challenges": [
-          "Migrating from JavaScript to a fully TypeScript-based codebase.",
-          "Designing reusable components that remain maintainable as the portfolio grows.",
-          "Building a scalable internationalization system using JSON dictionaries.",
-          "Managing complex component interactions such as project modals and screenshot carousels.",
-          "Balancing aesthetics, performance, accessibility, and responsiveness across different devices."
+          "Memigrasikan basis kode dari JavaScript ke TypeScript secara menyeluruh.",
+          "Merancang komponen yang dapat digunakan kembali sekaligus tetap mudah dipelihara seiring bertambahnya isi portfolio.",
+          "Membangun sistem internasionalisasi yang skalabel menggunakan kamus berbasis JSON.",
+          "Mengelola interaksi komponen yang kompleks, seperti modal proyek dan carousel tangkapan layar.",
+          "Menyeimbangkan estetika, performa, aksesibilitas, dan responsivitas di berbagai jenis perangkat."
         ],
 
         "lessons": [
-          "Strengthened my understanding of modern React, Next.js, and TypeScript development.",
-          "Learned the value of planning component architecture before implementation.",
-          "Developed practical experience building scalable multilingual applications.",
-          "Improved my frontend UI/UX design process through continuous iteration and refinement.",
-          "Realized that rebuilding a project from scratch can sometimes be more effective than continuously patching an existing codebase."
+          "Memperdalam pemahaman saya mengenai pengembangan modern menggunakan React, Next.js, dan TypeScript.",
+          "Mempelajari pentingnya merancang arsitektur komponen sebelum proses implementasi dimulai.",
+          "Memperoleh pengalaman praktis dalam membangun aplikasi multibahasa yang skalabel.",
+          "Meningkatkan proses perancangan UI/UX frontend melalui iterasi dan penyempurnaan secara berkelanjutan.",
+          "Menyadari bahwa membangun ulang sebuah proyek dari awal terkadang lebih efektif daripada terus memperbaiki basis kode yang sudah ada."
         ]
       }
     },
@@ -93,12 +93,12 @@
 
       "featured": false,
       "year": 2026,
-      "category": "Desktop Application",
+      "category": "Aplikasi Desktop",
       "role": "Solo Developer",
 
       "name": "TreeVisual",
 
-      "description": "Offline desktop application that visualizes binary tree operations to help students learn Data Structures and Algorithms.",
+      "description": "Aplikasi desktop offline yang memvisualisasikan operasi pada binary tree untuk membantu mahasiswa mempelajari Struktur Data dan Algoritma.",
 
       "thumbnail": "/images/treevisual1.png",
 
@@ -120,32 +120,32 @@
       },
 
       "details": {
-        "overview": "TreeVisual is a lightweight desktop application designed to help students understand binary trees through interactive visualization. Built with PySide6, it provides an offline learning environment for practicing common binary tree operations without requiring an internet connection.",
+        "overview": "TreeVisual adalah aplikasi desktop ringan yang dirancang untuk membantu mahasiswa memahami konsep binary tree melalui visualisasi interaktif. Dibangun menggunakan PySide6, aplikasi ini menyediakan lingkungan belajar offline untuk mempraktikkan berbagai operasi pada binary tree tanpa memerlukan koneksi internet.",
 
-        "problem": "Many binary tree visualizers available online require an internet connection or provide limited interactivity. In addition, developing the application required learning PySide6, a GUI framework that I had not previously worked with, while designing an intuitive educational interface.",
+        "problem": "Banyak visualisasi binary tree yang tersedia secara online mengharuskan pengguna memiliki koneksi internet atau hanya menyediakan interaktivitas yang terbatas. Selain itu, pengembangan aplikasi ini mengharuskan saya mempelajari PySide6, sebuah framework GUI yang sebelumnya belum pernah saya gunakan, sekaligus merancang antarmuka edukatif yang intuitif.",
 
-        "solution": "Developed a lightweight offline desktop application that enables users to interactively visualize binary tree operations. The application focuses on simplicity, responsiveness, and accessibility, making it suitable for students learning Data Structures and Algorithms.",
+        "solution": "Saya mengembangkan aplikasi desktop offline yang ringan sehingga pengguna dapat memvisualisasikan berbagai operasi pada binary tree secara interaktif. Aplikasi ini berfokus pada kesederhanaan, responsivitas, dan kemudahan penggunaan sehingga cocok digunakan oleh mahasiswa yang sedang mempelajari Struktur Data dan Algoritma.",
 
         "features": [
-          "🌳 Interactive visualization of binary tree structures.",
-          "➕ Insert new nodes dynamically.",
-          "❌ Delete existing nodes while updating the visualization.",
-          "🔍 Search for nodes within the tree.",
-          "🔄 Visualize tree traversals (Preorder, Inorder, and Postorder).",
-          "💻 Fully offline desktop application with no internet dependency."
+          "🌳 Visualisasi interaktif struktur binary tree.",
+          "➕ Menambahkan node baru secara dinamis.",
+          "❌ Menghapus node yang sudah ada dengan pembaruan visualisasi secara otomatis.",
+          "🔍 Mencari node di dalam binary tree.",
+          "🔄 Memvisualisasikan proses traversal tree (Preorder, Inorder, dan Postorder).",
+          "💻 Aplikasi desktop yang sepenuhnya berjalan secara offline tanpa ketergantungan pada koneksi internet."
         ],
 
         "challenges": [
-          "Ensuring insertion, deletion, and traversal algorithms behaved correctly across different tree structures.",
-          "Synchronizing the graphical visualization with the underlying binary tree data structure.",
-          "Learning PySide6 while developing a responsive and intuitive desktop user interface."
+          "Memastikan algoritma penyisipan, penghapusan, dan traversal bekerja dengan benar pada berbagai bentuk binary tree.",
+          "Menyinkronkan visualisasi grafis dengan struktur data binary tree yang mendasarinya.",
+          "Mempelajari PySide6 sambil mengembangkan antarmuka desktop yang responsif dan intuitif."
         ],
 
         "lessons": [
-          "Learned desktop application development using the PySide6 framework.",
-          "Strengthened my understanding of binary tree algorithms and data structures.",
-          "Improved my ability to design educational software with a clear and intuitive user experience.",
-          "Gained experience translating algorithmic concepts into interactive visualizations."
+          "Mempelajari pengembangan aplikasi desktop menggunakan framework PySide6.",
+          "Memperdalam pemahaman saya mengenai algoritma dan struktur data binary tree.",
+          "Meningkatkan kemampuan dalam merancang perangkat lunak edukatif dengan pengalaman pengguna yang jelas dan intuitif.",
+          "Memperoleh pengalaman dalam mengubah konsep algoritma menjadi visualisasi yang interaktif."
         ]
       }
     },
@@ -160,7 +160,7 @@
 
       "name": "Phish or Miss",
 
-      "description": "Hackathon project that teaches users to recognize phishing emails and messages through interactive gameplay in a safe learning environment.",
+      "description": "Proyek hackathon yang mengajarkan pengguna mengenali email dan pesan phishing melalui permainan interaktif dalam lingkungan belajar yang aman.",
 
       "thumbnail": "/images/phishormiss0.png",
 
@@ -192,32 +192,32 @@
       },
 
       "details": {
-        "overview": "Phish or Miss is an educational web application developed during the NTUxBase3 Hackathon. The game challenges players to identify phishing emails and messages through realistic scenarios, helping them develop awareness of common social engineering techniques in an engaging and risk-free environment.",
+        "overview": "Phish or Miss adalah aplikasi web edukatif yang dikembangkan dalam NTUxBase Web3 Hackathon. Permainan ini menantang pemain untuk mengidentifikasi email dan pesan phishing melalui skenario yang realistis, sehingga membantu mereka memahami berbagai teknik social engineering dengan cara yang menarik dan bebas risiko.",
 
-        "problem": "The hackathon required participants to build a solution using the Sogni SDK that addressed a real-world problem. Working as a solo developer, I had only five days to design, develop, test, and deploy a complete application while ensuring the gameplay remained educational and engaging.",
+        "problem": "Hackathon ini mengharuskan peserta membangun sebuah solusi menggunakan Sogni SDK untuk menyelesaikan permasalahan di dunia nyata. Sebagai Solo Developer, saya hanya memiliki waktu lima hari untuk merancang, mengembangkan, menguji, dan melakukan deployment aplikasi secara menyeluruh, sambil memastikan pengalaman bermain tetap edukatif dan menarik.",
 
-        "solution": "I developed an interactive web-based game that presents users with realistic email and messaging scenarios, encouraging them to distinguish legitimate communications from phishing attempts. Immediate feedback helps reinforce cybersecurity awareness while keeping the learning experience engaging.",
+        "solution": "Saya mengembangkan permainan berbasis web yang menyajikan berbagai skenario email dan pesan yang realistis, sehingga pengguna dapat membedakan komunikasi yang sah dari upaya phishing. Umpan balik yang diberikan secara langsung membantu memperkuat pemahaman mengenai keamanan siber sekaligus menjaga proses belajar tetap menarik.",
 
         "features": [
-          "📧 Interactive phishing email detection game.",
-          "💬 Simulated phishing message scenarios inspired by real-world attacks.",
-          "✅ Immediate feedback with explanations after each decision.",
-          "🎮 Gamified learning experience designed to improve cybersecurity awareness.",
-          "☁️ Cloud-hosted application deployed using AWS EC2."
+          "📧 Permainan interaktif untuk mengidentifikasi email phishing.",
+          "💬 Simulasi skenario pesan phishing yang terinspirasi dari serangan di dunia nyata.",
+          "✅ Umpan balik langsung beserta penjelasan setelah setiap keputusan yang diambil.",
+          "🎮 Pengalaman belajar berbasis gamifikasi untuk meningkatkan kesadaran terhadap keamanan siber.",
+          "☁️ Aplikasi berbasis cloud yang di-deploy menggunakan AWS EC2."
         ],
 
         "challenges": [
-          "Designing phishing scenarios that realistically reflected modern social engineering attacks.",
-          "Completing the entire project independently within the five-day hackathon deadline.",
-          "Integrating the Sogni SDK into a cohesive web application.",
-          "Balancing educational value with engaging gameplay."
+          "Merancang skenario phishing yang mampu merepresentasikan teknik social engineering modern secara realistis.",
+          "Menyelesaikan seluruh proyek secara mandiri dalam batas waktu hackathon yang hanya lima hari.",
+          "Mengintegrasikan Sogni SDK ke dalam aplikasi web secara menyeluruh.",
+          "Menyeimbangkan nilai edukatif dengan pengalaman bermain yang tetap menarik."
         ],
 
         "lessons": [
-          "Developed a deeper understanding of how social engineering exploits human psychology rather than technical vulnerabilities.",
-          "Strengthened rapid prototyping and time management skills under hackathon constraints.",
-          "Gained experience integrating third-party SDKs into a full-stack web application.",
-          "Learned the importance of clear user feedback when designing educational cybersecurity tools."
+          "Memperoleh pemahaman yang lebih mendalam mengenai bagaimana social engineering mengeksploitasi psikologi manusia dibandingkan kelemahan teknis.",
+          "Mengasah kemampuan rapid prototyping serta manajemen waktu di bawah tekanan hackathon.",
+          "Memperoleh pengalaman dalam mengintegrasikan SDK pihak ketiga ke dalam aplikasi web full-stack.",
+          "Mempelajari pentingnya memberikan umpan balik yang jelas ketika merancang aplikasi edukasi di bidang keamanan siber."
         ]
       },
 
@@ -231,12 +231,12 @@
 
       "featured": false,
       "year": 2025,
-      "category": "Web Development",
+      "category": "Web Developer",
       "role": "Full Stack Developer",
 
       "name": "Legacy Portfolio Website",
 
-      "description": "My first personal portfolio website built with React and deployed on AWS, marking my transition from Python-based web development to modern frontend development. This project ultimately inspired the complete redesign and redevelopment of my current portfolio using Next.js, TypeScript, and Tailwind CSS.",
+      "description": "Website portfolio pribadi pertama saya yang dibangun menggunakan React dan di-deploy di AWS. Proyek ini menjadi titik awal transisi saya dari web developer berbasis Python menuju frontend modern, sekaligus menginspirasi perancangan ulang portfolio saya saat ini menggunakan Next.js, TypeScript, dan Tailwind CSS.",
 
       "thumbnail": "/images/portfolio.png",
 
@@ -263,32 +263,32 @@
       },
 
       "details": {
-        "overview": "My first portfolio website designed to showcase my projects and technical skills. The project marked my transition from Python-based web development to React while introducing me to cloud deployment using AWS services.",
+        "overview": "Website portfolio pertama saya yang dirancang untuk menampilkan berbagai proyek dan kemampuan teknis yang saya miliki. Proyek ini menandai transisi saya dari web developer berbasis Python menuju React, sekaligus memperkenalkan saya pada proses deployment aplikasi menggunakan layanan cloud AWS.",
 
-        "problem": "The original portfolio was hosted on Render using Flask. While functional, Render's free tier required visitors to wait for the application to wake up, resulting in a poor user experience. At the same time, I wanted practical experience with AWS while preparing for the AWS Certified Cloud Practitioner certification.",
+        "problem": "Portfolio pertama saya di-host menggunakan Flask pada platform Render. Meskipun berfungsi dengan baik, layanan gratis Render mengharuskan pengunjung menunggu aplikasi aktif kembali (cold start) sebelum dapat digunakan, sehingga memberikan pengalaman pengguna yang kurang optimal. Di saat yang sama, saya juga ingin memperoleh pengalaman praktis menggunakan AWS sebagai bagian dari persiapan sertifikasi AWS Certified Cloud Practitioner.",
 
-        "solution": "Rebuilt the frontend using React and migrated the deployment to AWS using Amazon S3 for static hosting and CloudFront as a global CDN. This significantly improved loading times and provided hands-on experience with modern frontend deployment.",
+        "solution": "Saya membangun ulang frontend menggunakan React dan memigrasikan proses deployment ke AWS dengan memanfaatkan Amazon S3 sebagai static website hosting serta CloudFront sebagai Content Delivery Network (CDN) global. Pendekatan ini secara signifikan meningkatkan kecepatan akses website sekaligus memberikan pengalaman langsung dalam proses deployment frontend modern.",
 
         "features": [
-          "🌐 Responsive portfolio website.",
-          "📁 Project showcase section.",
-          "👨‍💻 About Me section.",
-          "📞 Contact information.",
-          "☁️ Static website deployment using AWS S3 and CloudFront."
+          "🌐 Website portfolio dengan desain responsif.",
+          "📁 Halaman untuk menampilkan berbagai proyek.",
+          "👨‍💻 Halaman profil singkat (About Me).",
+          "📞 Halaman informasi kontak.",
+          "☁️ Deployment static website menggunakan AWS S3 dan CloudFront."
         ],
 
         "challenges": [
-          "Learning React after previously developing primarily with Flask.",
-          "Migrating from a server-rendered architecture to a client-side React application.",
-          "Configuring AWS S3 and CloudFront for static website hosting.",
-          "Designing a portfolio that balanced simplicity with professionalism."
+          "Mempelajari React setelah sebelumnya lebih banyak mengembangkan aplikasi menggunakan Flask.",
+          "Memigrasikan arsitektur aplikasi dari server-rendered menjadi aplikasi React berbasis client-side.",
+          "Mengonfigurasi AWS S3 dan CloudFront untuk kebutuhan static website hosting.",
+          "Merancang website portfolio yang sederhana namun tetap profesional."
         ],
 
         "lessons": [
-          "Built a strong foundation in React component-based development.",
-          "Gained practical experience deploying static web applications on AWS.",
-          "Learned how CDN-based deployment improves website performance.",
-          "Established the foundation and design principles that inspired my current portfolio."
+          "Membangun fondasi yang kuat dalam pengembangan berbasis komponen menggunakan React.",
+          "Memperoleh pengalaman praktis dalam melakukan deployment aplikasi web statis di AWS.",
+          "Memahami bagaimana penggunaan CDN dapat meningkatkan performa website.",
+          "Membangun dasar desain dan arsitektur yang kemudian menjadi inspirasi bagi portfolio saya saat ini."
         ]
       }
     },
@@ -298,16 +298,21 @@
 
       "featured": true,
       "year": 2025,
-      "category": "Neural Networks",
+      "category": "Neural Network",
       "role": "Team Leader",
 
       "name": "AI-NTeractive",
 
-      "description": "Final Year Project that leverages neural networks and facial animation technology to create a more engaging learning experience.",
+      "description": "Proyek Tugas Akhir yang memanfaatkan neural network dan teknologi animasi wajah berbasis AI untuk menciptakan pengalaman belajar yang lebih interaktif dan menarik.",
 
       "thumbnail": "/images/ai-nteractive.png",
 
-      "screenshots": ["/images/ai-nteractive.png","/images/fyp1.jpg","/images/fyp2.jpg","/images/fyp3.jpg"],
+      "screenshots": [
+        "/images/ai-nteractive.png",
+        "/images/fyp1.jpg",
+        "/images/fyp2.jpg",
+        "/images/fyp3.jpg"
+      ],
 
       "technologies": [
         "Python",
@@ -329,32 +334,32 @@
       },
 
       "details": {
-        "overview": "AI-NTeractive is an AI-powered Learning Management System (LMS) developed as our Final Year Project. The platform integrates neural networks and facial animation technology to make online learning more engaging through interactive, animated educational content.",
+        "overview": "AI-NTeractive merupakan Learning Management System (LMS) berbasis AI yang dikembangkan sebagai Proyek Tugas Akhir kami. Platform ini mengintegrasikan neural network dan teknologi animasi wajah untuk menghadirkan pengalaman pembelajaran daring yang lebih interaktif melalui konten edukasi yang dapat berbicara dan berekspresi.",
 
-        "problem": "Traditional Learning Management Systems often rely on static text and videos, which can reduce student engagement. Our challenge was to integrate SadTalker facial animation technology into a practical educational platform while ensuring the system remained intuitive, scalable, and useful for both students and educators.",
+        "problem": "Learning Management System tradisional umumnya masih mengandalkan materi berupa teks dan video statis, sehingga dapat mengurangi keterlibatan mahasiswa dalam proses pembelajaran. Tantangan kami adalah mengintegrasikan teknologi animasi wajah SadTalker ke dalam sebuah platform pendidikan yang praktis, sekaligus memastikan sistem tetap intuitif, mudah dikembangkan, dan bermanfaat bagi mahasiswa maupun pengajar.",
 
-        "solution": "We designed and developed an AI-enhanced LMS that combines conventional learning management features with AI-generated facial animations. As Team Leader, I coordinated development, delegated tasks, managed project milestones, and ensured successful integration between the web platform, database, and AI services.",
+        "solution": "Kami merancang dan mengembangkan LMS berbasis AI yang menggabungkan fitur-fitur Learning Management System konvensional dengan animasi wajah yang dihasilkan oleh AI. Sebagai Team Leader, saya mengoordinasikan proses pengembangan, membagi tugas kepada anggota tim, mengelola pencapaian setiap milestone, serta memastikan integrasi antara platform web, database, dan layanan AI berjalan dengan baik.",
 
         "features": [
-          "💬 Face-Animated AI Assistant – Provides personalized responses using expressive facial animations.",
-          "🎬 Video Creation Studio – Allows educators to generate AI-assisted educational videos.",
-          "🏫 Interactive Classroom – Centralizes animated learning materials to improve engagement.",
-          "👥 User Authentication – Secure login and role-based access for students and instructors.",
-          "☁️ Cloud Deployment – Hosted using Google Cloud services."
+          "💬 Asisten AI Beranimasi – Memberikan respons yang dipersonalisasi melalui animasi wajah yang ekspresif.",
+          "🎬 Studio Pembuatan Video – Memungkinkan pengajar membuat video pembelajaran dengan bantuan AI.",
+          "🏫 Kelas Interaktif – Menyediakan materi pembelajaran beranimasi dalam satu platform untuk meningkatkan keterlibatan mahasiswa.",
+          "👥 Autentikasi Pengguna – Sistem login yang aman dengan hak akses berdasarkan peran pengguna.",
+          "☁️ Cloud Deployment – Aplikasi di-host menggunakan layanan Google Cloud."
         ],
 
         "challenges": [
-          "Integrating SadTalker with the web application while maintaining acceptable response times.",
-          "Coordinating development across a five-member multidisciplinary team.",
-          "Balancing AI processing workloads with overall application performance.",
-          "Ensuring generated animations remained relevant and suitable for educational use."
+          "Mengintegrasikan SadTalker ke dalam aplikasi web dengan tetap mempertahankan waktu respons yang baik.",
+          "Mengoordinasikan proses pengembangan dalam tim multidisiplin yang terdiri dari lima anggota.",
+          "Menyeimbangkan beban pemrosesan AI dengan performa aplikasi secara keseluruhan.",
+          "Memastikan animasi yang dihasilkan tetap relevan dan sesuai untuk kebutuhan pembelajaran."
         ],
 
         "lessons": [
-          "Learned how to integrate AI services into a production-oriented web application.",
-          "Strengthened leadership and project management skills by coordinating a five-member team.",
-          "Gained experience deploying and maintaining cloud-based applications.",
-          "Developed a deeper understanding of machine learning integration within full-stack systems."
+          "Mempelajari cara mengintegrasikan layanan AI ke dalam aplikasi web yang berorientasi pada penggunaan nyata.",
+          "Mengembangkan kemampuan kepemimpinan dan manajemen proyek melalui koordinasi tim yang terdiri dari lima anggota.",
+          "Memperoleh pengalaman dalam melakukan deployment serta pemeliharaan aplikasi berbasis cloud.",
+          "Memperdalam pemahaman mengenai integrasi machine learning dalam sistem full-stack."
         ]
       }
     },
@@ -364,16 +369,22 @@
 
       "featured": false,
       "year": 2024,
-      "category": "Web Development",
+      "category": "Web Developer",
       "role": "Scrum Team Lead",
 
       "name": "Car Loaning System",
 
-      "description": "Web-based platform for managing the lifecycle of used car transactions with role-based access control.",
+      "description": "Platform berbasis web untuk mengelola seluruh proses transaksi mobil bekas dengan sistem kontrol akses berdasarkan peran pengguna.",
 
       "thumbnail": "/images/csit314-project.png",
 
-      "screenshots": ["/images/csit314-project.png","/images/csit314-project-2.png","/images/csit314-project-3.png","/images/csit314-project-4.png","/images/csit314-project-5.png"],
+      "screenshots": [
+        "/images/csit314-project.png",
+        "/images/csit314-project-2.png",
+        "/images/csit314-project-3.png",
+        "/images/csit314-project-4.png",
+        "/images/csit314-project-5.png"
+      ],
 
       "technologies": [
         "PHP",
@@ -390,36 +401,34 @@
       },
 
       "details": {
-      "overview": "A web-based platform developed to manage the complete lifecycle of used car transactions. The system supports multiple user roles—including administrators, agents, buyers, and sellers—with role-based access control and dedicated workflows for each user type.",
+        "overview": "Platform berbasis web yang dikembangkan untuk mengelola seluruh siklus transaksi mobil bekas. Sistem ini mendukung berbagai jenis pengguna, termasuk administrator, agen, pembeli, dan penjual, dengan Role-Based Access Control serta alur kerja yang dirancang khusus untuk setiap peran.",
 
-      "problem": "The project was required to follow the Boundary-Control-Entity (BCE) architectural pattern as part of the course requirements. As Scrum Team Lead, I was also responsible for coordinating a seven-member team with varying technical backgrounds while ensuring consistent code quality and up-to-date project documentation.",
+        "problem": "Sebagai bagian dari persyaratan mata kuliah, proyek ini harus mengikuti pola arsitektur Boundary-Control-Entity (BCE). Selain itu, sebagai Scrum Team Lead, saya bertanggung jawab mengoordinasikan tim yang terdiri dari tujuh anggota dengan latar belakang teknis yang beragam, sambil memastikan kualitas kode tetap konsisten serta dokumentasi proyek selalu diperbarui.",
 
-      "solution": "Adopted the Scrum framework with regular sprint planning, stand-up meetings, and task allocation to organize development. Responsibilities were divided according to each member's strengths, while continuous reviews ensured compliance with the BCE architecture and project milestones.",
+        "solution": "Kami menerapkan framework Scrum melalui sprint planning, daily stand-up meeting, serta pembagian tugas secara terstruktur untuk mengelola proses pengembangan. Tanggung jawab dibagikan sesuai dengan keahlian masing-masing anggota, sementara proses review dilakukan secara berkala untuk memastikan implementasi tetap sesuai dengan arsitektur BCE dan target setiap milestone proyek.",
 
-      "features": [
-        "🛠️ Administrator Dashboard – Manage user accounts and system administration.",
-        "🚗 Agent Dashboard – Create, update, and manage vehicle listings while reviewing buyer feedback.",
-        "👤 Buyer Portal – Browse available vehicles, submit reviews, and manage purchase requests.",
-        "🧾 Seller Portal – Submit vehicle information through agents and monitor customer feedback.",
-        "🔐 Role-Based Access Control – Different interfaces and permissions for each user role."
-      ],
+        "features": [
+          "🛠️ Dashboard Administrator – Mengelola akun pengguna serta administrasi sistem.",
+          "🚗 Dashboard Agen – Membuat, memperbarui, dan mengelola daftar kendaraan sekaligus meninjau ulasan dari pembeli.",
+          "👤 Portal Pembeli – Menjelajahi kendaraan yang tersedia, memberikan ulasan, dan mengelola permintaan pembelian.",
+          "🧾 Portal Penjual – Mengirimkan informasi kendaraan melalui agen serta memantau umpan balik dari pelanggan.",
+          "🔐 Role-Based Access Control – Antarmuka dan hak akses yang berbeda untuk setiap jenis pengguna."
+        ],
 
-      "challenges": [
-        "Designing the application to comply with the Boundary-Control-Entity (BCE) architecture.",
-        "Coordinating development across a seven-member Scrum team with different skill levels.",
-        "Maintaining consistent documentation alongside rapid feature development.",
-        "Integrating multiple user workflows into a cohesive system."
-      ],
+        "challenges": [
+          "Merancang aplikasi agar memenuhi pola arsitektur Boundary-Control-Entity (BCE).",
+          "Mengoordinasikan proses pengembangan dalam tim Scrum yang terdiri dari tujuh anggota dengan tingkat kemampuan yang beragam.",
+          "Menjaga dokumentasi proyek tetap konsisten di tengah pengembangan fitur yang berlangsung dengan cepat.",
+          "Mengintegrasikan berbagai alur kerja pengguna ke dalam satu sistem yang terpadu."
+        ],
 
-      "lessons": [
-        "Gained practical experience leading a Scrum team through a complete software development lifecycle.",
-        "Learned how software architecture decisions influence maintainability and scalability.",
-        "Improved communication, task delegation, and project planning skills.",
-        "Developed a stronger appreciation for documentation as part of professional software engineering."
-      ]
-
-    }
-
+        "lessons": [
+          "Memperoleh pengalaman praktis dalam memimpin tim Scrum selama keseluruhan siklus pengembangan perangkat lunak.",
+          "Memahami bagaimana keputusan dalam perancangan arsitektur perangkat lunak memengaruhi kemudahan pemeliharaan dan skalabilitas sistem.",
+          "Meningkatkan kemampuan komunikasi, pendelegasian tugas, serta perencanaan proyek.",
+          "Menyadari pentingnya dokumentasi sebagai bagian dari praktik software engineering yang profesional."
+        ]
+      }
     }
   ]
 }

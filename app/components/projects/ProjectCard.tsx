@@ -2,8 +2,10 @@
 
 import { dictionaries } from "@/app/lib/getDictionary";
 import Image from "next/image";
+import Projects from "../project";
 type ProjectProps = {
     project: typeof dictionaries.en.projects.list[number];
+    dict: typeof dictionaries.en.projects;
     onClick: () => void;
 };
 
@@ -11,6 +13,7 @@ type ProjectProps = {
 
 export default function ProjectCard({
     project,
+    dict,
     onClick,
 }: ProjectProps) {
     return (
@@ -124,7 +127,7 @@ export default function ProjectCard({
                         "
                         onClick={onClick}
                     >
-                        View Details
+                        {dict.labels.view_details}
                     </button>
                 </div>
             </div>

@@ -1,22 +1,22 @@
 {
-  "title": "Projects",
+  "title": "プロジェクト",
 
   "labels": {
-    "project_name": "Project",
-    "description": "Description",
-    "technologies": "Technologies",
-    "services": "Cloud & Services",
+    "project_name": "プロジェクト",
+    "description": "説明",
+    "technologies": "技術",
+    "services": "クラウド・サービス",
     "github": "GitHub",
-    "demo": "Live Demo",
-    "download": "Download",
-    "view_details": "View Details",
+    "demo": "ライブデモ",
+    "download": "ダウンロード",
+    "view_details": "詳細を見る",
 
-    "overview": "Overview",
-    "problem": "Problem",
-    "solution": "Solution",
-    "features": "Key Features",
-    "challenges": "Challenges",
-    "lessons": "What I Learned"
+    "overview": "概要",
+    "problem": "課題",
+    "solution": "解決方法",
+    "features": "主な機能",
+    "challenges": "チャレンジ",
+    "lessons": "学んだこと"
   },
 
   "list": [
@@ -25,12 +25,12 @@
 
       "featured": true,
       "year": 2026,
-      "category": "Web Development",
-      "role": "Full Stack Developer",
+      "category": "ウェブ開発",
+      "role": "フルスタックエンジニア",
 
-      "name": "Portfolio Website",
+      "name": "ポートフォリオサイト",
 
-      "description": "Modern multilingual portfolio website built with Next.js and TypeScript to showcase my projects, technical skills, and professional journey.",
+      "description": "Next.jsとTypeScriptで作った、プロジェクトや技術スキル、これまでの活動を紹介するポートフォリオサイトです。",
 
       "thumbnail": "/images/newportfolio.png",
 
@@ -54,36 +54,36 @@
       },
 
       "details": {
-        "overview": "A complete redesign of my original portfolio, developed using Next.js, React, TypeScript, and Tailwind CSS. The website serves as both a professional portfolio and a demonstration of modern frontend engineering practices, featuring reusable components, multilingual support, responsive layouts, dark mode, and interactive project showcases.",
+        "overview": "Next.js、React、TypeScript、Tailwind CSSを使ってリデザインしたポートフォリオサイトです。プロジェクトや技術スキルを紹介するだけでなく、多言語対応、レスポンシブデザイン、ダークモードなどの機能も実装しています。",
 
-        "problem": "My previous portfolio reached the end of the AWS Free Tier. Rather than simply migrating the existing website, I took the opportunity to evaluate its architecture and user experience. I realized there were several aspects that could be improved, including maintainability, scalability, multilingual support, responsiveness, and the way projects were presented to recruiters.",
+        "problem": "AWSの無料ティアが終了したため、旧サイトをそのまま移行するのではなく、サイトの構成やユーザー体験を見直すことにしました。サイトを管理しやすくすることや、新しい機能を追加しやすくすること、多言語対応、レスポンシブデザイン、そしてプロジェクトの見せ方など、改善できる点がいくつかあることに気付きました。",
 
-        "solution": "I rebuilt the portfolio from scratch using Next.js App Router, React, TypeScript, and Tailwind CSS. The new architecture emphasizes reusable components, JSON-driven localization, responsive design, and interactive project modals with screenshot carousels. The result is a cleaner, more maintainable codebase that can continue evolving alongside my skills and future projects.",
+        "solution": "Next.js、React、TypeScript、Tailwind CSSを使って、一からサイトを作り直しました。新しいサイトの構成は、レスポンシブデザインやJSONを使った多言語対応、再利用できるコンポーネントなどを重視しています。その結果、コードベースはより分かりやすく、管理しやすくなりました。",
 
         "features": [
-          "🌍 Multilingual interface supporting English, Indonesian, Japanese, and Chinese.",
-          "🌙 Light and dark mode with system preference detection.",
-          "📱 Responsive design optimized for desktop, tablet, and mobile devices.",
-          "🗂️ Interactive project cards with detailed project modals.",
-          "🖼️ Screenshot carousel for showcasing project interfaces.",
-          "⚡ JSON-based content management for scalable localization.",
-          "🎨 Modern UI built with reusable React components and Tailwind CSS."
+          "🌍 英語、インドネシア語、日本語、中国語に対応した多言語インターフェース。",
+          "🌙 システム設定に対応したライトモード・ダークモード。",
+          "📱 パソコン、タブレット、スマートフォンに対応したレスポンシブデザイン。",
+          "🗂️ 詳細情報を表示できるインタラクティブなプロジェクトカード。",
+          "🖼️ プロジェクト画面を紹介するスクリーンショットカルーセル。",
+          "⚡ JSONを使った多言語コンテンツ管理。",
+          "🎨 再利用できるReactコンポーネントとTailwind CSSによるモダンなUI。"
         ],
 
         "challenges": [
-          "Migrating from JavaScript to a fully TypeScript-based codebase.",
-          "Designing reusable components that remain maintainable as the portfolio grows.",
-          "Building a scalable internationalization system using JSON dictionaries.",
-          "Managing complex component interactions such as project modals and screenshot carousels.",
-          "Balancing aesthetics, performance, accessibility, and responsiveness across different devices."
+          "JavaScriptからTypeScriptへの移行。",
+          "ポートフォリオの成長に合わせて、管理しやすい再利用可能なコンポーネントを設計すること。",
+          "JSONを使った拡張しやすい多言語対応システムの構築。",
+          "プロジェクトモーダルやスクリーンショットカルーセルなど、複雑なコンポーネントの管理。",
+          "デザイン、パフォーマンス、アクセシビリティ、レスポンシブデザインのバランスを取ること。"
         ],
 
         "lessons": [
-          "Strengthened my understanding of modern React, Next.js, and TypeScript development.",
-          "Learned the value of planning component architecture before implementation.",
-          "Developed practical experience building scalable multilingual applications.",
-          "Improved my frontend UI/UX design process through continuous iteration and refinement.",
-          "Realized that rebuilding a project from scratch can sometimes be more effective than continuously patching an existing codebase."
+          "React、Next.js、TypeScriptを使ったモダンな開発への理解を深めました。",
+          "実装する前にコンポーネント構成を考えることの大切さを学びました。",
+          "拡張しやすい多言語アプリケーションを開発する経験を積みました。",
+          "UI/UXデザインを何度も改善することで、より良い設計を学びました。",
+          "既存のコードを修正し続けるより、一から作り直した方が良い場合もあることを学びました。"
         ]
       }
     },
@@ -93,8 +93,8 @@
 
       "featured": false,
       "year": 2026,
-      "category": "Desktop Application",
-      "role": "Solo Developer",
+      "category": "PCアプリ",
+      "role": "個人開発者",
 
       "name": "TreeVisual",
 
@@ -155,12 +155,12 @@
 
       "featured": true,
       "year": 2025,
-      "category": "Hackathon",
-      "role": "Solo Developer",
+      "category": "ハッカソン",
+      "role": "個人開発者",
 
       "name": "Phish or Miss",
 
-      "description": "Hackathon project that teaches users to recognize phishing emails and messages through interactive gameplay in a safe learning environment.",
+      "description": "安全な環境で、ゲームを通してフィッシングメールやメッセージの見分け方を学べるハッカソンプロジェクトです。",
 
       "thumbnail": "/images/phishormiss0.png",
 
@@ -192,7 +192,7 @@
       },
 
       "details": {
-        "overview": "Phish or Miss is an educational web application developed during the NTUxBase3 Hackathon. The game challenges players to identify phishing emails and messages through realistic scenarios, helping them develop awareness of common social engineering techniques in an engaging and risk-free environment.",
+        "overview": "Phish or Missは、NTUxBase3ハッカソンで開発した教育用ゲームです。このゲームでは、プレイヤーは現実に近いシナリオを通して、フィッシングメールやメッセージの見分け方を学び、ソーシャルエンジニアリングへの理解を深めることができます。",
 
         "problem": "The hackathon required participants to build a solution using the Sogni SDK that addressed a real-world problem. Working as a solo developer, I had only five days to design, develop, test, and deploy a complete application while ensuring the gameplay remained educational and engaging.",
 
@@ -231,10 +231,10 @@
 
       "featured": false,
       "year": 2025,
-      "category": "Web Development",
-      "role": "Full Stack Developer",
+      "category": "ウェブ開発",
+      "role": "フルスタックエンジニア",
 
-      "name": "Legacy Portfolio Website",
+      "name": "旧ポートフォリオ",
 
       "description": "My first personal portfolio website built with React and deployed on AWS, marking my transition from Python-based web development to modern frontend development. This project ultimately inspired the complete redesign and redevelopment of my current portfolio using Next.js, TypeScript, and Tailwind CSS.",
 
@@ -364,10 +364,10 @@
 
       "featured": false,
       "year": 2024,
-      "category": "Web Development",
+      "category": "ウェブ開発",
       "role": "Scrum Team Lead",
 
-      "name": "Car Loaning System",
+      "name": "自動車ローンサイト",
 
       "description": "Web-based platform for managing the lifecycle of used car transactions with role-based access control.",
 

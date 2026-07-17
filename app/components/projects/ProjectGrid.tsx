@@ -7,11 +7,13 @@ type Project = typeof dictionaries.en.projects.list[number];
 
 type ProjectGridProps = {
     projects: Project[];
+    dict: typeof dictionaries.en.projects;
     onProjectClick: (project: Project) => void;
 };
 
 export default function ProjectGrid({
     projects,
+    dict,
     onProjectClick,
 }: ProjectGridProps) {
     return (
@@ -28,6 +30,7 @@ export default function ProjectGrid({
                 <ProjectCard
                     key={project.id}
                     project={project}
+                    dict={dict}
                     onClick={() => onProjectClick(project)}
                 />
             ))}

@@ -1,22 +1,22 @@
 {
-  "title": "Projects",
+  "title": "项目",
 
   "labels": {
-    "project_name": "Project",
-    "description": "Description",
-    "technologies": "Technologies",
-    "services": "Cloud & Services",
+    "project_name": "项目",
+    "description": "说明",
+    "technologies": "技术",
+    "services": "云服务",
     "github": "GitHub",
-    "demo": "Live Demo",
-    "download": "Download",
-    "view_details": "View Details",
+    "demo": "在线演示",
+    "download": "下载",
+    "view_details": "查看详情",
 
-    "overview": "Overview",
-    "problem": "Problem",
-    "solution": "Solution",
-    "features": "Key Features",
-    "challenges": "Challenges",
-    "lessons": "What I Learned"
+    "overview": "项目介绍",
+    "problem": "问题",
+    "solution": "解决方案",
+    "features": "主要功能",
+    "challenges": "挑战",
+    "lessons": "学习收获"
   },
 
   "list": [

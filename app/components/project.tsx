@@ -42,6 +42,7 @@ export default function Projects({dict}:ProjectProps) {
 
     <ProjectGrid
         projects={dict.list}
+        dict={dict}
         onProjectClick={setSelectedProject}
     />
 
