@@ -194,7 +194,7 @@
       "details": {
         "overview": "Phish or Miss adalah aplikasi web edukatif yang dikembangkan dalam NTUxBase Web3 Hackathon. Permainan ini menantang pemain untuk mengidentifikasi email dan pesan phishing melalui skenario yang realistis, sehingga membantu mereka memahami berbagai teknik social engineering dengan cara yang menarik dan bebas risiko.",
 
-        "problem": "Hackathon ini mengharuskan peserta membangun sebuah solusi menggunakan Sogni SDK untuk menyelesaikan permasalahan di dunia nyata. Sebagai Solo Developer, saya hanya memiliki waktu lima hari untuk merancang, mengembangkan, menguji, dan melakukan deployment aplikasi secara menyeluruh, sambil memastikan pengalaman bermain tetap edukatif dan menarik.",
+        "problem": "Hackathon ini menantang peserta untuk membangun solusi nyata menggunakan Sogni SDK. Meskipun Generative AI memiliki potensi besar untuk menyelesaikan berbagai masalah kreatif, banyak pengguna masih kesulitan mengakses pengalaman AI berkualitas tinggi di luar platform yang terpusat dan berbayar.",
 
         "solution": "Saya mengembangkan permainan berbasis web yang menyajikan berbagai skenario email dan pesan yang realistis, sehingga pengguna dapat membedakan komunikasi yang sah dari upaya phishing. Umpan balik yang diberikan secara langsung membantu memperkuat pemahaman mengenai keamanan siber sekaligus menjaga proses belajar tetap menarik.",
 

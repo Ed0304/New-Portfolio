@@ -90,15 +90,14 @@
 
     {
       "id": "treevisual",
-
       "featured": false,
       "year": 2026,
-      "category": "PCアプリ",
+      "category": "デスクトップアプリ",
       "role": "個人開発者",
 
       "name": "TreeVisual",
 
-      "description": "Offline desktop application that visualizes binary tree operations to help students learn Data Structures and Algorithms.",
+      "description": "学生がデータ構造とアルゴリズムを学ぶために、二分木の操作を可視化するオフラインデスクトップアプリです。",
 
       "thumbnail": "/images/treevisual1.png",
 
@@ -120,32 +119,32 @@
       },
 
       "details": {
-        "overview": "TreeVisual is a lightweight desktop application designed to help students understand binary trees through interactive visualization. Built with PySide6, it provides an offline learning environment for practicing common binary tree operations without requiring an internet connection.",
+        "overview": "PySide6で開発した、インターネット接続がなくても利用できるオフラインデスクトップアプリです。二分木を可視化することで、学生がデータ構造とアルゴリズムを理解しやすくなります。",
 
-        "problem": "Many binary tree visualizers available online require an internet connection or provide limited interactivity. In addition, developing the application required learning PySide6, a GUI framework that I had not previously worked with, while designing an intuitive educational interface.",
+        "problem": "多くのオンライン二分木ビジュアライザーは、インターネット接続が必要だったり、操作しにくかったりするという課題がありました。また、私はPySide6を使った開発経験がなかったため、新しいGUIフレームワークを学ぶ必要もありました。",
 
-        "solution": "Developed a lightweight offline desktop application that enables users to interactively visualize binary tree operations. The application focuses on simplicity, responsiveness, and accessibility, making it suitable for students learning Data Structures and Algorithms.",
+        "solution": "インターネット接続がなくても利用できる軽量なデスクトップアプリを開発しました。シンプルで快適に操作できるよう設計し、データ構造とアルゴリズムを学ぶ学生が二分木を視覚的に理解しやすいアプリを目指しました。",
 
         "features": [
-          "🌳 Interactive visualization of binary tree structures.",
-          "➕ Insert new nodes dynamically.",
-          "❌ Delete existing nodes while updating the visualization.",
-          "🔍 Search for nodes within the tree.",
-          "🔄 Visualize tree traversals (Preorder, Inorder, and Postorder).",
-          "💻 Fully offline desktop application with no internet dependency."
+          "🌳 二分木の構造をインタラクティブに可視化",
+          "➕ ノードを追加",
+          "❌ ノードを削除し、ツリーを自動更新",
+          "🔍 ノードを検索",
+          "🔄 Preorder・Inorder・Postorder の走査を可視化",
+          "💻 インターネット接続不要のオフラインデスクトップアプリ"
         ],
 
         "challenges": [
-          "Ensuring insertion, deletion, and traversal algorithms behaved correctly across different tree structures.",
-          "Synchronizing the graphical visualization with the underlying binary tree data structure.",
-          "Learning PySide6 while developing a responsive and intuitive desktop user interface."
+          "異なる二分木構造でも、挿入・削除・走査アルゴリズムが正しく動作するよう実装しました。",
+          "二分木のデータ構造とGUIの表示を同期させました。",
+          "PySide6を学びながら、分かりやすく操作しやすいデスクトップUIを設計しました。"
         ],
 
         "lessons": [
-          "Learned desktop application development using the PySide6 framework.",
-          "Strengthened my understanding of binary tree algorithms and data structures.",
-          "Improved my ability to design educational software with a clear and intuitive user experience.",
-          "Gained experience translating algorithmic concepts into interactive visualizations."
+          "PySide6を使ったデスクトップアプリ開発を学びました。",
+          "二分木アルゴリズムとデータ構造への理解を深めました。",
+          "教育向けソフトウェアのUI設計について経験を積みました。",
+          "アルゴリズムをインタラクティブな可視化として実装する方法を学びました。"
         ]
       }
     },
@@ -194,30 +193,29 @@
       "details": {
         "overview": "Phish or Missは、NTUxBase3ハッカソンで開発した教育用ゲームです。このゲームでは、プレイヤーは現実に近いシナリオを通して、フィッシングメールやメッセージの見分け方を学び、ソーシャルエンジニアリングへの理解を深めることができます。",
 
-        "problem": "The hackathon required participants to build a solution using the Sogni SDK that addressed a real-world problem. Working as a solo developer, I had only five days to design, develop, test, and deploy a complete application while ensuring the gameplay remained educational and engaging.",
+        "problem": "このハッカソンでは、Sogni SDKを使って実際の課題を解決するアプリを作ることが求められました。生成AIはいろいろなことができますが、多くのユーザーは、有料サービス以外で教育的で楽しいAI体験を利用することがまだ難しいという問題があります。",
 
-        "solution": "I developed an interactive web-based game that presents users with realistic email and messaging scenarios, encouraging them to distinguish legitimate communications from phishing attempts. Immediate feedback helps reinforce cybersecurity awareness while keeping the learning experience engaging.",
-
+        "solution": "現実に近いメールやメッセージを使ったWebゲームを開発しました。ユーザーは正規のメールとフィッシングメールを見分ける練習ができ、すぐにフィードバックを受けながら、サイバーセキュリティを楽しく学べます。",
         "features": [
-          "📧 Interactive phishing email detection game.",
-          "💬 Simulated phishing message scenarios inspired by real-world attacks.",
-          "✅ Immediate feedback with explanations after each decision.",
-          "🎮 Gamified learning experience designed to improve cybersecurity awareness.",
-          "☁️ Cloud-hosted application deployed using AWS EC2."
+          "📧 フィッシングメールを見分けるインタラクティブなWebゲーム",
+          "💬 実際の攻撃を参考にしたフィッシングメッセージのシナリオ",
+          "✅ 選択後にすぐフィードバックと解説を表示",
+          "🎮 サイバーセキュリティへの理解を深めるゲーム形式の学習",
+          "☁️ AWS EC2を使用してクラウドへデプロイ"
         ],
 
         "challenges": [
-          "Designing phishing scenarios that realistically reflected modern social engineering attacks.",
-          "Completing the entire project independently within the five-day hackathon deadline.",
-          "Integrating the Sogni SDK into a cohesive web application.",
-          "Balancing educational value with engaging gameplay."
+          "実際のソーシャルエンジニアリング攻撃を参考に、現実的なフィッシングシナリオを作成しました。",
+          "5日間のハッカソン期間内に、プロジェクト全体を一人で完成させました。",
+          "Sogni SDKをWebアプリケーションに統合しました。",
+          "教育的な内容と楽しさのバランスを取るよう工夫しました。"
         ],
 
         "lessons": [
-          "Developed a deeper understanding of how social engineering exploits human psychology rather than technical vulnerabilities.",
-          "Strengthened rapid prototyping and time management skills under hackathon constraints.",
-          "Gained experience integrating third-party SDKs into a full-stack web application.",
-          "Learned the importance of clear user feedback when designing educational cybersecurity tools."
+          "ソーシャルエンジニアリングは技術的な脆弱性だけでなく、人の心理も悪用することを深く学びました。",
+          "ハッカソンを通して、短期間で開発を進める力と時間管理能力を身につけました。",
+          "サードパーティ製SDKをWebアプリケーションへ統合する経験を積みました。",
+          "教育向けサイバーセキュリティツールでは、分かりやすいフィードバックが重要であることを学びました。"
         ]
       },
 
@@ -236,7 +234,7 @@
 
       "name": "旧ポートフォリオ",
 
-      "description": "My first personal portfolio website built with React and deployed on AWS, marking my transition from Python-based web development to modern frontend development. This project ultimately inspired the complete redesign and redevelopment of my current portfolio using Next.js, TypeScript, and Tailwind CSS.",
+      "description": "PythonからReactへ移行し、AWSでデプロイした旧ポートフォリオサイト。AWS無料利用枠の終了をきっかけに、現在のNext.js・TypeScript・Tailwind CSSを採用した新しいポートフォリオへ全面的に作り直した。",
 
       "thumbnail": "/images/portfolio.png",
 
@@ -263,32 +261,32 @@
       },
 
       "details": {
-        "overview": "My first portfolio website designed to showcase my projects and technical skills. The project marked my transition from Python-based web development to React while introducing me to cloud deployment using AWS services.",
+        "overview": "プロジェクトや技術スキルを紹介するために初めて制作した個人ポートフォリオサイト。このプロジェクトを通して、Pythonを使ったWeb開発からReactへ移行し、AWSを使ったクラウドデプロイも経験した。",
 
-        "problem": "The original portfolio was hosted on Render using Flask. While functional, Render's free tier required visitors to wait for the application to wake up, resulting in a poor user experience. At the same time, I wanted practical experience with AWS while preparing for the AWS Certified Cloud Practitioner certification.",
+        "problem": "最初のポートフォリオはFlaskで開発し、Renderで公開していた。しかし、無料プランではアクセスするとアプリが起動するまで待つ必要があり、使いやすいとは言えなかった。また、AWS Certified Cloud Practitionerの勉強をしながら、AWSを実際に使って学びたいと思った。",
 
-        "solution": "Rebuilt the frontend using React and migrated the deployment to AWS using Amazon S3 for static hosting and CloudFront as a global CDN. This significantly improved loading times and provided hands-on experience with modern frontend deployment.",
+        "solution": "フロントエンドをReactで作り直し、Amazon S3とCloudFrontを使ってデプロイした。これにより、Webサイトの表示速度が速くなり、AWSを使ったWebサイトの公開方法も学ぶことができた。",
 
         "features": [
-          "🌐 Responsive portfolio website.",
-          "📁 Project showcase section.",
-          "👨‍💻 About Me section.",
-          "📞 Contact information.",
-          "☁️ Static website deployment using AWS S3 and CloudFront."
+          "🌐 レスポンシブ対応のポートフォリオサイト",
+          "📁 プロジェクト一覧",
+          "👨‍💻 自己紹介ページ",
+          "📞 お問い合わせ情報",
+          "☁️ Amazon S3とCloudFrontを使った静的Webサイトの公開"
         ],
 
         "challenges": [
-          "Learning React after previously developing primarily with Flask.",
-          "Migrating from a server-rendered architecture to a client-side React application.",
-          "Configuring AWS S3 and CloudFront for static website hosting.",
-          "Designing a portfolio that balanced simplicity with professionalism."
+          "FlaskからReactへ移行すること",
+          "Reactの新しい開発方法を学ぶこと",
+          "Amazon S3とCloudFrontの設定",
+          "シンプルで見やすいポートフォリオを作ること"
         ],
 
         "lessons": [
-          "Built a strong foundation in React component-based development.",
-          "Gained practical experience deploying static web applications on AWS.",
-          "Learned how CDN-based deployment improves website performance.",
-          "Established the foundation and design principles that inspired my current portfolio."
+          "Reactの基本的な開発方法を学んだ",
+          "AWSを使った静的Webサイトの公開を経験した",
+          "CloudFrontでWebサイトを速くできることを学んだ",
+          "現在のポートフォリオにつながる大切な経験になった"
         ]
       }
     },
@@ -298,12 +296,12 @@
 
       "featured": true,
       "year": 2025,
-      "category": "Neural Networks",
-      "role": "Team Leader",
+      "category": "ニューラルネットワーク",
+      "role": "チームリーダー",
 
       "name": "AI-NTeractive",
 
-      "description": "Final Year Project that leverages neural networks and facial animation technology to create a more engaging learning experience.",
+      "description": "より楽しく学べる学習体験を実現するために、ニューラルネットワークと顔アニメーション技術を活用した卒業制作。",
 
       "thumbnail": "/images/ai-nteractive.png",
 
@@ -329,32 +327,32 @@
       },
 
       "details": {
-        "overview": "AI-NTeractive is an AI-powered Learning Management System (LMS) developed as our Final Year Project. The platform integrates neural networks and facial animation technology to make online learning more engaging through interactive, animated educational content.",
+        "overview": "AI-NTeractiveは、卒業制作として開発したAIを使った学習管理システム（LMS）である。ニューラルネットワークと顔アニメーション技術を使い、オンライン学習をもっと楽しく、分かりやすくすることを目指した。",
 
-        "problem": "Traditional Learning Management Systems often rely on static text and videos, which can reduce student engagement. Our challenge was to integrate SadTalker facial animation technology into a practical educational platform while ensuring the system remained intuitive, scalable, and useful for both students and educators.",
+        "problem": "多くの学習管理システム（LMS）は文字や動画が中心のため、学生の興味を保つことが難しい場合がある。そこで、SadTalkerの顔アニメーション技術を教育システムに組み込み、学生と先生の両方が使いやすいシステムを作ることを目標にした。",
 
-        "solution": "We designed and developed an AI-enhanced LMS that combines conventional learning management features with AI-generated facial animations. As Team Leader, I coordinated development, delegated tasks, managed project milestones, and ensured successful integration between the web platform, database, and AI services.",
+        "solution": "通常のLMS機能に加えて、AIによる顔アニメーション機能を持つシステムを開発した。私はチームリーダーとして、開発の進行管理、メンバーへの作業分担、Webアプリケーション・データベース・AIサービスの連携を担当した。",
 
         "features": [
-          "💬 Face-Animated AI Assistant – Provides personalized responses using expressive facial animations.",
-          "🎬 Video Creation Studio – Allows educators to generate AI-assisted educational videos.",
-          "🏫 Interactive Classroom – Centralizes animated learning materials to improve engagement.",
-          "👥 User Authentication – Secure login and role-based access for students and instructors.",
-          "☁️ Cloud Deployment – Hosted using Google Cloud services."
+          "💬 顔アニメーション付きAIアシスタント",
+          "🎬 AIを使った教育動画作成",
+          "🏫 アニメーション教材を使ったオンライン教室",
+          "👥 学生・教師向けログイン機能",
+          "☁️ Google Cloudを利用したクラウド公開"
         ],
 
         "challenges": [
-          "Integrating SadTalker with the web application while maintaining acceptable response times.",
-          "Coordinating development across a five-member multidisciplinary team.",
-          "Balancing AI processing workloads with overall application performance.",
-          "Ensuring generated animations remained relevant and suitable for educational use."
+          "SadTalkerをWebアプリケーションに組み込むこと",
+          "5人チームで開発を進めること",
+          "AIの処理速度とシステム全体の性能を両立すること",
+          "教育に合ったアニメーションを作ること"
         ],
 
         "lessons": [
-          "Learned how to integrate AI services into a production-oriented web application.",
-          "Strengthened leadership and project management skills by coordinating a five-member team.",
-          "Gained experience deploying and maintaining cloud-based applications.",
-          "Developed a deeper understanding of machine learning integration within full-stack systems."
+          "AIサービスをWebアプリケーションへ組み込む方法を学んだ",
+          "5人チームのリーダーとして開発を進める経験を得た",
+          "Google Cloudを使ったシステムの公開を経験した",
+          "AIとWebシステムを組み合わせる方法について理解を深めた"
         ]
       }
     },
@@ -369,7 +367,7 @@
 
       "name": "自動車ローンサイト",
 
-      "description": "Web-based platform for managing the lifecycle of used car transactions with role-based access control.",
+      "description": "ロールベースアクセス制御（RBAC）を採用し、中古車取引のライフサイクル全体を管理するWebシステム。",
 
       "thumbnail": "/images/csit314-project.png",
 
@@ -390,35 +388,34 @@
       },
 
       "details": {
-      "overview": "A web-based platform developed to manage the complete lifecycle of used car transactions. The system supports multiple user roles—including administrators, agents, buyers, and sellers—with role-based access control and dedicated workflows for each user type.",
+        "overview": "中古車取引の流れ全体を管理するために開発したWebシステムである。管理者、営業担当者、購入者、販売者など、ユーザーごとに異なる権限を設定し、それぞれに合った機能を提供した。",
 
-      "problem": "The project was required to follow the Boundary-Control-Entity (BCE) architectural pattern as part of the course requirements. As Scrum Team Lead, I was also responsible for coordinating a seven-member team with varying technical backgrounds while ensuring consistent code quality and up-to-date project documentation.",
+        "problem": "授業の要件としてBoundary-Control-Entity（BCE）アーキテクチャに従って開発を行った。また、Scrumチームリーダーとして、7人のチームをまとめ、コード品質の管理とプロジェクトドキュメントの更新を担当した。",
 
-      "solution": "Adopted the Scrum framework with regular sprint planning, stand-up meetings, and task allocation to organize development. Responsibilities were divided according to each member's strengths, while continuous reviews ensured compliance with the BCE architecture and project milestones.",
+        "solution": "Scrum開発手法を採用し、スプリント計画、毎日のミーティング、タスク管理を行った。メンバーの得意分野に合わせて作業を分担し、BCEアーキテクチャに沿って開発を進めた。",
 
-      "features": [
-        "🛠️ Administrator Dashboard – Manage user accounts and system administration.",
-        "🚗 Agent Dashboard – Create, update, and manage vehicle listings while reviewing buyer feedback.",
-        "👤 Buyer Portal – Browse available vehicles, submit reviews, and manage purchase requests.",
-        "🧾 Seller Portal – Submit vehicle information through agents and monitor customer feedback.",
-        "🔐 Role-Based Access Control – Different interfaces and permissions for each user role."
-      ],
+        "features": [
+          "🛠️ 管理者ダッシュボード",
+          "🚗 営業担当者向け車両管理",
+          "👤 購入者向け車両検索とレビュー",
+          "🧾 販売者向け車両登録",
+          "🔐 ロールベースアクセス制御（RBAC）"
+        ],
 
-      "challenges": [
-        "Designing the application to comply with the Boundary-Control-Entity (BCE) architecture.",
-        "Coordinating development across a seven-member Scrum team with different skill levels.",
-        "Maintaining consistent documentation alongside rapid feature development.",
-        "Integrating multiple user workflows into a cohesive system."
-      ],
+        "challenges": [
+          "Boundary-Control-Entity（BCE）アーキテクチャに従って設計すること",
+          "7人のScrumチームで開発を進めること",
+          "開発と同時にドキュメントを更新し続けること",
+          "複数のユーザー向け機能を一つのシステムにまとめること"
+        ],
 
-      "lessons": [
-        "Gained practical experience leading a Scrum team through a complete software development lifecycle.",
-        "Learned how software architecture decisions influence maintainability and scalability.",
-        "Improved communication, task delegation, and project planning skills.",
-        "Developed a stronger appreciation for documentation as part of professional software engineering."
-      ]
-
-    }
+        "lessons": [
+          "Scrumチームをまとめる経験を得た",
+          "ソフトウェアアーキテクチャの大切さを学んだ",
+          "コミュニケーションとタスク管理の力を伸ばした",
+          "ドキュメント管理の重要性を理解した"
+        ]
+      }
 
     }
   ]
