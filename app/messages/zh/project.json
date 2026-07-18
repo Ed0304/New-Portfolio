@@ -28,9 +28,9 @@
       "category": "Web Development",
       "role": "Full Stack Developer",
 
-      "name": "Portfolio Website",
+      "name": "个人作品集网站",
 
-      "description": "Modern multilingual portfolio website built with Next.js and TypeScript to showcase my projects, technical skills, and professional journey.",
+      "description": "这是我重新设计并开发的个人作品集网站，采用 Next.js、React、TypeScript 和 Tailwind CSS 构建。网站不仅展示我的项目和技术能力，也体现了现代前端开发实践，包括可复用组件、多语言支持、响应式设计、深色模式以及交互式项目展示。",
 
       "thumbnail": "/images/newportfolio.png",
 
@@ -53,52 +53,54 @@
         "download": null
       },
 
+      
       "details": {
-        "overview": "A complete redesign of my original portfolio, developed using Next.js, React, TypeScript, and Tailwind CSS. The website serves as both a professional portfolio and a demonstration of modern frontend engineering practices, featuring reusable components, multilingual support, responsive layouts, dark mode, and interactive project showcases.",
+        "overview": "这是我重新设计并开发的个人作品集网站，采用 Next.js、React、TypeScript 和 Tailwind CSS 构建。网站不仅展示我的项目和技术能力，也体现了现代前端开发实践，包括可复用组件、多语言支持、响应式设计、深色模式以及交互式项目展示。",
 
-        "problem": "My previous portfolio reached the end of the AWS Free Tier. Rather than simply migrating the existing website, I took the opportunity to evaluate its architecture and user experience. I realized there were several aspects that could be improved, including maintainability, scalability, multilingual support, responsiveness, and the way projects were presented to recruiters.",
+        "problem": "由于旧版作品集部署在 AWS Free Tier，而免费额度已到期，我决定重新设计整个网站，而不是直接迁移。我希望改善系统架构、代码可维护性、多语言支持、响应式设计，以及项目展示方式，让招聘人员能够更方便地了解我的作品。",
 
-        "solution": "I rebuilt the portfolio from scratch using Next.js App Router, React, TypeScript, and Tailwind CSS. The new architecture emphasizes reusable components, JSON-driven localization, responsive design, and interactive project modals with screenshot carousels. The result is a cleaner, more maintainable codebase that can continue evolving alongside my skills and future projects.",
+        "solution": "我使用 Next.js App Router、React、TypeScript 和 Tailwind CSS 从零开始重构整个作品集。新的架构采用可复用组件、基于 JSON 的多语言系统、响应式设计，以及带有截图轮播功能的项目详情窗口，使代码更加清晰、易于维护，并能够随着未来项目持续扩展。",
 
         "features": [
-          "🌍 Multilingual interface supporting English, Indonesian, Japanese, and Chinese.",
-          "🌙 Light and dark mode with system preference detection.",
-          "📱 Responsive design optimized for desktop, tablet, and mobile devices.",
-          "🗂️ Interactive project cards with detailed project modals.",
-          "🖼️ Screenshot carousel for showcasing project interfaces.",
-          "⚡ JSON-based content management for scalable localization.",
-          "🎨 Modern UI built with reusable React components and Tailwind CSS."
+          "🌍 支持英语、印尼语、日语和中文四种语言。",
+          "🌙 支持浅色、深色主题，并可跟随系统设置自动切换。",
+          "📱 响应式设计，适用于桌面、平板和移动设备。",
+          "🗂️ 交互式项目卡片与详细项目展示。",
+          "🖼️ 项目截图轮播展示。",
+          "⚡ 基于 JSON 的内容管理，方便扩展多语言。",
+          "🎨 使用 React 可复用组件与 Tailwind CSS 构建现代化界面。"
         ],
 
         "challenges": [
-          "Migrating from JavaScript to a fully TypeScript-based codebase.",
-          "Designing reusable components that remain maintainable as the portfolio grows.",
-          "Building a scalable internationalization system using JSON dictionaries.",
-          "Managing complex component interactions such as project modals and screenshot carousels.",
-          "Balancing aesthetics, performance, accessibility, and responsiveness across different devices."
+          "将整个项目从 JavaScript 迁移到 TypeScript。",
+          "设计可复用且易于维护的组件架构。",
+          "建立可扩展的多语言系统。",
+          "实现项目详情窗口与截图轮播等复杂交互功能。",
+          "在美观、性能、响应式设计与可访问性之间取得平衡。"
         ],
 
         "lessons": [
-          "Strengthened my understanding of modern React, Next.js, and TypeScript development.",
-          "Learned the value of planning component architecture before implementation.",
-          "Developed practical experience building scalable multilingual applications.",
-          "Improved my frontend UI/UX design process through continuous iteration and refinement.",
-          "Realized that rebuilding a project from scratch can sometimes be more effective than continuously patching an existing codebase."
+          "进一步提升了我对 React、Next.js 和 TypeScript 的理解。",
+          "体会到在开发前规划组件架构的重要性。",
+          "积累了开发大型多语言网站的实践经验。",
+          "通过不断优化，提高了我的前端 UI/UX 设计能力。",
+          "认识到在某些情况下，重构整个项目比持续修补旧系统更加高效。"
         ]
-      }
-    },
+  
+          }
+        },
 
-    {
+        {
       "id": "treevisual",
 
       "featured": false,
       "year": 2026,
-      "category": "Desktop Application",
-      "role": "Solo Developer",
+      "category": "桌面应用程序",
+      "role": "独立开发者",
 
       "name": "TreeVisual",
 
-      "description": "Offline desktop application that visualizes binary tree operations to help students learn Data Structures and Algorithms.",
+      "description": "一款离线桌面应用程序，通过可视化二叉树操作帮助学生学习数据结构与算法。",
 
       "thumbnail": "/images/treevisual1.png",
 
@@ -120,32 +122,32 @@
       },
 
       "details": {
-        "overview": "TreeVisual is a lightweight desktop application designed to help students understand binary trees through interactive visualization. Built with PySide6, it provides an offline learning environment for practicing common binary tree operations without requiring an internet connection.",
+        "overview": "TreeVisual 是一款轻量级桌面应用程序，帮助学生通过交互式可视化学习二叉树。该应用基于 PySide6 开发，无需联网即可练习常见的二叉树操作，为学习数据结构与算法提供方便的学习环境。",
 
-        "problem": "Many binary tree visualizers available online require an internet connection or provide limited interactivity. In addition, developing the application required learning PySide6, a GUI framework that I had not previously worked with, while designing an intuitive educational interface.",
+        "problem": "许多在线二叉树可视化工具需要连接互联网，或者缺乏足够的交互功能。此外，在开发过程中，我还需要学习之前从未使用过的 PySide6 框架，并设计一个简单、直观的教学界面。",
 
-        "solution": "Developed a lightweight offline desktop application that enables users to interactively visualize binary tree operations. The application focuses on simplicity, responsiveness, and accessibility, making it suitable for students learning Data Structures and Algorithms.",
+        "solution": "我开发了一款轻量级离线桌面应用，使用户能够交互式地学习和操作二叉树。整个应用注重简单性、响应速度和易用性，非常适合学习数据结构与算法的学生。",
 
         "features": [
-          "🌳 Interactive visualization of binary tree structures.",
-          "➕ Insert new nodes dynamically.",
-          "❌ Delete existing nodes while updating the visualization.",
-          "🔍 Search for nodes within the tree.",
-          "🔄 Visualize tree traversals (Preorder, Inorder, and Postorder).",
-          "💻 Fully offline desktop application with no internet dependency."
+          "🌳 交互式二叉树可视化。",
+          "➕ 动态插入新节点。",
+          "❌ 删除节点并自动更新树结构。",
+          "🔍 搜索二叉树中的节点。",
+          "🔄 演示前序、中序和后序遍历。",
+          "💻 完全离线运行，无需互联网连接。"
         ],
 
         "challenges": [
-          "Ensuring insertion, deletion, and traversal algorithms behaved correctly across different tree structures.",
-          "Synchronizing the graphical visualization with the underlying binary tree data structure.",
-          "Learning PySide6 while developing a responsive and intuitive desktop user interface."
+          "确保插入、删除和遍历算法在不同树结构下都能正确运行。",
+          "保持图形可视化与底层二叉树数据结构同步。",
+          "在学习 PySide6 的同时开发响应迅速且易于使用的桌面界面。"
         ],
 
         "lessons": [
-          "Learned desktop application development using the PySide6 framework.",
-          "Strengthened my understanding of binary tree algorithms and data structures.",
-          "Improved my ability to design educational software with a clear and intuitive user experience.",
-          "Gained experience translating algorithmic concepts into interactive visualizations."
+          "学习了使用 PySide6 开发桌面应用程序。",
+          "进一步加深了对二叉树算法和数据结构的理解。",
+          "提高了设计教学软件和用户体验的能力。",
+          "积累了将算法概念转化为交互式可视化工具的实践经验。"
         ]
       }
     },
@@ -155,12 +157,12 @@
 
       "featured": true,
       "year": 2025,
-      "category": "Hackathon",
-      "role": "Solo Developer",
+      "category": "黑客马拉松",
+      "role": "独立开发者",
 
       "name": "Phish or Miss",
 
-      "description": "Hackathon project that teaches users to recognize phishing emails and messages through interactive gameplay in a safe learning environment.",
+      "description": "一款黑客马拉松项目，通过互动游戏帮助用户学习识别钓鱼邮件和诈骗信息，提高网络安全意识。",
 
       "thumbnail": "/images/phishormiss0.png",
 
@@ -192,34 +194,35 @@
       },
 
       "details": {
-        "overview": "Phish or Miss is an educational web application developed during the NTUxBase3 Hackathon. The game challenges players to identify phishing emails and messages through realistic scenarios, helping them develop awareness of common social engineering techniques in an engaging and risk-free environment.",
+        "overview": "Phish or Miss 是我在 NTUxBase3 Hackathon 期间开发的教育网页应用。游戏通过真实的钓鱼邮件和诈骗信息情境，让玩家学习识别常见的社会工程攻击，在安全且有趣的环境中提升网络安全意识。",
 
-        "problem": "The hackathon required participants to build a solution using the Sogni SDK that addressed a real-world problem. Working as a solo developer, I had only five days to design, develop, test, and deploy a complete application while ensuring the gameplay remained educational and engaging.",
+        "problem": "比赛要求参赛者使用 Sogni SDK 开发一个能够解决现实问题的应用。作为独立开发者，我需要在五天内完成设计、开发、测试和部署，同时确保游戏既具有教育意义，又能保持趣味性。",
 
-        "solution": "I developed an interactive web-based game that presents users with realistic email and messaging scenarios, encouraging them to distinguish legitimate communications from phishing attempts. Immediate feedback helps reinforce cybersecurity awareness while keeping the learning experience engaging.",
+        "solution": "我开发了一款互动式网页游戏，通过真实的邮件和聊天情境，引导用户分辨正常信息与钓鱼攻击。系统会在每次选择后立即提供反馈和说明，帮助用户学习网络安全知识。",
 
         "features": [
-          "📧 Interactive phishing email detection game.",
-          "💬 Simulated phishing message scenarios inspired by real-world attacks.",
-          "✅ Immediate feedback with explanations after each decision.",
-          "🎮 Gamified learning experience designed to improve cybersecurity awareness.",
-          "☁️ Cloud-hosted application deployed using AWS EC2."
+          "📧 互动式钓鱼邮件识别游戏。",
+          "💬 模拟真实社会工程攻击的诈骗信息情境。",
+          "✅ 每次选择后立即提供反馈与说明。",
+          "🎮 结合游戏化学习，提高网络安全意识。",
+          "☁️ 部署于 AWS EC2 的云端应用。"
         ],
 
         "challenges": [
-          "Designing phishing scenarios that realistically reflected modern social engineering attacks.",
-          "Completing the entire project independently within the five-day hackathon deadline.",
-          "Integrating the Sogni SDK into a cohesive web application.",
-          "Balancing educational value with engaging gameplay."
+          "设计符合真实社会工程攻击的钓鱼情境。",
+          "在五天的黑客马拉松期间独立完成整个项目。",
+          "将 Sogni SDK 整合到完整的网页应用中。",
+          "兼顾教育价值与游戏体验。"
         ],
 
         "lessons": [
-          "Developed a deeper understanding of how social engineering exploits human psychology rather than technical vulnerabilities.",
-          "Strengthened rapid prototyping and time management skills under hackathon constraints.",
-          "Gained experience integrating third-party SDKs into a full-stack web application.",
-          "Learned the importance of clear user feedback when designing educational cybersecurity tools."
+          "更深入理解社会工程攻击主要利用的是人类心理，而非系统漏洞。",
+          "提升了在黑客马拉松环境下快速开发与时间管理的能力。",
+          "积累了将第三方 SDK 整合到全栈网页应用中的实践经验。",
+          "认识到即时反馈对于网络安全教育工具的重要性。"
         ]
       },
+    
 
       "event": {
         "name": "NTUxBase Web3 Hackathon",
@@ -231,12 +234,12 @@
 
       "featured": false,
       "year": 2025,
-      "category": "Web Development",
-      "role": "Full Stack Developer",
+      "category": "网页开发",
+      "role": "全栈开发者",
 
-      "name": "Legacy Portfolio Website",
+      "name": "旧版作品集网站",
 
-      "description": "My first personal portfolio website built with React and deployed on AWS, marking my transition from Python-based web development to modern frontend development. This project ultimately inspired the complete redesign and redevelopment of my current portfolio using Next.js, TypeScript, and Tailwind CSS.",
+      "description": "我的第一个个人作品集网站，使用 React 开发并部署于 AWS。这是我从基于 Python 的网页开发转向现代前端开发的重要里程碑，也为后来使用 Next.js、TypeScript 和 Tailwind CSS 重新设计当前作品集奠定了基础。",
 
       "thumbnail": "/images/portfolio.png",
 
@@ -263,32 +266,32 @@
       },
 
       "details": {
-        "overview": "My first portfolio website designed to showcase my projects and technical skills. The project marked my transition from Python-based web development to React while introducing me to cloud deployment using AWS services.",
+        "overview": "这是我的第一个个人作品集网站，用于展示我的项目和技术能力。这个项目标志着我从基于 Python 的网页开发转向 React，同时让我开始接触使用 AWS 进行云端部署。",
 
-        "problem": "The original portfolio was hosted on Render using Flask. While functional, Render's free tier required visitors to wait for the application to wake up, resulting in a poor user experience. At the same time, I wanted practical experience with AWS while preparing for the AWS Certified Cloud Practitioner certification.",
+        "problem": "最初的网站使用 Flask 开发，并部署在 Render 上。虽然能够正常运行，但由于 Render 免费方案会让应用进入休眠状态，访客首次访问时需要等待应用启动，影响了用户体验。同时，我也希望在准备 AWS Certified Cloud Practitioner 认证期间，积累 AWS 的实际使用经验。",
 
-        "solution": "Rebuilt the frontend using React and migrated the deployment to AWS using Amazon S3 for static hosting and CloudFront as a global CDN. This significantly improved loading times and provided hands-on experience with modern frontend deployment.",
+        "solution": "我使用 React 重构了前端，并将网站迁移到 AWS，利用 Amazon S3 提供静态网站托管，并通过 CloudFront 作为全球 CDN 进行内容分发。这不仅显著提升了网站加载速度，也让我获得了现代前端部署的实践经验。",
 
         "features": [
-          "🌐 Responsive portfolio website.",
-          "📁 Project showcase section.",
-          "👨‍💻 About Me section.",
-          "📞 Contact information.",
-          "☁️ Static website deployment using AWS S3 and CloudFront."
+          "🌐 响应式个人作品集网站。",
+          "📁 项目展示页面。",
+          "👨‍💻 关于我页面。",
+          "📞 联系方式页面。",
+          "☁️ 使用 AWS S3 与 CloudFront 部署静态网站。"
         ],
 
         "challenges": [
-          "Learning React after previously developing primarily with Flask.",
-          "Migrating from a server-rendered architecture to a client-side React application.",
-          "Configuring AWS S3 and CloudFront for static website hosting.",
-          "Designing a portfolio that balanced simplicity with professionalism."
+          "在主要使用 Flask 开发之后学习 React。",
+          "将服务器端渲染架构迁移到 React 客户端应用。",
+          "配置 AWS S3 和 CloudFront 进行静态网站部署。",
+          "设计一个兼顾简洁性与专业性的个人作品集网站。"
         ],
 
         "lessons": [
-          "Built a strong foundation in React component-based development.",
-          "Gained practical experience deploying static web applications on AWS.",
-          "Learned how CDN-based deployment improves website performance.",
-          "Established the foundation and design principles that inspired my current portfolio."
+          "建立了 React 组件化开发的扎实基础。",
+          "积累了在 AWS 上部署静态网页应用的实践经验。",
+          "学习了基于 CDN 的部署如何提升网站性能。",
+          "为我当前作品集的网站设计与开发理念奠定了基础。"
         ]
       }
     },
@@ -298,16 +301,21 @@
 
       "featured": true,
       "year": 2025,
-      "category": "Neural Networks",
-      "role": "Team Leader",
+      "category": "神经网络",
+      "role": "团队负责人",
 
       "name": "AI-NTeractive",
 
-      "description": "Final Year Project that leverages neural networks and facial animation technology to create a more engaging learning experience.",
+      "description": "毕业设计项目，结合神经网络与人脸动画技术，为在线学习打造更具互动性的学习体验。",
 
       "thumbnail": "/images/ai-nteractive.png",
 
-      "screenshots": ["/images/ai-nteractive.png","/images/fyp1.jpg","/images/fyp2.jpg","/images/fyp3.jpg"],
+      "screenshots": [
+        "/images/ai-nteractive.png",
+        "/images/fyp1.jpg",
+        "/images/fyp2.jpg",
+        "/images/fyp3.jpg"
+      ],
 
       "technologies": [
         "Python",
@@ -329,32 +337,32 @@
       },
 
       "details": {
-        "overview": "AI-NTeractive is an AI-powered Learning Management System (LMS) developed as our Final Year Project. The platform integrates neural networks and facial animation technology to make online learning more engaging through interactive, animated educational content.",
+        "overview": "AI-NTeractive 是我们毕业设计开发的一款 AI 学习管理系统（LMS）。该平台结合神经网络与人脸动画技术，通过互动式动画教学内容，让在线学习更加生动有趣。",
 
-        "problem": "Traditional Learning Management Systems often rely on static text and videos, which can reduce student engagement. Our challenge was to integrate SadTalker facial animation technology into a practical educational platform while ensuring the system remained intuitive, scalable, and useful for both students and educators.",
+        "problem": "传统学习管理系统主要依赖静态文字和视频，容易降低学生的学习兴趣。我们的挑战是在保证系统易用性、可扩展性和教学实用性的同时，将 SadTalker 人脸动画技术整合到实际的教育平台中。",
 
-        "solution": "We designed and developed an AI-enhanced LMS that combines conventional learning management features with AI-generated facial animations. As Team Leader, I coordinated development, delegated tasks, managed project milestones, and ensured successful integration between the web platform, database, and AI services.",
+        "solution": "我们设计并开发了一套结合传统学习管理功能与 AI 人脸动画的学习平台。作为团队负责人，我负责协调开发工作、分配任务、管理项目进度，并确保网页平台、数据库与 AI 服务能够顺利整合。",
 
         "features": [
-          "💬 Face-Animated AI Assistant – Provides personalized responses using expressive facial animations.",
-          "🎬 Video Creation Studio – Allows educators to generate AI-assisted educational videos.",
-          "🏫 Interactive Classroom – Centralizes animated learning materials to improve engagement.",
-          "👥 User Authentication – Secure login and role-based access for students and instructors.",
-          "☁️ Cloud Deployment – Hosted using Google Cloud services."
+          "💬 AI 人脸动画助手——通过生动的人脸动画提供个性化学习反馈。",
+          "🎬 AI 教学视频制作——帮助教师快速生成 AI 辅助教学视频。",
+          "🏫 互动课堂——集中管理动画教学内容，提升学习参与度。",
+          "👥 用户身份验证——为学生与教师提供安全登录及角色权限管理。",
+          "☁️ 云端部署——基于 Google Cloud 服务部署。"
         ],
 
         "challenges": [
-          "Integrating SadTalker with the web application while maintaining acceptable response times.",
-          "Coordinating development across a five-member multidisciplinary team.",
-          "Balancing AI processing workloads with overall application performance.",
-          "Ensuring generated animations remained relevant and suitable for educational use."
+          "在保证可接受响应时间的前提下，将 SadTalker 整合到网页应用中。",
+          "协调五人跨领域团队完成开发工作。",
+          "平衡 AI 运算负载与整体系统性能。",
+          "确保生成的人脸动画适合教育场景，并保持内容相关性。"
         ],
 
         "lessons": [
-          "Learned how to integrate AI services into a production-oriented web application.",
-          "Strengthened leadership and project management skills by coordinating a five-member team.",
-          "Gained experience deploying and maintaining cloud-based applications.",
-          "Developed a deeper understanding of machine learning integration within full-stack systems."
+          "学习了如何将 AI 服务整合到面向实际应用的网页系统中。",
+          "通过带领五人团队，提升了领导能力与项目管理能力。",
+          "积累了部署和维护云端应用的实践经验。",
+          "进一步理解了机器学习技术在全栈系统中的整合方式。"
         ]
       }
     },
@@ -364,16 +372,22 @@
 
       "featured": false,
       "year": 2024,
-      "category": "Web Development",
-      "role": "Scrum Team Lead",
+      "category": "网页开发",
+      "role": "Scrum 团队负责人",
 
-      "name": "Car Loaning System",
+      "name": "二手车交易管理系统",
 
-      "description": "Web-based platform for managing the lifecycle of used car transactions with role-based access control.",
+      "description": "一套基于网页的二手车交易管理平台，采用基于角色的访问控制（RBAC）管理整个交易流程。",
 
       "thumbnail": "/images/csit314-project.png",
 
-      "screenshots": ["/images/csit314-project.png","/images/csit314-project-2.png","/images/csit314-project-3.png","/images/csit314-project-4.png","/images/csit314-project-5.png"],
+      "screenshots": [
+        "/images/csit314-project.png",
+        "/images/csit314-project-2.png",
+        "/images/csit314-project-3.png",
+        "/images/csit314-project-4.png",
+        "/images/csit314-project-5.png"
+      ],
 
       "technologies": [
         "PHP",
@@ -390,36 +404,34 @@
       },
 
       "details": {
-      "overview": "A web-based platform developed to manage the complete lifecycle of used car transactions. The system supports multiple user roles—including administrators, agents, buyers, and sellers—with role-based access control and dedicated workflows for each user type.",
+        "overview": "这是一个用于管理二手车交易全过程的网页平台。系统支持管理员、销售代理、买家和卖家等多种用户角色，并通过基于角色的访问控制（RBAC）提供不同的操作流程和权限。",
 
-      "problem": "The project was required to follow the Boundary-Control-Entity (BCE) architectural pattern as part of the course requirements. As Scrum Team Lead, I was also responsible for coordinating a seven-member team with varying technical backgrounds while ensuring consistent code quality and up-to-date project documentation.",
+        "problem": "根据课程要求，整个项目必须采用 Boundary-Control-Entity（BCE）架构模式。作为 Scrum 团队负责人，我还需要协调七名具有不同技术背景的团队成员，同时确保代码质量和项目文档保持一致并及时更新。",
 
-      "solution": "Adopted the Scrum framework with regular sprint planning, stand-up meetings, and task allocation to organize development. Responsibilities were divided according to each member's strengths, while continuous reviews ensured compliance with the BCE architecture and project milestones.",
+        "solution": "我们采用 Scrum 开发流程，通过 Sprint 规划、每日站会和任务分配组织开发工作。我根据每位成员的优势分配任务，并持续进行代码审查，确保系统符合 BCE 架构设计和项目开发进度。",
 
-      "features": [
-        "🛠️ Administrator Dashboard – Manage user accounts and system administration.",
-        "🚗 Agent Dashboard – Create, update, and manage vehicle listings while reviewing buyer feedback.",
-        "👤 Buyer Portal – Browse available vehicles, submit reviews, and manage purchase requests.",
-        "🧾 Seller Portal – Submit vehicle information through agents and monitor customer feedback.",
-        "🔐 Role-Based Access Control – Different interfaces and permissions for each user role."
-      ],
+        "features": [
+          "🛠️ 管理员后台——管理用户账户和系统设置。",
+          "🚗 销售代理后台——新增、更新和管理车辆信息，并查看买家评价。",
+          "👤 买家平台——浏览车辆、提交评价并管理购车申请。",
+          "🧾 卖家平台——通过销售代理提交车辆信息，并查看客户反馈。",
+          "🔐 基于角色的访问控制（RBAC）——不同用户拥有不同的界面和操作权限。"
+        ],
 
-      "challenges": [
-        "Designing the application to comply with the Boundary-Control-Entity (BCE) architecture.",
-        "Coordinating development across a seven-member Scrum team with different skill levels.",
-        "Maintaining consistent documentation alongside rapid feature development.",
-        "Integrating multiple user workflows into a cohesive system."
-      ],
+        "challenges": [
+          "按照 Boundary-Control-Entity（BCE）架构设计整个系统。",
+          "协调七人 Scrum 团队完成开发工作。",
+          "在快速开发功能的同时保持项目文档的完整与更新。",
+          "将多个用户角色的业务流程整合到同一系统中。"
+        ],
 
-      "lessons": [
-        "Gained practical experience leading a Scrum team through a complete software development lifecycle.",
-        "Learned how software architecture decisions influence maintainability and scalability.",
-        "Improved communication, task delegation, and project planning skills.",
-        "Developed a stronger appreciation for documentation as part of professional software engineering."
-      ]
-
-    }
-
+        "lessons": [
+          "积累了带领 Scrum 团队完成完整软件开发生命周期的实践经验。",
+          "理解了软件架构设计对系统可维护性和可扩展性的影响。",
+          "提升了沟通、任务分配和项目规划能力。",
+          "进一步认识到项目文档在专业软件开发中的重要性。"
+        ]
+      }
     }
   ]
 }
