@@ -5,6 +5,7 @@ import Footer from "../components/footer";
 import Hero from "../components/hero";
 import Education from "../components/education";
 import Projects from "../components/project";
+import Experience from "../components/experience";
 import { getDictionary,dictionaries } from "../lib/getDictionary";
 
 export default async function Home({
@@ -38,6 +39,7 @@ export default async function Home({
                 <Hero dict={dict.hero} />
                 <Education dict={dict.education}/>
                 <Projects dict={dict.projects}/>
+                <Experience dict={dict.experience}/>
             </main>
 
             <Footer/>

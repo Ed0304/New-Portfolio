@@ -1,0 +1,111 @@
+{
+  "title": "Experiences",
+
+  "labels": {
+    "type": "Type",
+    "period": "Period",
+    "location": "Location",
+    "description": "Description",
+    "lessonsLearned": "Lessons Learned"
+  },
+
+  "certLabels": {
+    "name": "Name",
+    "description": "Description",
+    "validityPeriod": "Validity Period"
+  },
+
+  "list": [
+    {
+      "id": "NTUxBase",
+      "name": "NTU x Base Web3 Hackathon",
+      "type": "Competition",
+      "role": "Solo Participant",
+      "period": "August 2025",
+      "location": "Singapore",
+      "shortDescription": "Developed 'Phish or Miss', a phishing awareness game integrating the Sogni AI SDK.",
+      "highlights": [
+        "Built the entire project independently.",
+        "Integrated MongoDB Atlas, Flask, React and Sogni SDK to deliver a working educational game",
+        "Conducted CI/CD practices using Github and Deployment using AWS EC2."
+      ],
+      "gallery":[
+        "/images/hackathon1.png"
+      ]
+    },
+
+    {
+      "id": "PPISVolunteer",
+      "name": "PPIS Peduli Kartini Volunteer Outreach Event",
+      "type": "Volunteer",
+      "role": "Logistics Assistant",
+      "period": "May 2025",
+      "location": "Singapore",
+      "shortDescription": "Supported logistics for a large-scale community outreach programme held by PPIS (Perhimpunan Pelajar Indonesia di Singapura).",
+      "highlights": [
+        "Assisted event logistics for over 240 Indonesian domestic workers.",
+        "Coordinated venue preparation and participant support.",
+        "Worked closely with volunteers to ensure smooth event operations."
+      ],
+      "gallery":[
+        "/images/volunteer1.jpg","/images/volunteer2.jpg","/images/volunteer3.jpg"
+      ]
+
+    },
+
+    {
+      "id": "AWSCLF02",
+      "name": "AWS Certified Cloud Practitioner",
+      "type": "Certification",
+      "image": "https://images.credly.com/size/160x160/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
+      "issuer": "Amazon Web Services",
+      "dateEarned": "August 2025",
+      "validUntil": "August 2028",
+      "credentialUrl": "https://www.credly.com/badges/29b16ac9-a169-4a91-9e3b-16e01c3fbaf9/public_url",
+      "description": "Foundational certification covering AWS Cloud concepts, security, architecture, pricing, and core services."
+    },
+
+    {
+      "id": "ISC2CC",
+      "name": "ISC2 Certified in Cybersecurity (CC)",
+      "type": "Certification",
+      "image":"https://images.credly.com/size/160x160/images/2030e43f-8003-4d4b-9630-847add403c87/image.png",
+      "issuer": "ISC2- International Information System Security Certification Consortium",
+      "dateEarned": "August 2025",
+      "validUntil": "August 2028",
+      "credentialUrl": "https://www.credly.com/badges/da6e9bc9-e7fd-41cd-8545-2f0f1fd93595/public_url",
+      "description": "Entry-level cybersecurity certification covering security principles, networking, risk management, and access control."
+    },
+
+    {
+        "id": "ICDLAI",
+        "name": "ICDL Artificial Intelligence",
+        "type": "Certification",
+        "image": "/images/icdlAI.png",
+        "issuer": "ICDL",
+        "dateEarned": "April 2025",
+        "description": "Fundamental concepts of artificial intelligence, machine learning, responsible AI, and practical AI applications.",
+        "credentialUrl": "https://profile.icdlasia.org/d3117caf-e5fb-40ff-a7ce-98248015c4f4#acc.OtCBhifN"
+    },
+    {
+        "id": "ICDLCloud",
+        "name": "ICDL Cloud Computing",
+        "type": "Certification",
+        "image": "/images/icdlBlockchain.png",
+        "issuer": "ICDL",
+        "dateEarned": "April 2025",
+        "description": "Fundamental cloud computing concepts, cloud services, deployment models, and security considerations.",
+        "credentialUrl": "https://profile.icdlasia.org/a5b31bd0-df4b-43e2-a6ba-1f9c5fdb1a7e#acc.PLqGl2C9"
+    },
+    {
+        "id": "ICDLBlockchain",
+        "name": "ICDL Blockchain",
+        "type": "Certification",
+        "image": "/images/icdlCC.png",
+        "issuer": "ICDL",
+        "dateEarned": "April 2025",
+        "description": "Fundamental blockchain concepts, distributed ledger technology, cryptocurrencies, and real-world blockchain applications.",
+        "credentialUrl": "https://profile.icdlasia.org/7880283c-3ea2-44c3-a308-1b6d134b4b23#acc.G6LorHVI"
+    }
+  ]
+}
