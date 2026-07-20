@@ -1,0 +1,12 @@
+{
+    "title" : "Kontak",
+    "greeting": "Memiliki pertanyaan, peluang kolaborasi, atau ingin berdiskusi? Jangan ragu untuk menghubungi saya.",
+    "name" : "Nama",
+    "email" : "Email",
+    "subject": "Subjek",
+    "message": "Pesan",
+    "send": "Kirim",
+    "sending": "Sedang mengirim...",
+    "success": "Pesan telah dikirim!",
+    "error": "Gagal mengirim pesan. Silakan coba lagi."
+}

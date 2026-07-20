@@ -1,0 +1,12 @@
+{
+    "title" : "Contact Me",
+    "greeting": "Have a question, opportunity, or just want to say hello? I'd love to hear from you.",
+    "name" : "Name",
+    "email" : "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. Please try again."
+}

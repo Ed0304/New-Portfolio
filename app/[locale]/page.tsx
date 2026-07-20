@@ -6,6 +6,7 @@ import Hero from "../components/hero";
 import Education from "../components/education";
 import Projects from "../components/project";
 import Experience from "../components/experience";
+import Contact from "../components/contact";
 import { getDictionary,dictionaries } from "../lib/getDictionary";
 
 export default async function Home({
@@ -40,6 +41,7 @@ export default async function Home({
                 <Education dict={dict.education}/>
                 <Projects dict={dict.projects}/>
                 <Experience dict={dict.experience}/>
+                <Contact/>
             </main>
 
             <Footer/>
