@@ -31,11 +31,11 @@ export default function Footer() {
 
                 <div className="text-center">
                     <h3 className="text-xl font-semibold">
-                        Let's build things together
+                        From the world. To the world. For the world.
                     </h3>
 
                     <p className="mt-1 text-sm text-zinc-500 dark:text-zinc-400">
-                        
+                        Let's build something that makes the world a better place.
                     </p>
                 </div>
 
