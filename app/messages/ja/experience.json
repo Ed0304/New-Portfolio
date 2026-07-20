@@ -1,33 +1,34 @@
 {
-  "title": "Experiences",
+  "title": "経験",
+  "present" : "現在",
 
   "labels": {
-    "type": "Type",
-    "period": "Period",
-    "location": "Location",
-    "description": "Description",
-    "lessonsLearned": "Lessons Learned"
+    "type": "タイプ",
+    "period": "期間",
+    "location": "場所",
+    "description": "説明",
+    "lessonsLearned": "学んだこと"
   },
 
   "certLabels": {
-    "name": "Name",
-    "description": "Description",
-    "validityPeriod": "Validity Period"
+    "name": "名前",
+    "description": "説明",
+    "validityPeriod": "有効期間"
   },
 
   "list": [
     {
       "id": "NTUxBase",
       "name": "NTU x Base Web3 Hackathon",
-      "type": "Competition",
-      "role": "Solo Participant",
-      "period": "2025年 8月",
-      "location": "Singapore",
-      "shortDescription": "Developed 'Phish or Miss', a phishing awareness game integrating the Sogni AI SDK.",
+      "type": "コンテスト",
+      "role": "個人参加",
+      "period": "2025年8月",
+      "location": "シンガポール",
+      "shortDescription": "Sogni AI SDKを使ったフィッシング対策ゲーム「Phish or Miss」を開発。",
       "highlights": [
-        "Built the entire project independently.",
-        "Integrated MongoDB Atlas, Flask, React and Sogni SDK to deliver a working educational game",
-        "Conducted CI/CD practices using Github and Deployment using AWS EC2."
+        "プロジェクトを一人で開発。",
+        "React、Flask、MongoDB Atlas、Sogni SDKを使って教育ゲームを作成。",
+        "GitHubでCI/CDを行い、AWS EC2へデプロイ。"
       ],
       "gallery":[
         "/images/hackathon1.png"
@@ -37,15 +38,15 @@
     {
       "id": "PPISVolunteer",
       "name": "PPIS Peduli Kartini Volunteer Outreach Event",
-      "type": "Volunteer",
-      "role": "Logistics Assistant",
-      "period": "2025年 5月",
-      "location": "Singapore",
-      "shortDescription": "Supported logistics for a large-scale community outreach programme held by PPIS (Perhimpunan Pelajar Indonesia di Singapura).",
+      "type": "ボランティア",
+      "role": "物流スタッフ",
+      "period": "2025年5月",
+      "location": "シンガポール",
+      "shortDescription": "PPIS（Perhimpunan Pelajar Indonesia di Singapura）が開催した地域支援イベントで物流を担当。",
       "highlights": [
-        "Assisted event logistics for over 240 Indonesian domestic workers.",
-        "Coordinated venue preparation and participant support.",
-        "Worked closely with volunteers to ensure smooth event operations."
+        "240人以上のインドネシア人家事労働者向けイベントの物流をサポート。",
+        "参加者全員にギフトと軽食を配布。",
+        "8人のチームで会場設営と70人のボランティアへの昼食配布を担当。"
       ],
       "gallery":[
         "/images/volunteer1.jpg","/images/volunteer2.jpg","/images/volunteer3.jpg"
@@ -56,55 +57,55 @@
     {
       "id": "AWSCLF02",
       "name": "AWS Certified Cloud Practitioner",
-      "type": "Certification",
+      "type": "資格",
       "image": "https://images.credly.com/size/160x160/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
       "issuer": "Amazon Web Services",
-      "dateEarned": "2025年 8月",
-      "validUntil": "2028年 8月",
+      "dateEarned": "2025年8月",
+      "validUntil": "2028年8月",
       "credentialUrl": "https://www.credly.com/badges/29b16ac9-a169-4a91-9e3b-16e01c3fbaf9/public_url",
-      "description": "Foundational certification covering AWS Cloud concepts, security, architecture, pricing, and core services."
+      "description": "AWS Cloudの基本、セキュリティ、アーキテクチャ、料金、主要サービスについて学ぶ認定資格。"
     },
 
     {
       "id": "ISC2CC",
       "name": "ISC2 Certified in Cybersecurity (CC)",
-      "type": "Certification",
+      "type": "資格",
       "image":"https://images.credly.com/size/160x160/images/2030e43f-8003-4d4b-9630-847add403c87/image.png",
       "issuer": "ISC2- International Information System Security Certification Consortium",
-      "dateEarned": "2025年 8月",
-      "validUntil": "2028年 8月",
+      "dateEarned": "2025年8月",
+      "validUntil": "2028年8月",
       "credentialUrl": "https://www.credly.com/badges/da6e9bc9-e7fd-41cd-8545-2f0f1fd93595/public_url",
-      "description": "Entry-level cybersecurity certification covering security principles, networking, risk management, and access control."
+      "description": "セキュリティの基本、ネットワーク、リスク管理、アクセス制御について学ぶサイバーセキュリティ資格。"
     },
 
     {
         "id": "ICDLAI",
         "name": "ICDL Artificial Intelligence",
-        "type": "Certification",
+        "type": "資格",
         "image": "/images/icdlAI.png",
         "issuer": "ICDL",
         "dateEarned": "2025年４月",
-        "description": "Fundamental concepts of artificial intelligence, machine learning, responsible AI, and practical AI applications.",
+        "description": "AI、機械学習、AIの正しい使い方、AIの活用について学ぶ。",
         "credentialUrl": "https://profile.icdlasia.org/d3117caf-e5fb-40ff-a7ce-98248015c4f4#acc.OtCBhifN"
     },
     {
         "id": "ICDLCloud",
         "name": "ICDL Cloud Computing",
-        "type": "Certification",
+        "type": "資格",
         "image": "/images/icdlBlockchain.png",
         "issuer": "ICDL",
         "dateEarned": "2025年４月",
-        "description": "Fundamental cloud computing concepts, cloud services, deployment models, and security considerations.",
+        "description": "クラウドコンピューティングの基本、クラウドサービス、デプロイ方法、セキュリティについて学ぶ。",
         "credentialUrl": "https://profile.icdlasia.org/a5b31bd0-df4b-43e2-a6ba-1f9c5fdb1a7e#acc.PLqGl2C9"
     },
     {
         "id": "ICDLBlockchain",
         "name": "ICDL Blockchain",
-        "type": "Certification",
+        "type": "資格",
         "image": "/images/icdlCC.png",
         "issuer": "ICDL",
         "dateEarned": "2025年４月",
-        "description": "Fundamental blockchain concepts, distributed ledger technology, cryptocurrencies, and real-world blockchain applications.",
+        "description": "ブロックチェーンの基本、分散型台帳技術、暗号資産、ブロックチェーンの活用について学ぶ。",
         "credentialUrl": "https://profile.icdlasia.org/7880283c-3ea2-44c3-a308-1b6d134b4b23#acc.G6LorHVI"
     }
   ]

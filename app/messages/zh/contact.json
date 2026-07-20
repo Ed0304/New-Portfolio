@@ -8,5 +8,10 @@
   "send": "发送",
   "sending": "正在发送，请稍候……",
   "success": "发送成功！感谢您的留言。",
-  "error": "发送失败，请稍后再试。"
+  "error": "发送失败，请稍后再试。",
+  "nameplaceholder": "请输入您的姓名",
+  "emailplaceholder": "请输入您的电子邮箱",
+  "subjectplaceholder": "请输入主题",
+  "messageplaceholder": "请输入您想咨询的内容"
+
 }

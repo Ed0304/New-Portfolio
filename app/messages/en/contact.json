@@ -8,5 +8,9 @@
     "send": "Send Message",
     "sending": "Sending...",
     "success": "Message sent successfully!",
-    "error": "Failed to send message. Please try again."
+    "error": "Failed to send message. Please try again.",
+    "nameplaceholder": "Your name",
+    "emailplaceholder": "example@email.com",
+    "subjectplaceholder":"Subject",
+    "messageplaceholder":"Type your message..."
 }

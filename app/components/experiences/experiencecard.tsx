@@ -22,8 +22,8 @@ export default function ExperienceCard({
     experience,
 }: ExperienceProps) {
 
-    const isCertification =
-        experience.type === "Certification";
+    const isCertification = ["Certification","Sertifikasi","資格","证书"] //en,id,ja,zh
+        
 
     return (
 
@@ -48,7 +48,7 @@ export default function ExperienceCard({
             {/* PROJECT / HACKATHON */}
             {/* ========================= */}
 
-            {!isCertification && (
+            {!isCertification.includes(experience.type) && (
 
                 <>
 
@@ -166,7 +166,7 @@ export default function ExperienceCard({
             {/* CERTIFICATION */}
             {/* ========================= */}
 
-            {isCertification && (
+            {isCertification.includes(experience.type) && (
 
                 <div className="p-8">
 
@@ -261,7 +261,7 @@ export default function ExperienceCard({
 
                                     {experience.dateEarned}
                                     {" – "}
-                                    {experience.validUntil ?? "Present"}
+                                    {experience.validUntil ?? dict.present}
 
                                 </span>
 

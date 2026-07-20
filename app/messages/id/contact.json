@@ -8,5 +8,9 @@
     "send": "Kirim",
     "sending": "Sedang mengirim...",
     "success": "Pesan telah dikirim!",
-    "error": "Gagal mengirim pesan. Silakan coba lagi."
+    "error": "Gagal mengirim pesan. Silakan coba lagi.",
+    "nameplaceholder": "Nama anda",
+    "emailplaceholder": "contoh@email.com",
+    "subjectplaceholder":"Subjek",
+    "messageplaceholder":"Silakan ketik pesan anda disini..."
 }

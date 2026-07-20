@@ -93,7 +93,7 @@ export default function ContactForm({dict}:ContactProps) {
                             name="name"
                             type="text"
                             required
-                            placeholder="Your name"
+                            placeholder={dict.nameplaceholder}
                             className="
                                 w-full
                                 rounded-xl
@@ -128,7 +128,7 @@ export default function ContactForm({dict}:ContactProps) {
                             name="email"
                             type="email"
                             required
-                            placeholder="your@email.com"
+                            placeholder={dict.emailplaceholder}
                             className="
                                 w-full
                                 rounded-xl
@@ -163,7 +163,7 @@ export default function ContactForm({dict}:ContactProps) {
                             name="subject"
                             type="text"
                             required
-                            placeholder="Subject"
+                            placeholder={dict.subjectplaceholder}
                             className="
                                 w-full
                                 rounded-xl
@@ -198,7 +198,7 @@ export default function ContactForm({dict}:ContactProps) {
                             name="message"
                             rows={6}
                             required
-                            placeholder="Type your message..."
+                            placeholder={dict.messageplaceholder}
                             className="
                                 w-full
                                 rounded-xl

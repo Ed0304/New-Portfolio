@@ -1,5 +1,6 @@
 {
   "title": "Experiences",
+  "present" : "Present",
 
   "labels": {
     "type": "Type",
@@ -41,16 +42,17 @@
       "role": "Logistics Assistant",
       "period": "May 2025",
       "location": "Singapore",
-      "shortDescription": "Supported logistics for a large-scale community outreach programme held by PPIS (Perhimpunan Pelajar Indonesia di Singapura).",
+      "shortDescription": "Supported logistics for a large-scale community outreach programme organised by PPIS (Perhimpunan Pelajar Indonesia di Singapura).",
       "highlights": [
-        "Assisted event logistics for over 240 Indonesian domestic workers.",
-        "Coordinated venue preparation and participant support.",
-        "Worked closely with volunteers to ensure smooth event operations."
+        "Assisted with event logistics for over 240 Indonesian domestic workers.",
+        "Distributed care packages and refreshments to all participants.",
+        "Worked with a team of eight to prepare the event venue and serve lunch to 70 fellow volunteers."
       ],
-      "gallery":[
-        "/images/volunteer1.jpg","/images/volunteer2.jpg","/images/volunteer3.jpg"
+      "gallery": [
+        "/images/volunteer1.jpg",
+        "/images/volunteer2.jpg",
+        "/images/volunteer3.jpg"
       ]
-
     },
 
     {
