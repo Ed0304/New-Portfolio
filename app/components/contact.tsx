@@ -1,8 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { dictionaries } from "../lib/getDictionary";
 
-export default function ContactForm() {
+type ContactProps ={
+    dict: typeof dictionaries.en.contact;
+}
+
+export default function ContactForm({dict}:ContactProps) {
     const [result, setResult] = useState("");
 
     const onSubmit = async (
@@ -10,7 +15,7 @@ export default function ContactForm() {
     ) => {
         event.preventDefault();
 
-        setResult("Sending...");
+        setResult(dict.sending);
 
         const form = event.currentTarget;
         const formData = new FormData(form);
@@ -31,10 +36,10 @@ export default function ContactForm() {
         const data = await response.json();
 
         if (data.success) {
-            setResult("✅ Message sent successfully!");
+            setResult(dict.success);
             form.reset();
         } else {
-            setResult("❌ Something went wrong.");
+            setResult(dict.error);
         }
     };
 
@@ -56,7 +61,7 @@ export default function ContactForm() {
                 "
             >
                 <h2 className="text-4xl font-bold">
-                    Contact Me
+                    {dict.title}
                 </h2>
 
                 <p
@@ -66,8 +71,7 @@ export default function ContactForm() {
                         dark:text-zinc-400
                     "
                 >
-                    Have a question, opportunity, or just want to say hello?
-                    I'd love to hear from you.
+                    {dict.greeting}
                 </p>
 
                 <form
@@ -81,7 +85,7 @@ export default function ContactForm() {
                             htmlFor="name"
                             className="mb-2 block text-sm font-medium"
                         >
-                            Name
+                            {dict.name}
                         </label>
 
                         <input
@@ -116,7 +120,7 @@ export default function ContactForm() {
                             htmlFor="email"
                             className="mb-2 block text-sm font-medium"
                         >
-                            Email
+                            {dict.email}
                         </label>
 
                         <input
@@ -151,7 +155,7 @@ export default function ContactForm() {
                             htmlFor="subject"
                             className="mb-2 block text-sm font-medium"
                         >
-                            Subject
+                            {dict.subject}
                         </label>
 
                         <input
@@ -186,7 +190,7 @@ export default function ContactForm() {
                             htmlFor="message"
                             className="mb-2 block text-sm font-medium"
                         >
-                            Message
+                            {dict.message}
                         </label>
 
                         <textarea
@@ -232,7 +236,7 @@ export default function ContactForm() {
                                 hover:bg-blue-700
                             "
                         >
-                            Send Message
+                            {dict.send}
                         </button>
 
                         <span

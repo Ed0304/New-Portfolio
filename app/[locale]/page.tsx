@@ -41,7 +41,7 @@ export default async function Home({
                 <Education dict={dict.education}/>
                 <Projects dict={dict.projects}/>
                 <Experience dict={dict.experience}/>
-                <Contact/>
+                <Contact dict= {dict.contact}/>
             </main>
 
             <Footer/>

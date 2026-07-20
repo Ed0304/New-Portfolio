@@ -23,34 +23,44 @@ import jaExperience from "../messages/ja/experience.json";
 import idExperience from "../messages/id/experience.json";
 import zhExperience from "../messages/zh/experience.json";
 
+import enContact from "../messages/en/contact.json";
+import jaContact from "../messages/ja/contact.json";
+import idContact from "../messages/id/contact.json";
+import zhContact from "../messages/zh/contact.json";
+
+
 export const dictionaries = {
     en: {
         header: enHeader,
         hero: enHero,
         education: enEducation,
         projects: enProject,
-        experience: enExperience
+        experience: enExperience,
+        contact: enContact
     },
     ja: {
         header: jaHeader,
         hero: jaHero,
         education: jaEducation,
         projects: jaProject,
-        experience: jaExperience
+        experience: jaExperience,
+        contact: jaContact
     },
     id: {
         header: idHeader,
         hero: idHero,
         education: idEducation,
         projects: idProject,
-        experience: idExperience
+        experience: idExperience,
+        contact: idContact
     },
     zh: {
         header: zhHeader,
         hero: zhHero,
         education: zhEducation,
         projects: zhProject,
-        experience: zhExperience
+        experience: zhExperience,
+        contact: zhContact
     },
 };
 
