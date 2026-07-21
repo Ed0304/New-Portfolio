@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { dictionaries } from "../lib/getDictionary";
-
+import { motion, AnimatePresence } from "motion/react";
 type ContactProps ={
     dict: typeof dictionaries.en.contact;
 }
@@ -48,17 +48,34 @@ export default function ContactForm({dict}:ContactProps) {
             id="contact"
             className="mx-auto max-w-3xl px-6 py-24"
         >
-            <div
-                className="
-                    rounded-3xl
-                    border
-                    border-zinc-200
-                    dark:border-zinc-800
-                    bg-white
-                    dark:bg-zinc-900
-                    shadow-sm
-                    p-8
-                "
+           <motion.div
+            initial={{
+                opacity: 0,
+                y: 30,
+            }}
+            whileInView={{
+                opacity: 1,
+                y: 0,
+            }}
+            viewport={{
+                once: true,
+                amount: 0.25,
+            }}
+            transition={{
+                type: "spring",
+                stiffness: 110,
+                damping: 18,
+            }}
+            className="
+                rounded-3xl
+                border
+                border-zinc-200
+                dark:border-zinc-800
+                bg-white
+                dark:bg-zinc-900
+                shadow-sm
+                p-8
+            "
             >
                 <h2 className="text-4xl font-bold">
                     {dict.title}
@@ -253,7 +270,7 @@ export default function ContactForm({dict}:ContactProps) {
 
                 </form>
 
-            </div>
+            </motion.div>
         </section>
     );
 }

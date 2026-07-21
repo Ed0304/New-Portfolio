@@ -32,9 +32,9 @@
 
       "description": "Modern multilingual portfolio website built with Next.js and TypeScript to showcase my projects, technical skills, and my academic and professional journey.",
 
-      "thumbnail": "/images/newportfolio.png",
+      "thumbnail": "/images/new-portfolio.png",
 
-      "screenshots": [],
+      "screenshots": ["/images/new-portfolio.png","/images/new-portfolio-1.png","/images/new-portfolio-2.png","/images/new-portfolio-3.png","/images/new-portfolio-4.png"],
 
       "technologies": [
         "Next.js",

@@ -32,9 +32,9 @@
 
       "description": "这是我重新设计并开发的个人作品集网站，采用 Next.js、React、TypeScript 和 Tailwind CSS 构建。网站不仅展示我的项目和技术能力，也体现了现代前端开发实践，包括可复用组件、多语言支持、响应式设计、深色模式以及交互式项目展示。",
 
-      "thumbnail": "/images/newportfolio.png",
+      "thumbnail": "/images/new-portfolio.png",
 
-      "screenshots": [],
+      "screenshots": ["/images/new-portfolio.png","/images/new-portfolio-1.png","/images/new-portfolio-2.png","/images/new-portfolio-3.png","/images/new-portfolio-4.png"],
 
       "technologies": [
         "Next.js",

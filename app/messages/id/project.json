@@ -32,9 +32,9 @@
 
       "description": "Website portfolio modern multibahasa yang dibangun menggunakan Next.js dan TypeScript untuk menampilkan proyek, kemampuan teknis, serta perjalanan profesional saya.",
 
-      "thumbnail": "/images/newportfolio.png",
+      "thumbnail": "/images/new-portfolio.png",
 
-      "screenshots": [],
+      "screenshots": ["/images/new-portfolio.png","/images/new-portfolio-1.png","/images/new-portfolio-2.png","/images/new-portfolio-3.png","/images/new-portfolio-4.png"],
 
       "technologies": [
         "Next.js",

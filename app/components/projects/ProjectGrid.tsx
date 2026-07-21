@@ -1,5 +1,6 @@
 "use client";
 
+import { motion } from "motion/react";
 import { dictionaries } from "@/app/lib/getDictionary";
 import ProjectCard from "./projectcard";
 
@@ -26,13 +27,37 @@ export default function ProjectGrid({
                 lg:grid-cols-3
             "
         >
-            {projects.map((project) => (
-                <ProjectCard
+            {projects.map((project, index) => (
+                <motion.div
                     key={project.id}
-                    project={project}
-                    dict={dict}
-                    onClick={() => onProjectClick(project)}
-                />
+                    initial={{
+                        opacity: 0,
+                        y: 40,
+                    }}
+                    whileInView={{
+                        opacity: 1,
+                        y: 0,
+                    }}
+                    viewport={{
+                        once: true,
+                        amount: 0.2,
+                    }}
+                    transition={{
+                        type: "spring",
+                        stiffness: 110,
+                        damping: 18,
+                        delay: index * 0.1,
+                    }}
+                    whileHover={{
+                        y: -6,
+                    }}
+                >
+                    <ProjectCard
+                        project={project}
+                        dict={dict}
+                        onClick={() => onProjectClick(project)}
+                    />
+                </motion.div>
             ))}
         </div>
     );
