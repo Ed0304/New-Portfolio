@@ -18,6 +18,15 @@ export const metadata: Metadata = {
   description: "International-facing Software Engineer",
 };
 
+export function generateStaticParams() {
+    return [
+        { locale: "en" },
+        { locale: "ja" },
+        { locale: "id" },
+        { locale: "zh" },
+    ];
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
