@@ -69,7 +69,7 @@ export default function ExperienceCard({
                                 items-center
                                 gap-2
                                 rounded-full
-                                bg-blue-100
+                                bg-blue-200
                                 px-3
                                 py-1
                                 text-sm
@@ -87,7 +87,7 @@ export default function ExperienceCard({
                                 items-center
                                 gap-2
                                 rounded-full
-                                bg-zinc-100
+                                bg-zinc-300
                                 dark:bg-zinc-800
                                 px-3
                                 py-1
@@ -102,7 +102,7 @@ export default function ExperienceCard({
                                 items-center
                                 gap-2
                                 rounded-full
-                                bg-zinc-100
+                                bg-zinc-300
                                 dark:bg-zinc-800
                                 px-3
                                 py-1
@@ -225,7 +225,7 @@ export default function ExperienceCard({
                                         items-center
                                         gap-2
                                         rounded-full
-                                        bg-blue-100
+                                        bg-blue-200
                                         px-3
                                         py-1
                                         text-sm
@@ -248,7 +248,7 @@ export default function ExperienceCard({
                                         items-center
                                         gap-2
                                         rounded-full
-                                        bg-zinc-100
+                                        bg-zinc-300
                                         dark:bg-zinc-800
                                         px-3
                                         py-1

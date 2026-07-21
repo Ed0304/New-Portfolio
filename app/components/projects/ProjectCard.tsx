@@ -94,7 +94,7 @@ export default function ProjectCard({
                             key={tech}
                             className="
                                 rounded-full
-                                bg-gray-100
+                                bg-gray-300
                                 px-3
                                 py-1
                                 text-xs
@@ -121,7 +121,7 @@ export default function ProjectCard({
                             text-sm
                             font-medium
                             transition-colors
-                            hover:bg-gray-100
+                            hover:bg-zinc-300
                             dark:border-gray-700
                             dark:hover:bg-gray-800
                         "

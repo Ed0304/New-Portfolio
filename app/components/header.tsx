@@ -13,6 +13,8 @@ type HeaderProps = {
     dict: typeof dictionaries.en.header;
 };
 
+
+
 export default function Header({ dict }: HeaderProps) {
     const [isOpen, setIsOpen] = useState(false);
     const { resolvedTheme, setTheme } = useTheme();
@@ -20,6 +22,13 @@ export default function Header({ dict }: HeaderProps) {
     const locale = params.locale as keyof typeof LanguageNames;
     const [mounted, setMounted] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+    const handleDownload = () =>{
+        const link = document.createElement("a");
+        link.href = "/files/Edbert_Taidy_Resume.pdf";
+        link.download = "Edbert_Taidy_Resume.pdf";
+        link.click();
+    };
 
     useEffect(() => {
         setMounted(true);
@@ -77,7 +86,7 @@ export default function Header({ dict }: HeaderProps) {
                         rounded-lg
                         p-2
                         transition
-                        hover:bg-zinc-100
+                        hover:bg-zinc-300
                         dark:hover:bg-zinc-800
                     "
                 >
@@ -145,10 +154,11 @@ export default function Header({ dict }: HeaderProps) {
                             text-sm
                             font-medium
                             transition
-                            hover:bg-zinc-100
+                            hover:bg-zinc-300
                             dark:border-zinc-700
                             dark:hover:bg-zinc-800
                         "
+                        onClick={handleDownload}
                     >
                         {dict.download}
                     </button>
@@ -182,7 +192,7 @@ export default function Header({ dict }: HeaderProps) {
                                 py-2
                                 text-sm
                                 transition
-                                hover:bg-zinc-100
+                                hover:bg-zinc-300
                                 dark:hover:bg-zinc-800
                             "
                         >
@@ -211,28 +221,28 @@ export default function Header({ dict }: HeaderProps) {
                             >
                                 <Link
                                     href="/en"
-                                    className="px-5 py-3 hover:bg-zinc-100 dark:hover:bg-zinc-800"
+                                    className="px-5 py-3 hover:bg-zinc-300 dark:hover:bg-zinc-800"
                                 >
                                     English
                                 </Link>
 
                                 <Link
                                     href="/ja"
-                                    className="px-5 py-3 hover:bg-zinc-100 dark:hover:bg-zinc-800"
+                                    className="px-5 py-3 hover:bg-zinc-300 dark:hover:bg-zinc-800"
                                 >
                                     日本語
                                 </Link>
 
                                 <Link
                                     href="/id"
-                                    className="px-5 py-3 hover:bg-zinc-100 dark:hover:bg-zinc-800"
+                                    className="px-5 py-3 hover:bg-zinc-300 dark:hover:bg-zinc-800"
                                 >
                                     Bahasa Indonesia
                                 </Link>
 
                                 <Link
                                     href="/zh"
-                                    className="px-5 py-3 hover:bg-zinc-100 dark:hover:bg-zinc-800"
+                                    className="px-5 py-3 hover:bg-zinc-300 dark:hover:bg-zinc-800"
                                 >
                                     简体中文
                                 </Link>
@@ -257,7 +267,7 @@ export default function Header({ dict }: HeaderProps) {
                                 justify-center
                                 rounded-full
                                 transition
-                                hover:bg-zinc-100
+                                hover:bg-zinc-300
                                 dark:hover:bg-zinc-800
                             "
                         >
@@ -357,10 +367,11 @@ export default function Header({ dict }: HeaderProps) {
                             text-sm
                             font-medium
                             transition
-                            hover:bg-zinc-100
+                            hover:bg-zinc-300
                             dark:border-zinc-700
                             dark:hover:bg-zinc-800
                         "
+                        onClick={handleDownload}
                     >
                         {dict.download}
                     </button>
@@ -386,7 +397,7 @@ export default function Header({ dict }: HeaderProps) {
                                     py-2
                                     text-center
                                     text-sm
-                                    hover:bg-zinc-100
+                                    hover:bg-zinc-300
                                     dark:border-zinc-700
                                     dark:hover:bg-zinc-800
                                 "
@@ -405,7 +416,7 @@ export default function Header({ dict }: HeaderProps) {
                                     py-2
                                     text-center
                                     text-sm
-                                    hover:bg-zinc-100
+                                    hover:bg-zinc-300
                                     dark:border-zinc-700
                                     dark:hover:bg-zinc-800
                                 "
@@ -424,7 +435,7 @@ export default function Header({ dict }: HeaderProps) {
                                     py-2
                                     text-center
                                     text-sm
-                                    hover:bg-zinc-100
+                                    hover:bg-zinc-300
                                     dark:border-zinc-700
                                     dark:hover:bg-zinc-800
                                 "
@@ -443,7 +454,7 @@ export default function Header({ dict }: HeaderProps) {
                                     py-2
                                     text-center
                                     text-sm
-                                    hover:bg-zinc-100
+                                    hover:bg-zinc-300
                                     dark:border-zinc-700
                                     dark:hover:bg-zinc-800
                                 "
@@ -481,7 +492,7 @@ export default function Header({ dict }: HeaderProps) {
                             px-4
                             py-3
                             transition
-                            hover:bg-zinc-100
+                            hover:bg-zinc-300
                             dark:border-zinc-700
                             dark:hover:bg-zinc-800
                         "
