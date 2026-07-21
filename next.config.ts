@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
         remotePatterns: [
             {
                 protocol: "https",
-                hostname: "images.credly.com",
+                hostname: "images.credly.com", //Test comment
             },
         ],
     },
