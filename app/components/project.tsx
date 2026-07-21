@@ -7,7 +7,7 @@ import { LanguageNames } from "../lib/locales";
 import { motion } from "motion/react";
 import Image from "next/image";
 import { dictionaries } from "../lib/getDictionary";
-import ProjectCard from "./projects/projectcard";
+import ProjectCard from "./projects/ProjectCard";
 import ProjectModal from "./projects/ProjectModal";
 import ProjectGrid from "./projects/ProjectGrid";
 type ProjectProps ={

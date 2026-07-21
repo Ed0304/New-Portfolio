@@ -1,7 +1,7 @@
 "use client";
 
 import { dictionaries } from "@/app/lib/getDictionary";
-import ProjectCard from "./projectcard";
+import ProjectCard from "./ProjectCard";
 
 type Project = typeof dictionaries.en.projects.list[number];
 
