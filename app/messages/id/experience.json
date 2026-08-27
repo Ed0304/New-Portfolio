@@ -13,7 +13,8 @@
   "certLabels": {
     "name": "Nama",
     "description": "Deskripsi",
-    "validityPeriod": "Periode Validitas"
+    "validityPeriod": "Periode Validitas",
+    "viewCredential": "Lihat Kredensial"
   },
 
   "list": [
@@ -53,6 +54,17 @@
         "/images/volunteer2.jpg",
         "/images/volunteer3.jpg"
       ]
+    },
+
+    {
+      "id": "JLPTN3",
+      "name": "JLPT N3",
+      "type": "Sertifikasi",
+      "image": "/images/JLPT.png",
+      "issuer": "The Japan Foundation & JEES",
+      "dateEarned": "Agustus 2026",
+      "credentialUrl": "https://drive.google.com/file/d/1N_4wPXTQwIyuguCShlBHACgeJuHHVa0K/view?usp=sharing",
+      "description": "Tes kemampuan bahasa Jepang tingkat menengah - (N3)"
     },
 
     {

@@ -13,7 +13,8 @@
   "certLabels": {
     "name": "名称",
     "description": "简介",
-    "validityPeriod": "有效期"
+    "validityPeriod": "有效期",
+    "viewCredential": "查看证书"
   },
 
   "list": [
@@ -53,6 +54,17 @@
         "/images/volunteer2.jpg",
         "/images/volunteer3.jpg"
       ]
+    },
+
+    {
+      "id": "JLPTN3",
+      "name": "JLPT N3",
+      "type": "证书",
+      "image": "/images/JLPT.png",
+      "issuer": "日本国际交流基金会・日本国际教育支援协会",
+      "dateEarned": "2026年8月",
+      "credentialUrl": "https://drive.google.com/file/d/1N_4wPXTQwIyuguCShlBHACgeJuHHVa0K/view?usp=sharing",
+      "description": "日语水平考试 中级（N3）"
     },
 
     {

@@ -294,7 +294,7 @@ export default function ExperienceCard({
                                 "
                             >
 
-                                Verify Credential
+                                {dict.certLabels.viewCredential}
 
                                 <ExternalLink size={17}/>
 

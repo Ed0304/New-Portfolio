@@ -13,7 +13,8 @@
   "certLabels": {
     "name": "Name",
     "description": "Description",
-    "validityPeriod": "Validity Period"
+    "validityPeriod": "Validity Period",
+    "viewCredential": "View Credential"
   },
 
   "list": [
@@ -53,6 +54,16 @@
         "/images/volunteer2.jpg",
         "/images/volunteer3.jpg"
       ]
+    },
+    {
+      "id": "JLPTN3",
+      "name": "JLPT N3",
+      "type": "Certification",
+      "image": "/images/JLPT.png",
+      "issuer": "The Japan Foundation & JEES",
+      "dateEarned": "August 2026",
+      "credentialUrl": "https://drive.google.com/file/d/1N_4wPXTQwIyuguCShlBHACgeJuHHVa0K/view?usp=sharing",
+      "description": "Japanese-Language Proficiency Test — Intermediate Level (N3)"
     },
 
     {
