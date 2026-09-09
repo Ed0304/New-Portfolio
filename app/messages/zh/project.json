@@ -20,13 +20,95 @@
   },
 
   "list": [
+        {
+          "id": "urgentorisit",
+          "featured": true,
+          "year": 2026,
+          "category": "Web开发",
+          "role": "全栈开发",
+
+          "name": "Urgent or Is It?",
+          "description": "这是 Phish or Miss 的后续项目。Urgent or Is It? 通过有故事性的游戏内容，让玩家在享受游戏的同时学习如何发现网络钓鱼。",
+
+          "thumbnail": "/images/UrgentOrIsIt1.png",
+
+          "screenshots": [
+          "/images/UrgentOrIsIt1.png",
+          "/images/UrgentOrIsIt2.png",
+          "/images/UrgentOrIsIt3.png"
+          ],
+
+          "technologies": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "NestJS",
+          "MongoDB",
+          "JWT"
+          ],
+
+          "services": [
+          "Railway"
+          ],
+
+          "links": {
+          "github": "https://github.com/Ed0304/Urgent-or-Is-It",
+          "demo": "",
+          "download": null
+          },
+
+          "details": {
+          "overview": "这是一个全栈网络安全教育游戏。前端使用 Next.js、React、TypeScript 和 Tailwind CSS，后端使用 NestJS 和 MongoDB。应用使用 JWT 进行用户认证，并管理用户登录、个人资料和游戏进度。",
+
+
+          "problem": "完成 Phish or Miss 后，我发现自己需要学习更多技术，不能只使用以前熟悉的 Flask 和 React。因此，我希望扩大自己的技术范围，并使用更多现代的全栈开发技术。这个项目让我有机会学习和加强前端、后端、数据库、用户认证、部署和 CI/CD 等方面的能力，同时也可以继续 Phish or Miss 的想法。",
+
+          "solution": "我从零开始重新设计和开发这个项目，使用 Next.js、React、TypeScript、NestJS 和 MongoDB 建立完整的全栈架构。应用加入了用户认证、受保护的 API、每个用户的游戏进度，以及用于学习识别网络钓鱼的互动场景。我还使用 GitHub Actions 自动完成 CI/CD 工作流程，并将前端和后端分别部署到不同的服务。",
+
+          "features": [
+            "🎭 有故事性的网络钓鱼场景，让网络安全学习更加有趣。",
+            "🎯 以发现网络钓鱼为重点的互动游戏体验。",
+            "👤 用户注册、登录和玩家个人资料。",
+            "💾 使用 MongoDB 保存每个用户的游戏进度。",
+            "🔐 使用 JWT 进行用户认证，并使用 bcrypt 对密码进行哈希处理。",
+            "🛡️ 使用 NestJS Guards 和 DTO 保护 API，并进行输入验证。",
+            "🌐 使用 RESTful API 连接前端和后端。",
+            "⚙️ 使用 GitHub Actions 自动完成 CI/CD 工作流程。",
+            "☁️ 使用 Railway 部署前端和后端。"
+          ],
+
+          "challenges": [
+            "从以前使用的 Flask 后端转向 NestJS，并学习新的全栈架构。",
+            "从主要使用 JavaScript 的开发方式转向完整使用 TypeScript。",
+            "设计清楚的 Next.js 前端和 NestJS 后端结构。",
+            "安全地实现用户认证、权限管理、密码哈希和受保护的 API。",
+            "使用 MongoDB 设计数据库结构，并保存每个用户的游戏数据。",
+            "让分别部署的前端和后端能够正确连接和通信。",
+            "使用 GitHub Actions 设置自动化 CI/CD 工作流程和部署。"
+          ],
+
+          "lessons": [
+            "我了解到，学习不同的技术并扩大自己的技术范围，可以让我成为更全面的 Software Engineer。",
+            "加强了我对 TypeScript、React 和 Next.js 现代开发方式的理解。",
+            "获得了使用 NestJS 和 Mongoose 开发后端服务的实际经验。",
+            "进一步学习了用户认证、权限管理、密码哈希和 API 安全。",
+            "了解了前端、后端、数据库、部署和 CI/CD 如何一起组成一个完整的应用。",
+            "提高了自己学习不熟悉技术，并把这些技术应用到实际项目中的能力。",
+            "我发现，从零开始开发一个应用，可以帮助我找到自己的技术不足，并有计划地学习这些技术。"
+          ]
+
+
+          }
+    },
+
     {
       "id": "portfolio",
 
       "featured": true,
       "year": 2026,
-      "category": "Web Development",
-      "role": "Full Stack Developer",
+      "category": "网页开发",
+      "role": "全栈工程师",
 
       "name": "个人作品集网站",
 

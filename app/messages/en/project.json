@@ -21,6 +21,88 @@
 
   "list": [
     {
+      "id": "urgentorisit",
+      "featured": true,
+      "year": 2026,
+      "category": "Web Development",
+      "role": "Full Stack Developer",
+
+      "name": "Urgent or Is It?",
+      "description": "A spiritual successor to Phish or Miss, Urgent or Is It? provides players with a lore-rich and educational experience focused on identifying phishing attempts.",
+
+      "thumbnail": "/images/UrgentOrIsIt1.png",
+
+      "screenshots": [
+        "/images/UrgentOrIsIt1.png",
+        "/images/UrgentOrIsIt2.png",
+        "/images/UrgentOrIsIt3.png"
+      ],
+
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "NestJS",
+        "MongoDB",
+        "JWT"
+      ],
+
+      "services": [
+        "Railway"
+      ],
+
+      "links": {
+        "github": "https://github.com/Ed0304/Urgent-or-Is-It",
+        "demo": "",
+        "download": null
+      },
+
+      "details": {
+        "overview": "A full-stack web-based cybersecurity awareness game built with Next.js, React, TypeScript, and Tailwind CSS on the frontend, with a NestJS and MongoDB backend. The application uses JWT-based authentication to manage user sessions, profiles, and persistent game progression.",
+
+
+        "problem": "After developing Phish or Miss, I realized that I wanted to expand beyond my existing Flask and React experience and build a more complete full-stack application using a broader modern technology stack. This project became an opportunity to strengthen my frontend, backend, database, authentication, deployment, and CI/CD skills while creating a spiritual successor to Phish or Miss.",
+
+        "solution": "I rebuilt the concept from the ground up using a modern full-stack architecture with Next.js, React, TypeScript, NestJS, and MongoDB. The application includes persistent player progression, user authentication, protected backend endpoints, and interactive phishing-detection scenarios. I also introduced automated CI/CD workflows with GitHub Actions and deployed the application using separate frontend and backend services.",
+
+      "features": [
+        "🎭 Lore-rich phishing scenarios designed to make cybersecurity awareness more engaging.",
+        "🎯 Interactive gameplay focused on identifying phishing attempts.",
+        "👤 User registration, authentication, and player profiles.",
+        "💾 Persistent per-user game progression stored in MongoDB.",
+        "🔐 JWT-based authentication with bcrypt password hashing.",
+        "🛡️ Protected API endpoints with NestJS guards and DTO-based validation.",
+        "🌐 RESTful API architecture connecting the frontend and backend.",
+        "⚙️ Automated CI/CD workflows using GitHub Actions.",
+        "☁️ Deployed frontend and backend services using Railway."
+      ],
+
+      "challenges": [
+        "Expanding beyond my previous Flask-based backend experience and learning NestJS for a new full-stack architecture.",
+        "Migrating from primarily JavaScript-based development toward a fully TypeScript-based application.",
+        "Designing a clean separation between the Next.js frontend and NestJS backend.",
+        "Implementing authentication, authorization, password hashing, and protected API endpoints securely.",
+        "Designing MongoDB schemas and persistent game-state storage for individual players.",
+        "Configuring frontend-to-backend communication across separately deployed services.",
+        "Setting up automated CI/CD workflows and deployment with GitHub Actions."
+      ],
+
+      "lessons": [
+        "Learned that expanding my breadth across the stack is important for becoming a more versatile software engineer.",
+        "Strengthened my understanding of TypeScript and modern React/Next.js development.",
+        "Gained practical experience building backend services with NestJS and Mongoose.",
+        "Deepened my understanding of authentication, authorization, password hashing, and API security.",
+        "Learned how frontend, backend, database, deployment, and CI/CD concerns fit together in a complete application.",
+        "Improved my ability to independently learn unfamiliar technologies and integrate them into a working system.",
+        "Realized that building an application from scratch is an effective way to identify gaps in my technical breadth and deliberately address them."
+      ]
+
+
+      }
+    },
+
+    {
       "id": "portfolio",
 
       "featured": true,

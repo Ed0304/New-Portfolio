@@ -20,6 +20,88 @@
   },
 
   "list": [
+        {
+          "id": "urgentorisit",
+          "featured": true,
+          "year": 2026,
+          "category": "Web開発",
+          "role": "Full Stack Developer",
+
+          "name": "Urgent or Is It?",
+          "description": "Phish or Missの後継プロジェクトです。Urgent or Is It?では、ストーリーを楽しみながら、フィッシングを見つける方法を学ぶことができます。",
+
+          "thumbnail": "/images/UrgentOrIsIt1.png",
+
+          "screenshots": [
+          "/images/UrgentOrIsIt1.png",
+          "/images/UrgentOrIsIt2.png",
+          "/images/UrgentOrIsIt3.png"
+          ],
+
+          "technologies": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "NestJS",
+          "MongoDB",
+          "JWT"
+          ],
+
+          "services": [
+          "Railway"
+          ],
+
+          "links": {
+          "github": "https://github.com/Ed0304/Urgent-or-Is-It",
+          "demo": "",
+          "download": null
+          },
+
+          "details": {
+          "overview": "Next.js、React、TypeScript、Tailwind CSSを使ったフロントエンドと、NestJS、MongoDBを使ったバックエンドで作った、Webベースのサイバーセキュリティ教育ゲームです。JWTを使った認証により、ユーザーのログイン、プロフィール、ゲームの進み具合を管理しています。",
+
+          
+          "problem": "Phish or Missを作った後、今まで使っていたFlaskとReactだけではなく、もっと多くの技術を使ってみたいと思いました。そのため、より広い技術の知識を身につけることを目標に、このプロジェクトを始めました。フロントエンド、バックエンド、データベース、認証、デプロイ、CI/CDについて勉強しながら、Phish or Missの後継となるゲームを一から作りました。",
+
+          "solution": "Next.js、React、TypeScript、NestJS、MongoDBを使って、プロジェクトを一から作り直しました。ユーザー認証、保護されたAPI、ユーザーごとのゲームの進み具合、フィッシングを見つけるインタラクティブなシナリオなどを実装しました。また、GitHub Actionsを使ってCI/CDのworkflowを自動化し、フロントエンドとバックエンドを別々のサービスとしてデプロイしました。",
+
+          "features": [
+            "🎭 ストーリーを使ったフィッシングのシナリオで、サイバーセキュリティを楽しく学べます。",
+            "🎯 フィッシングを見つけることを中心としたインタラクティブなゲームプレイ。",
+            "👤 ユーザー登録、ログイン、プレイヤープロフィール。",
+            "💾 MongoDBを使って、ユーザーごとのゲームの進み具合を保存。",
+            "🔐 JWTによる認証と、bcryptを使ったパスワードのハッシュ化。",
+            "🛡️ NestJS GuardsとDTOによるAPIの保護と入力チェック。",
+            "🌐 RESTful APIを使ったフロントエンドとバックエンドの連携。",
+            "⚙️ GitHub Actionsを使ったCI/CD workflowの自動化。",
+            "☁️ Railwayを使ってフロントエンドとバックエンドをデプロイ。"
+          ],
+
+          "challenges": [
+            "今まで使っていたFlaskのバックエンドからNestJSに変えて、新しいfull-stackの構成を学ぶこと。",
+            "JavaScript中心の開発から、TypeScriptを使った開発に移ること。",
+            "Next.jsのフロントエンドとNestJSのバックエンドを分けて設計すること。",
+            "認証、認可、パスワードのハッシュ化、保護されたAPIを安全に実装すること。",
+            "MongoDBを使って、ユーザーごとのゲームデータを保存すること。",
+            "別々にデプロイしたフロントエンドとバックエンドを正しく連携させること。",
+            "GitHub Actionsを使ってCI/CD workflowとデプロイを設定すること。"
+          ],
+
+          "lessons": [
+            "いろいろな技術を学び、技術のbreadthを広げることが、より幅広く対応できるSoftware Engineerになるために大切だと学びました。",
+            "TypeScriptとReact、Next.jsを使った開発について、理解を深めました。",
+            "NestJSとMongooseを使ってバックエンドサービスを作る経験ができました。",
+            "認証、認可、パスワードのハッシュ化、APIのセキュリティについて、より深く学びました。",
+            "フロントエンド、バックエンド、データベース、デプロイ、CI/CDが、一つのアプリケーションでどのようにつながっているかを学びました。",
+            "知らない技術を自分で勉強して、実際に動くアプリケーションに使う力が身につきました。",
+            "アプリケーションを最初から作ることで、自分に足りない技術を見つけ、それを学ぶことができると分かりました。"
+          ]
+          
+
+          }
+    },
+
     {
       "id": "portfolio",
 

@@ -21,6 +21,88 @@
 
   "list": [
     {
+      "id": "urgentorisit",
+      "featured": true,
+      "year": 2026,
+      "category": "Pengembangan Web",
+      "role": "Full Stack Developer",
+
+      "name": "Urgent or Is It?",
+      "description": "Penerus spiritual dari Phish or Miss, Urgent or Is It? menghadirkan pengalaman edukatif yang kaya akan cerita bagi pemain untuk belajar mengenali upaya phishing.",
+
+      "thumbnail": "/images/UrgentOrIsIt1.png",
+
+      "screenshots": [
+      "/images/UrgentOrIsIt1.png",
+      "/images/UrgentOrIsIt2.png",
+      "/images/UrgentOrIsIt3.png"
+      ],
+
+      "technologies": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "NestJS",
+      "MongoDB",
+      "JWT"
+      ],
+
+      "services": [
+      "Railway"
+      ],
+
+      "links": {
+      "github": "https://github.com/Ed0304/Urgent-or-Is-It",
+      "demo": "",
+      "download": null
+      },
+
+      "details": {
+      "overview": "Sebuah game edukasi keamanan siber berbasis web yang dibangun secara full-stack menggunakan Next.js, React, TypeScript, dan Tailwind CSS pada frontend, serta NestJS dan MongoDB pada backend. Aplikasi ini menggunakan autentikasi berbasis JWT untuk mengelola sesi pengguna, profil, dan progres permainan yang tersimpan secara persisten.",
+
+
+      "problem": "Setelah mengembangkan Phish or Miss, saya menyadari bahwa saya perlu memperluas pengalaman di luar Flask dan React yang sebelumnya saya gunakan serta membangun aplikasi full-stack yang lebih lengkap dengan teknologi modern yang lebih beragam. Proyek ini menjadi kesempatan untuk memperkuat kemampuan frontend, backend, database, autentikasi, deployment, dan CI/CD, sekaligus membuat penerus spiritual dari Phish or Miss.",
+
+      "solution": "Saya membangun kembali konsep tersebut dari awal menggunakan arsitektur full-stack modern dengan Next.js, React, TypeScript, NestJS, dan MongoDB. Aplikasi ini mencakup penyimpanan progres pemain secara persisten, autentikasi pengguna, endpoint backend yang terlindungi, serta skenario interaktif untuk mengenali upaya phishing. Saya juga menerapkan workflow CI/CD otomatis menggunakan GitHub Actions dan melakukan deployment frontend dan backend sebagai layanan terpisah.",
+
+      "features": [
+        "🎭 Skenario phishing yang kaya akan cerita untuk membuat edukasi keamanan siber menjadi lebih menarik.",
+        "🎯 Gameplay interaktif yang berfokus pada kemampuan mengenali upaya phishing.",
+        "👤 Registrasi pengguna, autentikasi, dan profil pemain.",
+        "💾 Penyimpanan progres permainan setiap pengguna secara persisten menggunakan MongoDB.",
+        "🔐 Autentikasi berbasis JWT dengan password yang di-hash menggunakan bcrypt.",
+        "🛡️ Endpoint API yang terlindungi menggunakan NestJS guards dan validasi berbasis DTO.",
+        "🌐 Arsitektur RESTful API yang menghubungkan frontend dan backend.",
+        "⚙️ Workflow CI/CD otomatis menggunakan GitHub Actions.",
+        "☁️ Deployment frontend dan backend menggunakan Render."
+      ],
+
+      "challenges": [
+        "Memperluas pengalaman dari backend berbasis Flask sebelumnya dan mempelajari NestJS untuk membangun arsitektur full-stack yang baru.",
+        "Beralih dari pengembangan yang sebelumnya banyak menggunakan JavaScript menuju codebase yang sepenuhnya menggunakan TypeScript.",
+        "Merancang pemisahan yang jelas antara frontend Next.js dan backend NestJS.",
+        "Menerapkan autentikasi, otorisasi, password hashing, dan endpoint API yang terlindungi secara aman.",
+        "Merancang schema MongoDB dan penyimpanan game state yang persisten untuk setiap pemain.",
+        "Mengonfigurasi komunikasi antara frontend dan backend yang di-deploy sebagai layanan terpisah.",
+        "Menyiapkan workflow CI/CD otomatis dan deployment menggunakan GitHub Actions."
+      ],
+
+      "lessons": [
+        "Menyadari bahwa memperluas breadth di berbagai bagian stack sangat penting untuk menjadi software engineer yang lebih serbaguna.",
+        "Memperkuat pemahaman tentang pengembangan menggunakan TypeScript dan React/Next.js modern.",
+        "Mendapatkan pengalaman praktis dalam membangun backend service menggunakan NestJS dan Mongoose.",
+        "Memperdalam pemahaman tentang autentikasi, otorisasi, password hashing, dan keamanan API.",
+        "Memahami bagaimana frontend, backend, database, deployment, dan CI/CD saling terintegrasi dalam sebuah aplikasi yang lengkap.",
+        "Meningkatkan kemampuan untuk mempelajari teknologi yang belum familiar secara mandiri dan mengintegrasikannya ke dalam aplikasi yang berfungsi.",
+        "Menyadari bahwa membangun aplikasi dari awal merupakan cara yang efektif untuk menemukan kesenjangan dalam breadth teknis dan secara sengaja mengatasinya."
+      ]
+
+
+      }
+    },
+
+    {
       "id": "portfolio",
 
       "featured": true,
