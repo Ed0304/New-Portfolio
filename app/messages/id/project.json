@@ -69,7 +69,7 @@
           "🔐 Memisahkan fitur pemindaian pengguna dari antarmuka pengelolaan tiket administrator."
         ],
         "challenges": [
-          "- Memisahkan pengelolaan tiket dan logika bisnis ke dalam backend Spring Boot, sementara proses inferensi AI/ML ditangani oleh layanan FastAPI khusus, sehingga setiap layanan memiliki tanggung jawab yang jelas.",
+          "Memisahkan pengelolaan tiket dan logika bisnis ke dalam backend Spring Boot, sementara proses inferensi AI/ML ditangani oleh layanan FastAPI khusus, sehingga setiap layanan memiliki tanggung jawab yang jelas.",
           "Menghubungkan frontend Vue.js dengan REST API dan mengatasi masalah Cross-Origin Resource Sharing (CORS).",
           "Mengoordinasikan pembuatan tiket, pelacakan, dan notifikasi perubahan status.",
           "Mengatur environment variables dan konfigurasi deployment untuk frontend dan backend yang terpisah.",
