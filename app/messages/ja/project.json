@@ -32,7 +32,8 @@
         "screenshots": [
           "/images/signalbait1.png",
           "/images/signalbait2.png",
-          "/images/signalbait3.png"
+          "/images/signalbait3.png",
+          "/images/signalbait4.png"
         ],
         "technologies": [
           "Vue.js",
