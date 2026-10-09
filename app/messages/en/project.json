@@ -70,7 +70,7 @@
           "🔐 Separate the scanning experience from the administrative ticket-management interface."
         ],
         "challenges": [
-          "Integrating a Python-based machine learning service with a Spring Boot backend.",
+          "eparated ticket management and business logic into a Spring Boot backend while delegating AI/ML inference to a dedicated FastAPI service, enabling clear service responsibilities.",
           "Connecting the Vue.js frontend to backend REST APIs and resolving cross-origin resource sharing (CORS) issues.",
           "Coordinating ticket creation, tracking, and status notifications across application components.",
           "Configuring environment variables and deployment settings for separate frontend and backend services.",
