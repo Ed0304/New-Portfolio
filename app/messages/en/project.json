@@ -35,7 +35,7 @@
         "/images/signalbait3.png",
         "/images/signalbait4.png"
       ],
-      "techs": [
+      "technologies": [
         "Vue.js",
         "TypeScript",
         "Tailwind CSS",
@@ -99,7 +99,7 @@
         "/images/SignalBaitAdmin2.png",
         "/images/SignalBaitAdmin3.png"
       ],
-      "techs": [
+      "technologies": [
         "Angular",
         "TypeScript",
         "Django",
