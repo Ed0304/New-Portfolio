@@ -21,6 +21,128 @@
 
   "list": [
     {
+      "id": "signalbait",
+      "featured": true,
+      "year": 2026,
+      "category": "Aplikasi Web Full-Stack",
+      "role": "Pengembang Full-Stack",
+      "name": "SignalBait",
+      "description": "Pemindai pesan phishing dan penipuan berbantuan AI untuk membantu pengguna mengenali pesan mencurigakan dan melaporkan potensi ancaman.",
+      "thumbnail": "/images/signalbait1.png",
+      "screenshots": [
+        "/images/signalbait1.png",
+        "/images/signalbait2.png",
+        "/images/signalbait3.png"
+      ],
+      "techs": [
+        "Vue.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Spring Boot",
+        "Java",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Hugging Face Transformers",
+        "Zero-Shot Classification"
+      ],
+      "services": [
+        "Vercel",
+        "Render"
+      ],
+      "links": {
+        "github": "https://github.com/Ed0304/SignalBait",
+        "demo": ""
+      },
+      "download": null,
+      "details": {
+        "overview": "SignalBait adalah aplikasi web full-stack yang membantu pengguna menganalisis pesan yang mungkin berbahaya dan melaporkan aktivitas mencurigakan. Aplikasi ini menggabungkan frontend Vue.js, REST API Spring Boot, dan layanan machine learning berbasis Python. Pipeline analisis menggunakan model pihak ketiga facebook/bart-large-mnli melalui Hugging Face Transformers untuk klasifikasi teks zero-shot. Model tersebut merupakan salah satu komponen analisis dan bukan model yang saya kembangkan atau latih sendiri.",
+        "problem": "Pesan phishing dan penipuan dapat menyerupai komunikasi resmi sehingga sulit dikenali oleh pengguna. Pengguna juga membutuhkan cara yang mudah untuk melaporkan pesan mencurigakan dan memantau laporan mereka.",
+        "solution": "Mengembangkan fitur pemindaian berbantuan AI, sistem pelaporan berbasis tiket, dan fitur pelacakan tiket. Mengintegrasikan facebook/bart-large-mnli sebagai model klasifikasi pihak ketiga melalui Hugging Face Transformers tanpa mengklaim bahwa model tersebut merupakan karya sendiri. Spring Boot digunakan untuk REST API utama, sedangkan FastAPI digunakan untuk layanan analisis berbasis Python.",
+        "features": [
+          "🔎 Menganalisis pesan mencurigakan menggunakan pipeline klasifikasi berbantuan AI.",
+          "🖼️ Mendukung input teks dan gambar untuk analisis pesan.",
+          "🎯 Mengintegrasikan model pihak ketiga facebook/bart-large-mnli untuk klasifikasi teks zero-shot.",
+          "🎫 Mengirim laporan dan mendapatkan nomor tiket untuk tindak lanjut.",
+          "📨 Menerima notifikasi email saat tiket dibuat atau statusnya berubah.",
+          "🔍 Melacak laporan menggunakan nomor tiket dan email pelapor.",
+          "🔐 Memisahkan fitur pemindaian pengguna dari antarmuka pengelolaan tiket administrator."
+        ],
+        "challenges": [
+          "Mengintegrasikan layanan machine learning berbasis Python dengan backend Spring Boot.",
+          "Menghubungkan frontend Vue.js dengan REST API dan mengatasi masalah Cross-Origin Resource Sharing (CORS).",
+          "Mengoordinasikan pembuatan tiket, pelacakan, dan notifikasi perubahan status.",
+          "Mengatur environment variables dan konfigurasi deployment untuk frontend dan backend yang terpisah.",
+          "Memahami keterbatasan zero-shot classification agar hasil prediksi model tidak dianggap sebagai keputusan keamanan yang pasti."
+        ],
+        "lessons": [
+          "Mempelajari cara mengintegrasikan model machine learning pihak ketiga tanpa mengklaim model tersebut sebagai karya sendiri.",
+          "Mendapatkan pengalaman membangun dan menghubungkan REST API menggunakan layanan Java dan Python.",
+          "Meningkatkan pemahaman tentang konfigurasi environment, CORS, dan troubleshooting deployment.",
+          "Belajar membedakan prediksi model dari kesimpulan keamanan yang pasti.",
+          "Mendapatkan pengalaman merancang alur pelaporan yang mendukung pelacakan tiket dan tindak lanjut administrator."
+        ]
+      }
+    },
+    {
+      "id": "signalbait-admin",
+      "featured": false,
+      "year": 2026,
+      "category": "Dashboard Admin",
+      "role": "Pengembang Full-Stack",
+      "name": "SignalBait Admin Dashboard",
+      "description": "Dashboard administrator untuk mengelola laporan pengguna, memantau status tiket, melihat analitik, dan memeriksa audit log.",
+      "thumbnail": "/images/SignalBaitAdmin1.png",
+      "screenshots": [
+        "/images/SignalBaitAdmin1.png",
+        "/images/SignalBaitAdmin2.png",
+        "/images/SignalBaitAdmin3.png"
+      ],
+      "techs": [
+        "Angular",
+        "TypeScript",
+        "Django",
+        "Python",
+        "PostgreSQL",
+        "ECharts"
+      ],
+      "services": [
+        "Vercel",
+        "Render"
+      ],
+      "links": {
+        "github": "https://github.com/Ed0304/SignalBait-Admin-Dashboard",
+        "demo": ""
+      },
+      "download": null,
+      "details": {
+        "overview": "SignalBait Admin Dashboard adalah aplikasi administratif terpisah untuk mengelola laporan yang dikirim melalui SignalBait. Dashboard ini menyediakan antarmuka untuk meninjau tiket, memperbarui status, memantau analitik, dan melihat audit log. Frontend menggunakan Angular dan ECharts, sedangkan backend menggunakan Django. Dashboard dan aplikasi utama menggunakan database PostgreSQL yang sama.",
+        "problem": "Laporan yang masuk membutuhkan antarmuka pengelolaan yang terorganisasi agar administrator dapat meninjau masalah, memperbarui progres, dan memantau aktivitas tanpa harus mengelola database secara manual.",
+        "solution": "Mengembangkan dashboard administrator dengan autentikasi berbasis sesi, pengelolaan tiket, visualisasi analitik, dan fitur untuk melihat audit log. Frontend Angular berkomunikasi dengan endpoint Django, sedangkan backend mengakses database PostgreSQL yang juga digunakan oleh aplikasi utama.",
+        "features": [
+          "🔐 Login administrator dengan autentikasi berbasis sesi.",
+          "🎫 Melihat dan mengelola tiket laporan pengguna.",
+          "🔄 Memperbarui status tiket, termasuk baru, sedang diproses, dan selesai.",
+          "📊 Menampilkan statistik dan tren tiket menggunakan ECharts.",
+          "📋 Memeriksa audit log untuk melihat aktivitas administrator.",
+          "🗑️ Menghapus tiket jika diperlukan dalam pengelolaan laporan."
+        ],
+        "challenges": [
+          "Mengimplementasikan autentikasi berbasis sesi dan menangani CORS untuk permintaan yang menggunakan kredensial.",
+          "Menjaga konsistensi kolom dan tipe data tiket antara model Django dan skema PostgreSQL yang sudah ada.",
+          "Mengoordinasikan pembaruan tiket dengan fitur pelacakan dan notifikasi email pada aplikasi utama.",
+          "Memisahkan konfigurasi deployment frontend dan backend sambil memastikan kedua layanan tetap dapat berkomunikasi."
+        ],
+        "lessons": [
+          "Mempelajari pengembangan frontend administratif menggunakan Angular dan TypeScript.",
+          "Mendapatkan pengalaman membuat endpoint backend menggunakan Django dan Python.",
+          "Memahami autentikasi berbasis sesi, CORS, dan permintaan HTTP yang menggunakan kredensial.",
+          "Mempelajari integrasi visualisasi data menggunakan ECharts.",
+          "Mendapatkan pengalaman mengoordinasikan database yang digunakan oleh beberapa aplikasi."
+        ]
+      }
+    },
+    {
       "id": "urgentorisit",
       "featured": true,
       "year": 2026,
@@ -49,7 +171,7 @@
       ],
 
       "services": [
-      "Railway"
+      "Vercel"
       ],
 
       "links": {

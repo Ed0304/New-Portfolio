@@ -21,6 +21,129 @@
 
   "list": [
     {
+      "id": "signalbait",
+      "featured": true,
+      "year": 2026,
+      "category": "Full-Stack Web Application",
+      "role": "Full-Stack Developer",
+      "name": "SignalBait",
+      "description": "An AI-assisted phishing and scam message scanner that helps users identify suspicious messages and report potential threats.",
+      "thumbnail": "/images/signalbait1.png",
+      "screenshots": [
+        "/images/signalbait1.png",
+        "/images/signalbait2.png",
+        "/images/signalbait3.png",
+        "/images/signalbait4.png"
+      ],
+      "techs": [
+        "Vue.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Spring Boot",
+        "Java",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Hugging Face Transformers",
+        "Zero-Shot Classification"
+      ],
+      "services": [
+        "Vercel",
+        "Render"
+      ],
+      "links": {
+        "github": "https://github.com/Ed0304/SignalBait",
+        "demo": ""
+      },
+      "download": null,
+      "details": {
+        "overview": "SignalBait is a full-stack web application designed to help users analyze potentially malicious messages and report suspicious activity. It combines a Vue.js frontend, a Spring Boot REST API, and a Python-based machine learning service. The analysis pipeline integrates the third-party facebook/bart-large-mnli model through Hugging Face Transformers for zero-shot text classification. The model is one component of the analysis pipeline and is not a model developed or trained by me.",
+        "problem": "Phishing and scam messages can imitate legitimate communications, making them difficult for users to recognize. Users also need a straightforward way to report suspicious messages and follow up on reported issues.",
+        "solution": "Built an AI-assisted scanning workflow, a ticket reporting system, and a ticket-tracking feature. Integrated facebook/bart-large-mnli as a third-party classifier through Hugging Face Transformers rather than claiming ownership of the model. The application uses Spring Boot for its main REST API and FastAPI for the Python-based analysis service.",
+        "features": [
+          "🔎 Analyze suspicious messages using an AI-assisted classification pipeline.",
+          "🖼️ Support both text and image input for message analysis.",
+          "🎯 Integrate the third-party facebook/bart-large-mnli model for zero-shot text classification.",
+          "🎫 Submit reports and receive a ticket number for follow-up.",
+          "📨 Receive email notifications about ticket creation and status changes.",
+          "🔍 Track reported tickets using a ticket number and reporter email.",
+          "🔐 Separate the scanning experience from the administrative ticket-management interface."
+        ],
+        "challenges": [
+          "Integrating a Python-based machine learning service with a Spring Boot backend.",
+          "Connecting the Vue.js frontend to backend REST APIs and resolving cross-origin resource sharing (CORS) issues.",
+          "Coordinating ticket creation, tracking, and status notifications across application components.",
+          "Configuring environment variables and deployment settings for separate frontend and backend services.",
+          "Understanding the limitations of zero-shot classification and avoiding treating one model's output as a definitive security verdict."
+        ],
+        "lessons": [
+          "Learned to integrate an existing third-party machine learning model without misrepresenting it as my own work.",
+          "Gained experience building and connecting REST APIs across Java and Python services.",
+          "Improved my understanding of environment-based configuration, CORS, and deployment troubleshooting.",
+          "Learned to distinguish between model predictions and definitive security conclusions.",
+          "Practiced designing a reporting workflow that supports ticket tracking and administrative follow-up."
+        ]
+      }
+    },
+    {
+      "id": "signalbait-admin",
+      "featured": false,
+      "year": 2026,
+      "category": "Admin Dashboard",
+      "role": "Full-Stack Developer",
+      "name": "SignalBait Admin Dashboard",
+      "description": "An administrative dashboard for managing user reports, monitoring ticket statuses, viewing analytics, and reviewing audit logs.",
+      "thumbnail": "/images/SignalBaitAdmin1.png",
+      "screenshots": [
+        "/images/SignalBaitAdmin1.png",
+        "/images/SignalBaitAdmin2.png",
+        "/images/SignalBaitAdmin3.png"
+      ],
+      "techs": [
+        "Angular",
+        "TypeScript",
+        "Django",
+        "Python",
+        "PostgreSQL",
+        "ECharts"
+      ],
+      "services": [
+        "Vercel",
+        "Render"
+      ],
+      "links": {
+        "github": "https://github.com/Ed0304/SignalBait-Admin-Dashboard",
+        "demo": ""
+      },
+      "download": null,
+      "details": {
+        "overview": "SignalBait Admin Dashboard is a separate administrative application for managing reports submitted through SignalBait. It provides an interface for reviewing tickets, updating their statuses, monitoring analytics, and inspecting audit logs. The frontend uses Angular and ECharts, while the backend uses Django. Both the dashboard and the main application work with the shared PostgreSQL database.",
+        "problem": "Incoming reports need an organized management interface so administrators can review reported issues, update their progress, and monitor activity without relying on manual database operations.",
+        "solution": "Developed an administrative dashboard with session-based authentication, ticket management, analytics visualizations, and audit-log viewing. The Angular frontend communicates with Django REST endpoints, while the backend accesses the shared PostgreSQL database used by the main application.",
+        "features": [
+          "🔐 Secure administrator login using session-based authentication.",
+          "🎫 View and manage reported tickets.",
+          "🔄 Update ticket statuses, including new, in-progress, and resolved.",
+          "📊 Visualize ticket statistics and trends using ECharts.",
+          "📋 Review audit logs to inspect administrative actions.",
+          "🗑️ Delete tickets when administrative action is required."
+        ],
+        "challenges": [
+          "Implementing session-based authentication and handling cross-origin requests with credentials.",
+          "Keeping ticket fields and data types consistent between Django models and the existing PostgreSQL schema.",
+          "Coordinating ticket updates with the main application's ticket-tracking and email-notification workflow.",
+          "Separating frontend and backend deployment configuration while maintaining communication between services."
+        ],
+        "lessons": [
+          "Learned to build an administrative frontend with Angular and TypeScript.",
+          "Gained experience developing backend endpoints with Django and Python.",
+          "Improved my understanding of session authentication, CORS, and credentialed HTTP requests.",
+          "Learned to integrate data visualization into an administrative interface using ECharts.",
+          "Gained practical experience coordinating a shared database across separate applications."
+        ]
+      }
+    },
+    {
       "id": "urgentorisit",
       "featured": true,
       "year": 2026,
@@ -49,7 +172,7 @@
       ],
 
       "services": [
-        "Railway"
+        "Vercel"
       ],
 
       "links": {
@@ -75,7 +198,7 @@
         "🛡️ Protected API endpoints with NestJS guards and DTO-based validation.",
         "🌐 RESTful API architecture connecting the frontend and backend.",
         "⚙️ Automated CI/CD workflows using GitHub Actions.",
-        "☁️ Deployed frontend and backend services using Railway."
+        "☁️ Deployed frontend and backend services using Vercel."
       ],
 
       "challenges": [

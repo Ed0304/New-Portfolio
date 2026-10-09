@@ -20,6 +20,128 @@
   },
 
   "list": [
+      {
+        "id": "signalbait",
+        "featured": true,
+        "year": 2026,
+        "category": "フルスタックWebアプリ",
+        "role": "フルスタック開発者",
+        "name": "SignalBait",
+        "description": "AIを使って、フィッシングや詐欺の可能性があるメッセージを調べ、あやしいメッセージを報告できるWebアプリです。",
+        "thumbnail": "/images/signalbait1.png",
+        "screenshots": [
+          "/images/signalbait1.png",
+          "/images/signalbait2.png",
+          "/images/signalbait3.png"
+        ],
+        "techs": [
+          "Vue.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Spring Boot",
+          "Java",
+          "Python",
+          "FastAPI",
+          "PostgreSQL",
+          "Hugging Face Transformers",
+          "Zero-Shot Classification"
+        ],
+        "services": [
+          "Vercel",
+          "Render"
+        ],
+        "links": {
+          "github": "https://github.com/Ed0304/SignalBait",
+          "demo": ""
+        },
+        "download": null,
+        "details": {
+          "overview": "SignalBaitは、あやしいメッセージを調べ、危険かもしれないメッセージを報告できるフルスタックWebアプリです。Vue.jsのフロントエンド、Spring BootのREST API、Pythonの機械学習サービスを使っています。分析機能の一部として、Hugging Face Transformersを通して、外部モデルfacebook/bart-large-mnliを利用しています。このモデルはゼロショット分類に使われます。モデル自体を私が作ったり、学習させたりしたわけではありません。",
+          "problem": "フィッシングや詐欺のメッセージは、本物の連絡に見えることがあり、ユーザーが見分けるのは難しいです。また、あやしいメッセージを報告し、その後の状況を確認する方法も必要です。",
+          "solution": "AIを使ったメッセージ分析、チケットによる報告、チケットの追跡機能を開発しました。外部のfacebook/bart-large-mnliモデルをHugging Face Transformersから利用し、ゼロショット分類を分析の一部に取り入れました。主なREST APIにはSpring Bootを、Pythonの分析サービスにはFastAPIを使っています。",
+          "features": [
+            "🔎 AIを使った分析機能で、あやしいメッセージを調べます。",
+            "🖼️ テキストと画像の入力に対応しています。",
+            "🎯 外部モデルfacebook/bart-large-mnliを使い、ゼロショット分類を行います。",
+            "🎫 メッセージを報告し、確認用のチケット番号を取得できます。",
+            "📨 チケットの作成やステータスの変更について、メール通知を受け取れます。",
+            "🔍 チケット番号と報告者のメールアドレスで、報告の状況を確認できます。",
+            "🔐 ユーザー向けの分析機能と管理者向けのチケット管理画面を分けています。"
+          ],
+          "challenges": [
+            "Pythonの機械学習サービスとSpring Bootのバックエンドを連携させること。",
+            "Vue.jsのフロントエンドとREST APIを接続し、CORSの問題を解決すること。",
+            "チケットの作成、追跡、ステータス変更の通知を連携させること。",
+            "別々のフロントエンドとバックエンドに必要な環境変数とデプロイ設定を管理すること。",
+            "ゼロショット分類には限界があり、モデルの結果だけで安全かどうかを決められないと理解すること。"
+          ],
+          "lessons": [
+            "外部の機械学習モデルを利用し、自分が作ったモデルのように説明しないことを学びました。",
+            "JavaとPythonのサービスを使ってREST APIを作り、連携させる経験を得ました。",
+            "環境変数、CORS、デプロイ時の問題について理解を深めました。",
+            "モデルの予測と、確かなセキュリティ判断の違いを学びました。",
+            "報告からチケットの確認、管理者の対応までの流れを設計する経験を得ました。"
+          ]
+        }
+      },
+      {
+        "id": "signalbait-admin",
+        "featured": false,
+        "year": 2026,
+        "category": "管理者ダッシュボード",
+        "role": "フルスタック開発者",
+        "name": "SignalBait Admin Dashboard",
+        "description": "ユーザーからの報告、チケットの状態、分析データ、管理者の操作履歴を確認するためのダッシュボードです。",
+        "thumbnail": "/images/SignalBaitAdmin1.png",
+        "screenshots": [
+          "/images/SignalBaitAdmin1.png",
+          "/images/SignalBaitAdmin2.png",
+          "/images/SignalBaitAdmin3.png"
+        ],
+        "techs": [
+          "Angular",
+          "TypeScript",
+          "Django",
+          "Python",
+          "PostgreSQL",
+          "ECharts"
+        ],
+        "services": [
+          "Vercel",
+          "Render"
+        ],
+        "links": {
+          "github": "https://github.com/Ed0304/SignalBait-Admin-Dashboard",
+          "demo": ""
+        },
+        "download": null,
+        "details": {
+          "overview": "SignalBait Admin Dashboardは、SignalBaitから送られた報告を管理するための別のアプリです。管理者はチケットの確認やステータスの変更、データの分析、操作履歴の確認ができます。フロントエンドにはAngularとECharts、バックエンドにはDjangoを使っています。メインアプリと同じPostgreSQLデータベースを利用します。",
+          "problem": "報告が増えると、管理者が問題を確認し、対応状況を更新し、活動を管理するための整理された画面が必要です。データベースを毎回手動で操作する方法では、管理が大変になります。",
+          "solution": "セッション認証、チケット管理、データのグラフ表示、操作履歴の確認機能を持つ管理者ダッシュボードを開発しました。AngularのフロントエンドからDjangoのAPIを利用し、バックエンドから共通のPostgreSQLデータベースにアクセスします。",
+          "features": [
+            "🔐 セッション認証を使った管理者ログイン。",
+            "🎫 ユーザーからの報告チケットを確認・管理できます。",
+            "🔄 新規、対応中、解決済みなどのステータスを変更できます。",
+            "📊 EChartsを使ってチケットの統計や傾向をグラフで表示します。",
+            "📋 管理者の操作履歴を確認できます。",
+            "🗑️ 必要に応じてチケットを削除できます。"
+          ],
+          "challenges": [
+            "セッション認証を実装し、認証情報を含むリクエストのCORS設定を行うこと。",
+            "Djangoのモデルと既存のPostgreSQLデータベースで、チケットの項目やデータ型を合わせること。",
+            "チケットの更新をメインアプリの追跡機能やメール通知と連携させること。",
+            "フロントエンドとバックエンドを別々にデプロイし、サービス間の通信を設定すること。"
+          ],
+          "lessons": [
+            "AngularとTypeScriptを使った管理画面の開発を学びました。",
+            "DjangoとPythonでバックエンドAPIを作る経験を得ました。",
+            "セッション認証、CORS、認証情報を含むHTTPリクエストへの理解を深めました。",
+            "EChartsを使ったデータの可視化を学びました。",
+            "複数のアプリで同じデータベースを利用する設計を経験しました。"
+          ]
+        }
+      },
         {
           "id": "urgentorisit",
           "featured": true,
@@ -49,7 +171,7 @@
           ],
 
           "services": [
-          "Railway"
+          "Vercel"
           ],
 
           "links": {
@@ -75,7 +197,7 @@
             "🛡️ NestJS GuardsとDTOによるAPIの保護と入力チェック。",
             "🌐 RESTful APIを使ったフロントエンドとバックエンドの連携。",
             "⚙️ GitHub Actionsを使ったCI/CD workflowの自動化。",
-            "☁️ Railwayを使ってフロントエンドとバックエンドをデプロイ。"
+            "☁️ Vercelを使ってフロントエンドとバックエンドをデプロイ。"
           ],
 
           "challenges": [
