@@ -144,6 +144,72 @@
           }
         },
         {
+          "id": "signalbait-mobile",
+          "featured": true,
+          "year": 2026,
+          "thumbnail": "/images/SignalBaitMobile1.jpeg",
+          "screenshots": [
+            "/images/SignalBaitMobile1.jpeg",
+            "/images/SignalBaitMobile2.jpeg",
+            "/images/SignalBaitMobile3.jpeg",
+            "/images/SignalBaitMobile4.jpeg",
+            "/images/SignalBaitMobile5.jpeg",
+            "/images/SignalBaitMobile6.jpeg"
+          ],
+          "technologies": [
+            "Flutter",
+            "Dart",
+            "Spring Boot",
+            "Java",
+            "Python",
+            "FastAPI",
+            "PostgreSQL",
+            "Hugging Face Transformers",
+            "Zero-Shot Classification"
+          ],
+          "services": [
+            "Vercel",
+            "Render"
+          ],
+          "links": {
+            "github": "https://github.com/Ed0304/SignalBait-Mobile-App",
+            "demo": ""
+          },
+          "download": null,
+          "category": "移动应用",
+          "role": "移动应用开发者",
+          "name": "SignalBait Mobile",
+          "description": "这是一款 Android 应用，把 SignalBait 的 AI 辅助消息扫描和工单管理功能带到手机上。",
+          "details": {
+            "overview": "SignalBait Mobile 是 SignalBait 的 Android 配套应用。SignalBait 是一个消息扫描平台，可以帮助用户判断可疑消息的风险，并报告分析结果中的问题。这个应用使用 Flutter 和 Dart 开发。消息分析由 FastAPI 服务处理，工单管理则使用 Spring Boot API。",
+            "problem": "原来的 SignalBait 主要是一个网页应用。我希望把它的主要功能带到 Android 上，同时积累移动应用开发和跨平台 UI 框架的实践经验。",
+            "solution": "我使用 Flutter 和 Dart 开发了 Android 应用，并连接已有的 FastAPI 扫描服务和 Spring Boot 工单管理 API。用户可以分析文本和图片、报告问题、查询工单，并查看安全使用指南。这个项目不需要另外建立一套移动端后端。",
+            "features": [
+              "🔎 通过 AI 辅助扫描服务分析可疑消息。",
+              "🖼️ 可以提交文本或图片进行分析。",
+              "🎯 扫描后端通过 Hugging Face Transformers 使用第三方模型 facebook/bart-large-mnli 进行零样本分类。",
+              "🎫 用户可以报告错误的分析结果，并获得工单编号。",
+              "📨 工单服务可以发送工单创建和状态变化的邮件通知。",
+              "🔍 用户可以使用工单编号和报告者邮箱查询工单。",
+              "📱 用户可以通过 Android 界面使用消息扫描、工单管理和常见问题指南。"
+            ],
+            "challenges": [
+              "让 Flutter 应用连接两个使用不同后端技术的 REST API。",
+              "处理发送到 FastAPI 扫描服务的文本和图片。",
+              "让 Spring Boot 后端支持工单提交和查询。",
+              "配置 Android 网络，并排查模拟器与真实手机之间的差异。",
+              "了解零样本分类的限制，把模型结果当作风险提示，而不是绝对的安全结论。"
+            ],
+            "lessons": [
+              "积累了使用 Flutter 和 Dart 开发 Android 应用的经验。",
+              "学习了如何使用已有的后端服务，避免在移动应用中重复开发相同功能。",
+              "加深了对 HTTP 请求、API 错误处理和移动网络的理解。",
+              "学会区分模型预测和确定的安全结论。",
+              "练习了在保持各服务职责清楚的同时，把全栈项目扩展到新平台。"
+            ]
+          }
+        },
+        {
           "id": "urgentorisit",
           "featured": true,
           "year": 2026,

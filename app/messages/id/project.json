@@ -144,6 +144,72 @@
       }
     },
     {
+      "id": "signalbait-mobile",
+      "featured": true,
+      "year": 2026,
+      "thumbnail": "/images/SignalBaitMobile1.jpeg",
+      "screenshots": [
+        "/images/SignalBaitMobile1.jpeg",
+        "/images/SignalBaitMobile2.jpeg",
+        "/images/SignalBaitMobile3.jpeg",
+        "/images/SignalBaitMobile4.jpeg",
+        "/images/SignalBaitMobile5.jpeg",
+        "/images/SignalBaitMobile6.jpeg"
+      ],
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Spring Boot",
+        "Java",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Hugging Face Transformers",
+        "Zero-Shot Classification"
+      ],
+      "services": [
+        "Vercel",
+        "Render"
+      ],
+      "links": {
+        "github": "https://github.com/Ed0304/SignalBait-Mobile-App",
+        "demo": ""
+      },
+      "download": null,
+      "category": "Aplikasi Seluler",
+      "role": "Pengembang Aplikasi Seluler",
+      "name": "SignalBait Mobile",
+      "description": "Aplikasi Android yang membawa fitur pemindaian pesan berbantuan AI dan pengelolaan tiket SignalBait ke perangkat seluler.",
+      "details": {
+        "overview": "SignalBait Mobile adalah aplikasi Android pendamping untuk SignalBait, sebuah platform pemindaian pesan yang membantu pengguna menilai pesan yang mungkin berbahaya dan melaporkan masalah pada hasil analisis. Dibangun dengan Flutter dan Dart, aplikasi ini terhubung ke dua layanan backend terpisah: FastAPI untuk analisis pesan dan Spring Boot untuk pengelolaan tiket.",
+        "problem": "Pengalaman SignalBait sebelumnya berbasis web. Saya ingin membawa fitur utamanya ke Android sekaligus mendapatkan pengalaman praktis dalam pengembangan aplikasi seluler dan penggunaan framework UI lintas platform.",
+        "solution": "Mengembangkan aplikasi Android menggunakan Flutter dan Dart, lalu menghubungkannya ke layanan pemindaian FastAPI dan API pengelolaan tiket Spring Boot yang sudah ada. Aplikasi mendukung analisis teks dan gambar, pelaporan masalah, pelacakan tiket, serta akses ke panduan keamanan tanpa memerlukan backend seluler terpisah.",
+        "features": [
+          "🔎 Menganalisis pesan yang mencurigakan melalui layanan pemindaian berbantuan AI.",
+          "🖼️ Mengirim teks atau gambar untuk dianalisis.",
+          "🎯 Menggunakan model pihak ketiga facebook/bart-large-mnli melalui Hugging Face Transformers untuk klasifikasi zero-shot pada backend pemindaian.",
+          "🎫 Melaporkan hasil analisis yang keliru dan menerima nomor tiket.",
+          "📨 Menerima notifikasi email terkait pembuatan tiket dan perubahan status melalui layanan tiket.",
+          "🔍 Melacak tiket menggunakan nomor tiket dan email pelapor.",
+          "📱 Mengakses pemindaian, pengelolaan tiket, dan panduan FAQ melalui antarmuka Android."
+        ],
+        "challenges": [
+          "Menghubungkan aplikasi Flutter ke dua REST API terpisah yang dibangun dengan teknologi backend berbeda.",
+          "Menangani pengiriman teks dan gambar ke layanan pemindaian FastAPI.",
+          "Menghubungkan pengiriman dan pelacakan tiket dengan backend Spring Boot.",
+          "Mengatur jaringan Android dan mencari penyebab perbedaan perilaku antara emulator dan perangkat fisik.",
+          "Memahami keterbatasan klasifikasi zero-shot dan menampilkan hasil model sebagai indikator risiko, bukan keputusan keamanan yang pasti."
+        ],
+        "lessons": [
+          "Mendapatkan pengalaman praktis mengembangkan aplikasi Android dengan Flutter dan Dart.",
+          "Belajar mengintegrasikan layanan backend yang sudah ada tanpa menggandakan fungsi backend di aplikasi seluler.",
+          "Meningkatkan pemahaman tentang permintaan HTTP, penanganan error API, dan jaringan pada perangkat seluler.",
+          "Belajar membedakan prediksi model dari kesimpulan keamanan yang pasti.",
+          "Berlatih memperluas proyek full-stack ke platform baru sambil menjaga pembagian tanggung jawab tiap layanan."
+        ]
+      }
+    },
+    {
       "id": "urgentorisit",
       "featured": true,
       "year": 2026,

@@ -144,6 +144,72 @@
       }
     },
     {
+      "id": "signalbait-mobile",
+      "featured": true,
+      "year": 2026,
+      "category": "Mobile Application",
+      "role": "Mobile Developer",
+      "name": "SignalBait Mobile",
+      "description": "An Android mobile application that extends SignalBait's AI-assisted message scanning and ticket-management capabilities to mobile devices.",
+      "thumbnail": "/images/SignalBaitMobile1.jpeg",
+      "screenshots": [
+        "/images/SignalBaitMobile1.jpeg",
+        "/images/SignalBaitMobile2.jpeg",
+        "/images/SignalBaitMobile3.jpeg",
+        "/images/SignalBaitMobile4.jpeg",
+        "/images/SignalBaitMobile5.jpeg",
+        "/images/SignalBaitMobile6.jpeg"
+      ],
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Spring Boot",
+        "Java",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Hugging Face Transformers",
+        "Zero-Shot Classification"
+      ],
+      "services": [
+        "Vercel",
+        "Render"
+      ],
+      "links": {
+        "github": "https://github.com/Ed0304/SignalBait-Mobile-App",
+        "demo": ""
+      },
+      "download": null,
+      "details": {
+        "overview": "SignalBait Mobile is the Android companion to SignalBait, a full-stack message-scanning platform designed to help users assess potentially malicious messages and report issues with analysis results. Built with Flutter and Dart, the mobile application connects to separate FastAPI and Spring Boot backend services for message analysis and ticket management, respectively.",
+        "problem": "The existing SignalBait experience was web-based. I wanted to extend its core functionality to Android while gaining practical experience in mobile application development and cross-platform UI frameworks.",
+        "solution": "Developed an Android mobile application using Flutter and Dart, integrating the existing FastAPI scanning service and Spring Boot ticket-management API. The app supports text and image analysis, issue reporting, ticket tracking, and access to security guidance without requiring a separate mobile backend.",
+        "features": [
+          "🔎 Analyze potentially suspicious messages through the existing AI-assisted scanning service.",
+          "🖼️ Submit text or images for message analysis.",
+          "🎯 Use a third-party facebook/bart-large-mnli model through Hugging Face Transformers for zero-shot classification in the scanning backend.",
+          "🎫 Submit reports about incorrect analysis results and receive a ticket number.",
+          "📨 Receive email notifications related to ticket creation and status changes through the ticketing service.",
+          "🔍 Track reported tickets using a ticket number and reporter email.",
+          "📱 Access scanning, ticket management, and FAQ guidance through an Android-focused mobile interface."
+        ],
+        "challenges": [
+          "Integrating the Flutter application with two independent REST APIs built using different backend technologies.",
+          "Handling text and image submissions to the FastAPI scanning service.",
+          "Coordinating ticket submission and tracking with the Spring Boot backend.",
+          "Configuring Android networking and troubleshooting differences between emulator and physical-device environments.",
+          "Understanding the limitations of zero-shot classification and presenting model outputs as risk indicators rather than definitive security verdicts."
+        ],
+        "lessons": [
+          "Gained practical experience developing Android applications with Flutter and Dart.",
+          "Learned to integrate existing backend services into a mobile application without duplicating backend functionality.",
+          "Improved my understanding of HTTP requests, API error handling, and mobile networking.",
+          "Learned to distinguish between model predictions and definitive security conclusions.",
+          "Practiced extending an existing full-stack project to a new platform while maintaining separate service responsibilities."
+        ]
+      }
+    },
+    {
       "id": "urgentorisit",
       "featured": true,
       "year": 2026,

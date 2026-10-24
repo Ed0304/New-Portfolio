@@ -143,7 +143,73 @@
           ]
         }
       },
-        {
+      {
+        "id": "signalbait-mobile",
+        "featured": true,
+        "year": 2026,
+        "thumbnail": "/images/SignalBaitMobile1.jpeg",
+        "screenshots": [
+          "/images/SignalBaitMobile1.jpeg",
+          "/images/SignalBaitMobile2.jpeg",
+          "/images/SignalBaitMobile3.jpeg",
+          "/images/SignalBaitMobile4.jpeg",
+          "/images/SignalBaitMobile5.jpeg",
+          "/images/SignalBaitMobile6.jpeg"
+        ],
+        "technologies": [
+          "Flutter",
+          "Dart",
+          "Spring Boot",
+          "Java",
+          "Python",
+          "FastAPI",
+          "PostgreSQL",
+          "Hugging Face Transformers",
+          "Zero-Shot Classification"
+        ],
+        "services": [
+          "Vercel",
+          "Render"
+        ],
+        "links": {
+          "github": "https://github.com/Ed0304/SignalBait-Mobile-App",
+          "demo": ""
+        },
+        "download": null,
+        "category": "モバイルアプリ",
+        "role": "モバイルアプリ開発者",
+        "name": "SignalBait Mobile",
+        "description": "SignalBaitのメッセージ分析とチケット管理の機能をAndroid端末で使えるようにしたアプリです。",
+        "details": {
+          "overview": "SignalBait Mobileは、SignalBaitのAndroidアプリです。SignalBaitは、あやしいメッセージの危険性を調べ、分析結果の問題を報告できるサービスです。このアプリはFlutterとDartで作りました。メッセージの分析にはFastAPI、チケットの管理にはSpring BootのAPIを使います。",
+          "problem": "これまでSignalBaitはウェブアプリでした。主な機能をAndroidでも使えるようにしたいと思いました。また、モバイルアプリの開発を実際に経験し、新しい技術を学びたいと考えました。",
+          "solution": "FlutterとDartを使ってAndroidアプリを開発しました。既存のFastAPIの分析サービスとSpring Bootのチケット管理APIに接続しています。テキストと画像の分析、問題の報告、チケットの確認、セキュリティに関する案内を利用できます。モバイル用の新しいバックエンドは作らず、既存のサービスを使っています。",
+          "features": [
+            "🔎 AIを使った分析サービスで、あやしいメッセージを調べます。",
+            "🖼️ テキストと画像を送って分析できます。",
+            "🎯 分析バックエンドでは、Hugging Face Transformersを通して、第三者が開発したfacebook/bart-large-mnliモデルをゼロショット分類に使います。",
+            "🎫 分析結果に問題がある場合、報告してチケット番号を受け取れます。",
+            "📨 チケットの作成や状態の変更について、サービスからメール通知を受け取れます。",
+            "🔍 チケット番号と報告者のメールアドレスで、報告した問題を確認できます。",
+            "📱 Android向けの画面から、分析、チケット管理、FAQを利用できます。"
+          ],
+          "challenges": [
+            "異なる技術で作られた2つのREST APIにFlutterアプリを接続すること。",
+            "テキストと画像をFastAPIの分析サービスに送ること。",
+            "Spring Bootのバックエンドでチケットの作成と確認を行うこと。",
+            "Androidのネットワーク設定を行い、エミュレーターと実機の違いを調べること。",
+            "ゼロショット分類の限界を理解し、モデルの結果を確定した判断ではなく、危険性を示す情報として扱うこと。"
+          ],
+          "lessons": [
+            "FlutterとDartを使ったAndroidアプリ開発を経験しました。",
+            "既存のバックエンド機能を重複して作らず、モバイルアプリから利用する方法を学びました。",
+            "HTTPリクエスト、APIエラーの処理、モバイルのネットワークについて理解を深めました。",
+            "モデルの予測と、確実なセキュリティ判断の違いを学びました。",
+            "サービスごとの役割を分けながら、既存のフルスタックプロジェクトを新しいプラットフォームに広げる経験をしました。"
+          ]
+        }
+      },
+      {
           "id": "urgentorisit",
           "featured": true,
           "year": 2026,
