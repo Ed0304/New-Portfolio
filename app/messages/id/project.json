@@ -21,6 +21,88 @@
 
   "list": [
     {
+      "id": "roborally",
+
+      "featured": true,
+      "year": 2026,
+      "category": "Hackathon",
+      "role": "Pengembang Full-Stack",
+
+      "name": "RoboRally: The Factory Rescue",
+
+      "description": "Permainan maze 3D tanpa kontrol manual — pemain mengetik misi dalam bahasa alami, agen AI merencanakan langkah, rules engine memvalidasinya, dan robot mengeksekusi rencana yang valid langkah demi langkah.",
+
+      "thumbnail": "/images/roborally1.png",
+
+      "screenshots": [
+        "/images/roborally1.png",
+        "/images/roborally2.png",
+        "/images/roborally3.png",
+        "/images/roborally4.png",
+        "/images/roborally5.png",
+        "/images/roborally6.png"
+      ],
+
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Three.js",
+        "FastAPI",
+        "Python",
+        "Pydantic",
+        "Muse Spark 1.3",
+        "MongoDB"
+      ],
+
+      "services": [
+        "MongoDB Atlas",
+        "Meta Model API"
+      ],
+
+      "links": {
+        "github": "https://github.com/Ed0304/RoboRally",
+        "demo": "",
+        "download": null
+      },
+
+      "details": {
+        "overview": "RoboRally: The Factory Rescue adalah permainan maze 3D yang dibuat untuk Meta Global AI Developer Hackathon. Tidak ada kontrol manual: pemain mengetik misi dalam bahasa alami, Meta Muse Spark 1.3 merencanakan langkah dalam segmen terbatas, rules engine memvalidasi setiap langkah, dan robot mengeksekusi rencana yang valid langkah demi langkah di dalam game engine sungguhan. Proyek ini mencakup kedua tema hackathon: agent-driven machine control dan natural-language robot operation. Dibangun dengan Muse Code.",
+
+        "problem": "Memberikan kendali robot secara langsung kepada agen AI berisiko: output model yang tidak dibatasi dapat mengabaikan dinding, bahaya, dan fisika permainan, atau mengklaim keberhasilan tanpa mencapainya. Tantangannya adalah memberikan kendali bahasa alami kepada pemain sambil menjaga game engine tetap otoritatif, sehingga AI tidak pernah bisa melewati fisika permainan.",
+
+        "solution": "Membangun agentic loop yang terdiri dari Mission, Plan, Validate, Execute, Observe, dan replan. Model menghasilkan segmen rencana terbatas maksimal 12 langkah, dirangkai di sisi server, sebagai JSON yang terkendali; rules engine di sisi server memvalidasi dinding, laser, pintu, trigger, musuh, dan baterai; dan robot mengeksekusi dengan kecepatan 450 ms per langkah, berhenti secara jujur saat kalah, menang, atau terjadi perubahan status. Geometri selalu dimuat dari server dan upaya komunitas disimulasikan ulang, sehingga klien tetap tidak dipercaya.",
+
+        "features": [
+          "🤖 Misi bahasa alami yang direncanakan oleh Meta Muse Spark 1.3 dengan output JSON terkendali.",
+          "🛡️ Rules engine di sisi server yang memvalidasi dinding, laser, pintu, trigger, musuh, dan baterai.",
+          "🧩 6 level yang dirancang manual hingga final 37 langkah, semuanya terbukti dapat diselesaikan oleh guard otomatis.",
+          "🌐 Platform komunitas dengan level UGC tervalidasi, versi yang tidak dapat diubah, dan papan peringkat per level.",
+          "🎓 Lab pembelajaran yang mengajarkan BFS, Dijkstra, dan A* melalui narrated search traces.",
+          "⚡ Eksekusi 3D real-time di Three.js dengan 450 ms per langkah dan kondisi berhenti yang jujur."
+        ],
+
+        "challenges": [
+          "Membatasi output model yang terbuka menjadi segmen langkah yang terbatas dan valid sehingga dapat dipercaya engine.",
+          "Menjaga game engine tetap otoritatif sambil tetap memungkinkan kendali bahasa alami yang lancar.",
+          "Merancang 6 level yang menantang namun terbukti dapat diselesaikan, diverifikasi oleh maze guard otomatis.",
+          "Memperkuat dokumentasi setup agar juri yang meng-clone repo dapat menjalankan semuanya hanya dari README."
+        ],
+
+        "lessons": [
+          "Mempelajari cara merancang agentic loop di mana model mengusulkan dan engine deterministik yang memutuskan.",
+          "Memperoleh pengalaman dengan structured output yang terkendali dan token budget bertingkat untuk agen AI.",
+          "Mempelajari pentingnya kesiapan juri: setup fresh-clone, konfigurasi fail-fast, dan dokumen troubleshooting.",
+          "Meningkatkan kemampuan memvalidasi perilaku AI dengan guard otomatis, termasuk mission fuzz testing."
+        ]
+      },
+
+      "event": {
+        "name": "Meta Global AI Developer Hackathon",
+        "track": "Build for Your World"
+      }
+    },
+    {
       "id": "signalbait",
       "featured": true,
       "year": 2026,

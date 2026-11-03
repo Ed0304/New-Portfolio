@@ -21,6 +21,88 @@
 
   "list": [
         {
+          "id": "roborally",
+
+          "featured": true,
+          "year": 2026,
+          "category": "黑客马拉松",
+          "role": "全栈开发者",
+
+          "name": "RoboRally: The Factory Rescue",
+
+          "description": "一款没有手动操作的3D迷宫游戏——玩家用自然语言输入任务，AI智能体规划步骤，规则引擎进行验证，机器人再逐步执行有效计划。",
+
+          "thumbnail": "/images/roborally1.png",
+
+          "screenshots": [
+            "/images/roborally1.png",
+            "/images/roborally2.png",
+            "/images/roborally3.png",
+            "/images/roborally4.png",
+            "/images/roborally5.png",
+            "/images/roborally6.png"
+          ],
+
+          "technologies": [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "Three.js",
+            "FastAPI",
+            "Python",
+            "Pydantic",
+            "Muse Spark 1.3",
+            "MongoDB"
+          ],
+
+          "services": [
+            "MongoDB Atlas",
+            "Meta Model API"
+          ],
+
+          "links": {
+            "github": "https://github.com/Ed0304/RoboRally",
+            "demo": "",
+            "download": null
+          },
+
+          "details": {
+            "overview": "RoboRally: The Factory Rescue 是我为 Meta Global AI Developer Hackathon 开发的3D迷宫游戏。游戏没有任何手动操作：玩家用自然语言输入任务，Meta Muse Spark 1.3 以分段方式规划步骤，规则引擎验证每一步，机器人再在真实游戏引擎中逐步执行有效计划。本项目横跨黑客马拉松的两大主题：智能体驱动的机器控制与自然语言机器人操作。本项目由 Muse Code 构建。",
+
+            "problem": "让AI智能体直接控制机器人存在风险：不受约束的模型输出可能无视墙壁、危险和游戏物理规则，甚至在并未成功时宣告胜利。挑战在于，在保持游戏引擎权威性的同时，为玩家提供自然语言操控，确保AI永远无法绕过物理规则。",
+
+            "solution": "我构建了任务、规划、验证、执行、观察与重新规划的智能体闭环。模型以受约束的JSON形式输出最多12步的分段计划，并在服务端拼接；服务端规则引擎验证墙壁、激光、门、触发器、敌人与电量；机器人以每步450毫秒执行，在死亡、胜利或状态变化时诚实停止。几何数据始终由服务端加载，社区挑战会重新模拟，因此客户端永远不可信。",
+
+            "features": [
+              "🤖 由 Meta Muse Spark 1.3 通过受约束的JSON输出规划自然语言任务。",
+              "🛡️ 验证墙壁、激光、门、触发器、敌人与电量的服务端规则引擎。",
+              "🧩 6个手工设计的关卡，决赛关长达37步，均经自动化守卫验证可通关。",
+              "🌐 包含验证过的UGC关卡、不可变版本与每关排行榜的社区平台。",
+              "🎓 通过带解说的搜索轨迹讲授BFS、Dijkstra与A*的学习实验室。",
+              "⚡ 基于Three.js的实时3D执行，每步450毫秒，具备诚实的停止条件。"
+            ],
+
+            "challenges": [
+              "将开放式模型输出约束为引擎可信的分段有效步骤。",
+              "在保持游戏引擎权威性的同时，实现流畅的自然语言操控。",
+              "设计6个兼具挑战性又可证明能通关的关卡，并用自动化迷宫守卫验证。",
+              "完善搭建文档，确保评委克隆仓库后仅凭README即可运行全部内容。"
+            ],
+
+            "lessons": [
+              "学会设计由模型提议、确定性引擎裁决的智能体闭环。",
+              "积累了受约束结构化输出与AI智能体分级Token预算的实践经验。",
+              "认识到评委就绪的重要性：全新克隆搭建、快速失败配置与故障排查文档。",
+              "提升了用自动化守卫（含任务模糊测试）验证AI行为的能力。"
+            ]
+          },
+
+          "event": {
+            "name": "Meta Global AI Developer Hackathon",
+            "track": "Build for Your World"
+          }
+        },
+        {
           "id": "signalbait",
           "featured": true,
           "year": 2026,

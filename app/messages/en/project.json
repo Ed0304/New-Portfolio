@@ -21,6 +21,88 @@
 
   "list": [
     {
+      "id": "roborally",
+
+      "featured": true,
+      "year": 2026,
+      "category": "Hackathon",
+      "role": "Full-Stack Developer",
+
+      "name": "RoboRally: The Factory Rescue",
+
+      "description": "A 3D maze game with no manual controls — players type natural-language missions, an AI agent plans the moves, a rules engine validates them, and the robot executes valid plans step by step.",
+
+      "thumbnail": "/images/roborally1.png",
+
+      "screenshots": [
+        "/images/roborally1.png",
+        "/images/roborally2.png",
+        "/images/roborally3.png",
+        "/images/roborally4.png",
+        "/images/roborally5.png",
+        "/images/roborally6.png"
+      ],
+
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Three.js",
+        "FastAPI",
+        "Python",
+        "Pydantic",
+        "Muse Spark 1.3",
+        "MongoDB"
+      ],
+
+      "services": [
+        "MongoDB Atlas",
+        "Meta Model API"
+      ],
+
+      "links": {
+        "github": "https://github.com/Ed0304/RoboRally",
+        "demo": "",
+        "download": null
+      },
+
+      "details": {
+        "overview": "RoboRally: The Factory Rescue is a 3D maze game built for the Meta Global AI Developer Hackathon. There are no manual controls: players type natural-language missions, Meta Muse Spark 1.3 plans the moves in bounded segments, a rules engine validates every move, and the robot executes valid plans step by step in a real game engine. The project spans both hackathon themes: agent-driven machine control and natural-language robot operation. Built with Muse Code.",
+
+        "problem": "Letting an AI agent directly control a robot is risky: unconstrained model output can ignore walls, hazards, and game physics, or declare success without earning it. The challenge was to give players natural-language control while keeping the game engine authoritative, so the AI can never bypass physics.",
+
+        "solution": "Built an agentic loop of Mission, Plan, Validate, Execute, Observe, and replan. The model produces bounded plan segments of at most 12 moves, chained server-side, as constrained JSON; a server-side rules engine validates walls, lasers, doors, triggers, enemies, and battery; and the robot executes at 450 ms per step, stopping honestly on death, victory, or state change. Geometry is always server-loaded and community attempts are resimulated, so clients stay untrusted.",
+
+        "features": [
+          "🤖 Natural-language missions planned by Meta Muse Spark 1.3 with constrained JSON output.",
+          "🛡️ Server-side rules engine validating walls, lasers, doors, triggers, enemies, and battery.",
+          "🧩 6 hand-designed levels up to a 37-move finale, all verified solvable by automated guards.",
+          "🌐 Community platform with validated UGC levels, immutable versions, and per-level leaderboards.",
+          "🎓 Learning lab teaching BFS, Dijkstra, and A* through narrated search traces.",
+          "⚡ Real-time 3D execution in Three.js at 450 ms per step with honest stop conditions."
+        ],
+
+        "challenges": [
+          "Constraining open-ended model output into bounded, valid move segments the engine could trust.",
+          "Keeping the game engine authoritative while still allowing fluid natural-language control.",
+          "Designing 6 levels that are challenging but provably solvable, verified by automated maze guards.",
+          "Hardening the setup documentation so a judge cloning the repo can run everything from the README alone."
+        ],
+
+        "lessons": [
+          "Learned to design agentic loops where the model proposes and a deterministic engine disposes.",
+          "Gained experience with constrained structured output and tiered token budgets for AI agents.",
+          "Learned the value of judge-readiness: fresh-clone setup, fail-fast configuration, and troubleshooting docs.",
+          "Improved my ability to validate AI behavior with automated guards, including mission fuzz testing."
+        ]
+      },
+
+      "event": {
+        "name": "Meta Global AI Developer Hackathon",
+        "track": "Build for Your World"
+      }
+    },
+    {
       "id": "signalbait",
       "featured": true,
       "year": 2026,
