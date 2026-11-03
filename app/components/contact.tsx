@@ -46,7 +46,7 @@ export default function ContactForm({dict}:ContactProps) {
     return (
         <section
             id="contact"
-            className="mx-auto max-w-3xl px-6 py-24"
+            className="mx-auto max-w-3xl scroll-mt-24 px-6 py-24"
         >
            <motion.div
             initial={{

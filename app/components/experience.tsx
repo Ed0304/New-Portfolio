@@ -23,6 +23,7 @@ export default function Experience({dict}:ExperienceProps){
                 max-w-7xl
                 px-6
                 py-24
+                scroll-mt-24
             ">
             <h2
                 className="

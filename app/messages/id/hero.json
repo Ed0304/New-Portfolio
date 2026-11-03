@@ -2,5 +2,7 @@
     "greeting": "👋 Halo, saya adalah",
     "name":"Edbert Taidy",
     "title": "Calon Software Engineer berorientasi internasional",
-    "description": "Saya membangun aplikasi web multibahasa untuk pengguna di seluruh dunia."
+    "description": "Saya membangun aplikasi web multibahasa untuk pengguna di seluruh dunia.",
+    "viewWork": "Lihat Karya Saya",
+    "getInTouch": "Hubungi Saya"
 }

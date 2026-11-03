@@ -2,5 +2,7 @@
     "greeting": "👋 Hello, I'm",
     "name": "Edbert Taidy",
     "title": "International-facing Aspiring Software Engineer",
-    "description": "Building multilingual web applications for a global audience."
+    "description": "Building multilingual web applications for a global audience.",
+    "viewWork": "View My Work",
+    "getInTouch": "Get in Touch"
 }

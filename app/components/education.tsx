@@ -18,6 +18,7 @@ export default function Education({ dict }: EducationProps) {
             className="
                 mx-auto
                 max-w-6xl
+                scroll-mt-24
                 px-6
                 py-24
             "
@@ -70,12 +71,15 @@ export default function Education({ dict }: EducationProps) {
                         mb-6
                         rounded-2xl
                         border
-                        border-zinc-800
-                        bg-zinc-900/40
+                        border-zinc-200
+                        bg-white
+                        dark:border-zinc-800
+                        dark:bg-zinc-900/40
                         p-8
                         transition-colors
                         duration-300
-                        hover:border-zinc-700
+                        hover:border-zinc-300
+                        dark:hover:border-zinc-700
                     "
                 >
                     {/* Header */}
@@ -89,7 +93,7 @@ export default function Education({ dict }: EducationProps) {
                                 {education.name}
                             </h3>
 
-                            <p className="text-sm text-zinc-400">
+                            <p className="text-sm text-zinc-500 dark:text-zinc-400">
                                 {education.location}
                             </p>
                         </div>
@@ -104,7 +108,7 @@ export default function Education({ dict }: EducationProps) {
                                 gap-4
                             "
                         >
-                            <p className="text-sm text-zinc-400">
+                            <p className="text-sm text-zinc-500 dark:text-zinc-400">
                                 {education.period}
                             </p>
 
@@ -140,7 +144,8 @@ export default function Education({ dict }: EducationProps) {
                             mt-6
                             text-lg
                             font-medium
-                            text-zinc-100
+                            text-zinc-900
+                            dark:text-zinc-100
                         "
                     >
                         {education.degree}
@@ -165,9 +170,11 @@ export default function Education({ dict }: EducationProps) {
                                 flex
                                 items-center
                                 gap-2
-                                text-sky-500
+                                text-sky-600
                                 transition-colors
-                                hover:text-sky-300
+                                hover:text-sky-500
+                                dark:text-sky-500
+                                dark:hover:text-sky-300
                             "
                         >
                             {expanded === education.id
@@ -218,7 +225,8 @@ export default function Education({ dict }: EducationProps) {
                                     overflow-hidden
                                     mt-6
                                     border-t
-                                    border-zinc-800
+                                    border-zinc-200
+                                    dark:border-zinc-800
                                     pt-6
                                     space-y-6
                                 "

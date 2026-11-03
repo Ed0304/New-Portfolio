@@ -19,6 +19,7 @@ export default function Hero({ dict }: HeroProps) {
             className="
                 flex
                 min-h-[90vh]
+                scroll-mt-24
                 items-center
                 py-16
                 lg:py-0
@@ -97,7 +98,9 @@ export default function Hero({ dict }: HeroProps) {
                     </motion.h2>
 
                     <motion.p
-                        className="                    text-zinc-500
+                        className="
+                            mt-4
+                            text-zinc-500
                             transition-colors
                             duration-300
 
@@ -109,6 +112,57 @@ export default function Hero({ dict }: HeroProps) {
                     >
                         {dict.description}
                     </motion.p>
+
+                    <motion.div
+                        className="
+                            mt-8
+                            flex
+                            flex-wrap
+                            items-center
+                            justify-center
+                            gap-4
+                            lg:justify-start
+                        "
+                        initial={{ opacity: 0, y: 25 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.6, delay: 0.6 }}
+                    >
+                        <a
+                            href="#projects"
+                            className="
+                                rounded-full
+                                bg-blue-600
+                                px-7
+                                py-3
+                                text-sm
+                                font-semibold
+                                text-white
+                                transition
+                                hover:bg-blue-700
+                            "
+                        >
+                            {dict.viewWork}
+                        </a>
+
+                        <a
+                            href="#contact"
+                            className="
+                                rounded-full
+                                border
+                                border-zinc-300
+                                px-7
+                                py-3
+                                text-sm
+                                font-semibold
+                                transition
+                                hover:bg-zinc-300
+                                dark:border-zinc-700
+                                dark:hover:bg-zinc-800
+                            "
+                        >
+                            {dict.getInTouch}
+                        </a>
+                    </motion.div>
 
                 </div>
 
